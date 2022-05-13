@@ -1,15 +1,15 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_bo2_fnp45.mdl"
+$modelname "weapons/arc9/w_bo2_fnp45.mdl"
 
 $bodygroup "frame"
 {
-	studio "fnp45.smd"
+	studio "fnp45_w.smd"
 	studio "fnp45_w.smd"
 }
 $bodygroup "irons"
 {
-	studio "irons.smd"
+	studio "irons_w.smd"
 	studio "irons_w.smd"
 	blank
 }
