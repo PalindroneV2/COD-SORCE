@@ -43,8 +43,8 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
-$cdmaterials "models\weapons\bo2\bo2_an94\"
-$cdmaterials "models\weapons\bo1\bo1_m203\"
+$cdmaterials "models\weapons\arc9\bo2\bo2_an94\"
+$cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
 
 $texturegroup "skinfamilies"
 {
