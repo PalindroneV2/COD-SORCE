@@ -1,39 +1,21 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/w_bo2_an94.mdl"
+$modelname "weapons/arc9/c_bo1_awm.mdl"
 
 $bodygroup "body"
 {
-	studio "an94.smd"
+	studio "awm_body.smd"
 }
 $bodygroup "mag"
 {
-	studio "an94_mag.smd"
-}
-$bodygroup "sight"
-{
-	studio "an94_iron.smd"
+	studio "awm_mag.smd"
+	studio "awm_mag_big.smd"
 	blank
 }
-$bodygroup "sight"
-{
-	studio "an94_rail.smd"
-	blank
-}
-$bodygroup "ub"
+$bodygroup "bipod"
 {
 	blank
-	studio "an94_gp25.smd"
-}
-$bodygroup "stock"
-{
-	blank
-	studio "an94_stock.smd"
-}
-$bodygroup "mag"
-{
-	blank
-	studio "an94_sparemag.smd"
+	studio "awm_bipod.smd"
 }
 
 
@@ -43,15 +25,14 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
-$cdmaterials "models\weapons\arc9\bo2\bo2_an94\"
-$cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
+$cdmaterials "models\weapons\arc9\bo1\bo1_l96\"
 
 $texturegroup "skinfamilies"
 {
-	{ "an94_1"  "an94_2"	"an94_3"	}
-	{ "camo"  "camo"	"camo"	}
-	{ "pap_bo2"  "an94_2"	"an94_3"	}
-	{ "pap_bo2"  "camo"	"camo"	}
+	{ "l96a1_main" "l96a1_plastic" }
+	{ "l96a1_main"    "l96a1_camo" }
+	{ "pap_bo1"    "l96a1_plastic" }
+	{ "pap_bo1"    "l96a1_camo" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -61,7 +42,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -23.823 -8.064 -35.808 33.535 8.945 0.119
+$bbox -13.402 -11.752 -18.665 50.805 8.064 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -145,30 +126,29 @@ $definebone "ValveBiped.Bip01_R_Finger0" "j_thumb_ri_0" -0.164265 -0.500914 0.50
 $definebone "tag_weapon" "tag_torso" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_gun" "tag_weapon" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_suppressor" "j_gun" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "j_sleave_reshape_bottom_le_1" "j_elbow_le" 9.43083 -1.006403 -0.854181 0.156935 -0.344238 -90.821142 0 0 0 0 0 0
-$definebone "j_sleave_reshape_bottom_le_2" "j_elbow_le" 9.066334 -1.196382 0.695405 -0.000227 -0.001666 -0.000116 0 0 0 0 0 0
-$definebone "j_sleave_reshape_top_le_1" "j_elbow_le" 9.930807 1.412097 -0.748974 0.160316 -0.344295 -90.820684 0 0 0 0 0 0
-$definebone "j_sleave_reshape_top_le_2" "j_elbow_le" 9.835957 1.617639 0.512691 0.155274 -0.344238 -90.820745 0 0 0 0 0 0
-$definebone "j_sleave_reshape_top_le_3" "j_elbow_le" 9.470142 0.703847 1.090103 0.156305 -0.344238 -90.821087 0 0 0 0 0 0
-$definebone "j_webbing_le" "j_wrist_le" 2.9359 1.5121 0.510445 -16.14194 -11.615006 -84.443664 0 0 0 0 0 0
-$definebone "tag_knife_attach" "j_wrist_le" 2.58208 -0.513392 1.451256 0.002233 -110.800633 -90.003015 0 0 0 0 0 0
-$definebone "j_wristtwist_le" "j_elbow_le" 8.100496 -0.000477 -0.0001 -0.000055 -0.003041 -0.000116 0 0 0 0 0 0
-$definebone "j_sleave_reshape_top_ri_1" "j_elbow_ri" -9.930904 -1.412855 0.749227 0.15464 -0.341654 -90.822747 0 0 0 0 0 0
-$definebone "j_sleave_reshape_top_ri_2" "j_elbow_ri" -9.836041 -1.618402 -0.512446 0.153952 -0.341596 -90.822692 0 0 0 0 0 0
-$definebone "j_sleave_reshape_top_ri_3" "j_elbow_ri" -9.470244 -0.704611 -1.08992 0.154296 -0.341596 -90.820745 0 0 0 0 0 0
-$definebone "j_webbing_ri" "j_wrist_ri" 3.963756 -0.805275 0.510309 -16.143605 -11.614255 -84.442011 0 0 0 0 0 0
-$definebone "j_wristtwist_ri" "j_elbow_ri" -8.100574 -0.000214 0.000259 0.000056 0.000689 -0.000115 0 0 0 0 0 0
-$definebone "j_barrel" "j_gun" 17.631084 0 3.291764 0 0 0 0 0 0 0 0 0
-$definebone "tag_flash" "j_barrel" 9.091609 0 -0.994022 0 0 0 0 0 0 0 0 0
-$definebone "j_bolt" "j_gun" 8.254227 -1.989929 2.811532 0 0 0 0 0 0 0 0 0
-$definebone "j_mag_release" "j_gun" 2.417936 -0.575118 0.215228 9.998114 0.000458 -15.000205 0 0 0 0 0 0
-$definebone "tag_brass" "j_gun" 5.995642 -0.622172 2.90662 -34.996663 -89.99236 -0.001662 0 0 0 0 0 0
+$definebone "j_sleave_reshape_bottom_le_1" "j_elbow_le" 9.43084 -1.006378 -0.854148 0.155098 -0.344003 -90.820855 0 0 0 0 0 0
+$definebone "j_sleave_reshape_bottom_le_2" "j_elbow_le" 9.066339 -1.19633 0.695448 -0.000231 -0.001203 0.000116 0 0 0 0 0 0
+$definebone "j_sleave_reshape_top_le_1" "j_elbow_le" 9.930796 1.412132 -0.748979 0.155384 -0.344003 -90.82235 0 0 0 0 0 0
+$definebone "j_sleave_reshape_top_le_2" "j_elbow_le" 9.835953 1.617697 0.512684 0.155098 -0.344003 -90.822405 0 0 0 0 0 0
+$definebone "j_sleave_reshape_top_le_3" "j_elbow_le" 9.470144 0.703907 1.090113 0.155442 -0.344003 -90.820855 0 0 0 0 0 0
+$definebone "j_webbing_le" "j_wrist_le" 2.935927 1.512068 0.510415 -16.142566 -11.615402 -84.444982 0 0 0 0 0 0
+$definebone "tag_knife_attach" "j_wrist_le" 2.582082 -0.513396 1.451268 0.004585 -110.79577 -89.994654 0 0 0 0 0 0
+$definebone "j_wristtwist_le" "j_elbow_le" 8.100502 -0.000441 -0.000087 -0.000231 -0.001489 0.000115 0 0 0 0 0 0
+$definebone "j_sleave_reshape_top_ri_1" "j_elbow_ri" -9.930912 -1.412907 0.749189 0.152466 -0.341368 -90.820458 0 0 0 0 0 0
+$definebone "j_sleave_reshape_top_ri_2" "j_elbow_ri" -9.836047 -1.618423 -0.512492 0.154529 -0.341425 -90.820458 0 0 0 0 0 0
+$definebone "j_sleave_reshape_top_ri_3" "j_elbow_ri" -9.47024 -0.704616 -1.089942 0.154873 -0.341425 -90.820397 0 0 0 0 0 0
+$definebone "j_webbing_ri" "j_wrist_ri" 3.963731 -0.805348 0.510391 -16.146234 -11.615518 -84.439887 0 0 0 0 0 0
+$definebone "j_wristtwist_ri" "j_elbow_ri" -8.100583 -0.00024 0.000255 -0.000284 0 -0.000231 0 0 0 0 0 0
+$definebone "tag_bolt" "j_gun" -0.182253 0.015576 2.711832 0 0 0 0 0 0 0 0 0
+$definebone "tag_bolt_handle" "tag_bolt" 1.49759 0 -0.03264 0 0 0 0 0 0 0 0 0
+$definebone "tag_brass" "j_gun" 4.83832 -0.23886 2.731275 -28.997223 -89.996943 0 0 0 0 0 0 0
+$definebone "tag_flash" "j_gun" 40.241348 0 2.686278 0 0 0 0 0 0 0 0 0
 $definebone "tag_cambone" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_camera" "tag_cambone" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "tag_clip" "j_gun" 3.749998 0 -1.124999 0 0 0 0 0 0 0 0 0
-$definebone "tag_bullet" "tag_clip" 10.021875 0 2.625116 0 0 0 0 0 0 0 0 0
-$definebone "j_ammo" "j_gun" 24.310265 0 -1.067042 0 0 0 0 0 0 0 0 0
-$definebone "tag_clip1" "j_gun" -13.298863 -1.033661 -1.428413 0 0 -14.99929 0 0 0 0 0 0
+$definebone "tag_clip" "j_gun" 4.758455 0.000758 -1.333586 0 0 0 0 0 0 0 0 0
+$definebone "tag_ext_clip" "j_gun" 4.758455 0.000758 -1.333586 0 0 0 0 0 0 0 0 0
+$definebone "tag_bipod_left" "j_gun" 20.035294 1.133832 -0.830688 -60.001115 -89.990126 89.987435 0 0 0 0 0 0
+$definebone "tag_bipod_right" "j_gun" 20.035294 -1.129148 -0.830688 -60.000712 89.990126 -89.987435 0 0 0 0 0 0
 
 $bonemerge "tag_view"
 $bonemerge "tag_ads"
@@ -269,8 +249,10 @@ $bonemerge "tag_cambone"
 $bonemerge "tag_camera"
 
 
+$sectionframes 30 173
+
 $sequence "idle" {
-	"w_bo2_an94_anims\idle.smd"
+	"c_bo1_awm_anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -278,95 +260,111 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"w_bo2_an94_anims\reload.smd"
+	"c_bo1_awm_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 120
 }
 
 $sequence "reload_empty" {
-	"w_bo2_an94_anims\reload_empty.smd"
-	activity "ACT_VM_RELOAD_EMPTY" 1
+	"c_bo1_awm_anims\reload_empty.smd"
+	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 173
+}
+
+$sequence "reload_ext" {
+	"c_bo1_awm_anims\reload_ext.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 120
+}
+
+$sequence "reload_empty_ext" {
+	"c_bo1_awm_anims\reload_empty_ext.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 173
 }
 
 $sequence "draw" {
-	"w_bo2_an94_anims\draw.smd"
+	"c_bo1_awm_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 56
 }
 
 $sequence "first_draw" {
-	"w_bo2_an94_anims\first_draw.smd"
+	"c_bo1_awm_anims\first_draw.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 50
 }
 
 $sequence "fire" {
-	"w_bo2_an94_anims\fire.smd"
+	"c_bo1_awm_anims\fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
-}
-
-$sequence "fire_first" {
-	"w_bo2_an94_anims\fire_first.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
+	fps 6
 }
 
 $sequence "fire_ads" {
-	"w_bo2_an94_anims\fire_ads.smd"
+	"c_bo1_awm_anims\fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 7
 }
 
-$sequence "fire_first_ads" {
-	"w_bo2_an94_anims\fire_first_ads.smd"
+$sequence "cycle" {
+	"c_bo1_awm_anims\cycle.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 35
+}
+
+$sequence "cycle_ads" {
+	"c_bo1_awm_anims\cycle_ads.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 35
 }
 
 $sequence "holster" {
-	"w_bo2_an94_anims\holster.smd"
+	"c_bo1_awm_anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 43
 }
 
 $sequence "sprint_in" {
-	"w_bo2_an94_anims\sprint_in.smd"
+	"c_bo1_awm_anims\sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 10
 }
 
 $sequence "sprint_loop" {
-	"w_bo2_an94_anims\sprint_loop.smd"
+	"c_bo1_awm_anims\sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -374,191 +372,14 @@ $sequence "sprint_loop" {
 }
 
 $sequence "sprint_out" {
-	"w_bo2_an94_anims\sprint_out.smd"
+	"c_bo1_awm_anims\sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 10
 }
 
-$sequence "idle_gl" {
-	"w_bo2_an94_anims\idle_gl.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "reload_gl" {
-	"w_bo2_an94_anims\reload_gl.smd"
-	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "reload_empty_gl" {
-	"w_bo2_an94_anims\reload_empty_gl.smd"
-	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "draw_gl" {
-	"w_bo2_an94_anims\draw_gl.smd"
-	activity "ACT_VM_DRAW" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "first_draw_gl" {
-	"w_bo2_an94_anims\first_draw_gl.smd"
-	activity "ACT_VM_DRAW_DEPLOYED" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "fire_gl" {
-	"w_bo2_an94_anims\fire_gl.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fire_first_gl" {
-	"w_bo2_an94_anims\fire_first_gl.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fire_ads_gl" {
-	"w_bo2_an94_anims\fire_ads_gl.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fire_first_ads_gl" {
-	"w_bo2_an94_anims\fire_first_ads_gl.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "holster_gl" {
-	"w_bo2_an94_anims\holster_gl.smd"
-	activity "ACT_VM_HOLSTER" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "sprint_in_gl" {
-	"w_bo2_an94_anims\sprint_in_gl.smd"
-	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 3
-	fps 30
-}
-
-$sequence "sprint_loop_gl" {
-	"w_bo2_an94_anims\sprint_loop_gl.smd"
-	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 3
-	fps 30
-}
-
-$sequence "sprint_out_gl" {
-	"w_bo2_an94_anims\sprint_out_gl.smd"
-	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 3
-	fps 30
-}
-
-$sequence "idle_glsetup" {
-	"w_bo2_an94_anims\idle_glsetup.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "reload_glsetup" {
-	"w_bo2_an94_anims\reload_glsetup.smd"
-	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "fire_glsetup" {
-	"w_bo2_an94_anims\fire_glsetup.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "glsetup_in" {
-	"w_bo2_an94_anims\glsetup_in.smd"
-	activity "ACT_VM_DRAW_DEPLOYED" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "glsetup_out" {
-	"w_bo2_an94_anims\glsetup_out.smd"
-	activity "ACT_VM_HOLSTER" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
-$sequence "sprint_in_glsetup" {
-	"w_bo2_an94_anims\sprint_in_glsetup.smd"
-	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 3
-	fps 30
-}
-
-$sequence "sprint_loop_glsetup" {
-	"w_bo2_an94_anims\sprint_loop_glsetup.smd"
-	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 3
-	fps 30
-}
-
-$sequence "sprint_out_glsetup" {
-	"w_bo2_an94_anims\sprint_out_glsetup.smd"
-	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 3
-	fps 30
-}
-
-$collisionmodel "w_bo2_an94_physics.smd"
+$collisionmodel "c_bo1_awm_physics.smd"
 {
 	$mass 10
 	$inertia 1
