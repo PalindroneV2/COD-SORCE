@@ -29,6 +29,7 @@ $bodygroup "barrel"
 	studio "barrel_607.smd"
 	studio "barrel_fpw.smd"
 	studio "barrel_14_famas.smd"
+	studio "barrel_9mm.smd"
 }
 $bodygroup "handguard"
 {
@@ -41,6 +42,7 @@ $bodygroup "handguard"
 	studio "handguard_607.smd"
 	studio "handguard_fpw.smd"
 	studio "handguard_famas.smd"
+	studio "handguard_9mm.smd"
 }
 $bodygroup "ub"
 {
@@ -101,11 +103,18 @@ $bodygroup "frontsight"
 	studio "troy_front_carbine.smd"
 	studio "frontsight_usgi_m16.smd"
 	studio "frontsight_usgi_carbine.smd"
+	studio "frontsight_9mm_up.smd"
+	studio "frontsight_9mm_down.smd"
 }
 $bodygroup "bolt"
 {
 	studio "bolt_A1.smd"
 	studio "bolt_mw3.smd"
+}
+$bodygroup "bolt"
+{
+	blank
+	studio "covers.smd"
 }
 
 
