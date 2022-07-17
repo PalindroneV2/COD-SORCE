@@ -1,13 +1,9 @@
 version 1
 nodes
-0 "root" -1
-end
-skeleton
-time 0
-0 0 0 0 0 0 0
-end
-triangles
-
+0 "j_gun" -1
+1 "j_reload" 0
+2 "tag_suppressor" 0
+3 "tag_brass" 0
 4 "tag_flash" 0
 5 "tag_clip" 0
 6 "j_grenade_ammo" 0
