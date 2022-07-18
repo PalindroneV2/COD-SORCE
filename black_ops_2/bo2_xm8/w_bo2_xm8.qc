@@ -14,7 +14,8 @@ $bodygroup "1"
 }
 $bodygroup "2"
 {
-	studio "ironu.smd"
+	studio "ironu_w.smd"
+	studio "ironu_w.smd"
 	studio "irond.smd"
 	blank
 }
