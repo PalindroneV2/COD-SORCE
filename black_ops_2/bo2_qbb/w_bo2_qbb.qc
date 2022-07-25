@@ -15,6 +15,8 @@ $bodygroup "1"
 $bodygroup "2"
 {
 	studio "up_w.smd"
+	studio "up_w.smd"
+	studio "down_w.smd"
 	studio "down_w.smd"
 	blank
 }
