@@ -36,10 +36,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_hamr\"
 
 $texturegroup "skinfamilies"
 {
-	{ "hamr"    "hamr_1" }
-	{ "camo" "camo" }
-	{ "pap_bo1" "hamr_1"}
-	{ "pap_bo1" "camo"}
+	{ "hamr"    "hamr_1"	"hamr_2"	"hamr_3"	"parts" }
+	{ "camo"    "camo"	"camo"	"camo"	"parts_camo" }
+	{ "pap_bo1"    "hamr_1"	"hamr_2"	"hamr_3"	"parts" }
+	{ "pap_bo1"    "camo"	"camo"	"camo"	"parts_camo" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
