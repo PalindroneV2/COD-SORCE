@@ -5,9 +5,11 @@ $modelname "weapons/arc9/w_bo2_mg08.mdl"
 $bodygroup "0"
 {
 	studio "mg08_w.smd"
+	studio "mg08_w.smd"
 }
 $bodygroup "1"
 {
+	studio "irons_w.smd"
 	studio "irons_w.smd"
 	blank
 }
@@ -23,12 +25,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_mg08\"
 
 $texturegroup "skinfamilies"
 {
-	{ "mg08_1"     "mag_1"      }
-	{ "pap_waw"    "pap_waw"    }
-	{ "pap_bo1"    "pap_bo1"    }
-	{ "pap_bo2"    "pap_bo2"    }
-	{ "pap_giant"  "pap_giant"  }
-	{ "pap_cosmic" "pap_cosmic" }
+	{ "mg08"	"mg08_1"     "mag_1"	"mag"	}
+	{ "gold"	"gold"     "gold_mag"	"gold_mag"	}
+	{ "pap"	"pap"     "pap_mag"	"pap_mag"	}
+	{ "cosmic_mag"	"gold"     "cosmic_mag"	"gold_mag"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
