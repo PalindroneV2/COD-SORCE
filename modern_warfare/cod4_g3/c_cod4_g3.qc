@@ -51,10 +51,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_m203\"
 
 $texturegroup "skinfamilies"
 {
-	{ "g3_camo" "g3_furn" "mp5_mw3_2" }
-	{ "g3_camo" "camo" "mp5_camo" }
-	{ "pap_bo1" "g3_furn" "mp5_mw3_2" }
-	{ "pap_bo1" "camo" "mp5_camo" }
+	{ "g3_camo" "g3_furn" "mp5_mw3_2"	"cod4_sd" }
+	{ "g3_camo" "camo" "mp5_camo"	"sd_camo" }
+	{ "pap_bo1" "g3_furn" "mp5_mw3_2"	"cod4_sd" }
+	{ "pap_bo1" "camo" "mp5_camo"	"sd_camo" }
 }
 
 $attachment "1" "tag_flash" 7.12 0 2.25 rotate 0 0 0
