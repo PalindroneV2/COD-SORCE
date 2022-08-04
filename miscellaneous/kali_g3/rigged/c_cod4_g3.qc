@@ -5,6 +5,7 @@ $modelname "weapons/arc9/c_kali_g3.mdl"
 $bodygroup "0"
 {
 	studio "g3.smd"
+	studio "hk51.smd"
 }
 $bodygroup "1"
 {
@@ -16,6 +17,8 @@ $bodygroup "2"
 {
 	studio "barrel_regular.smd"
 	studio "barrel_short.smd"
+	studio "barrel_regular_hk51.smd"
+	studio "barrel_short_hk51.smd"
 }
 $bodygroup "3"
 {
@@ -25,19 +28,25 @@ $bodygroup "3"
 	studio "handguard_wide_bipodup.smd"
 	studio "handguard_wide_bipoddn.smd"
 	studio "handguard_railed.smd"
+	studio "handguard_wood_hk51.smd"
+	studio "handguard_slim_hk51.smd"
+	studio "handguard_wide_hk51.smd"
+	studio "handguard_railed_hk51.smd"
 }
 $bodygroup "4"
 {
+	studio "stock_slide_off.smd"
 	studio "stock_slide_in.smd"
 	studio "stock_slide_ex.smd"
-	studio "stock_wood.smd"
 	studio "stock_polymer.smd"
+	studio "stock_wood.smd"
 }
 $bodygroup "5"
 {
 	blank
 	studio "m203_g3.smd"
 	studio "m203_smaller.smd"
+	studio "m203.smd"
 }
 $bodygroup "5"
 {
@@ -52,6 +61,8 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
+$cdmaterials "models\weapons\arc9\cod4\cod4_m4m16"
+$cdmaterials "models\weapons\arc9\mw3\mw3_ubs"
 $cdmaterials "models\weapons\arc9\cde\kali_g3"
 $cdmaterials "models\weapons\arc9\cde\kali_g3\g3"
 $cdmaterials "models\weapons\arc9\cde\kali_g3\g3\stocks"
@@ -59,10 +70,10 @@ $cdmaterials "models\weapons\arc9\cde\kali_g3\g3\handguards"
 
 $texturegroup "skinfamilies"
 {
-	{ "G3_Magazine"        "G3_Handguard_Slim_Black" "G3_Lower_Metal_Black" "G3_Stock_PolymerA_Black" "G3_Stock_Buttplate_Black" "G3_Stock_PolymerB_Black" }
-	{ "G3_Magazine"        "G3_Handguard_Slim_Green" "G3_Lower_Metal_Green" "G3_Stock_PolymerA_Green" "G3_Stock_Buttplate_Green" "G3_Stock_PolymerB_Green" }
-	{ "G3_Magazine_Ribbed" "G3_Handguard_Slim_Black" "G3_Lower_Metal_Black" "G3_Stock_PolymerA_Black" "G3_Stock_Buttplate_Black" "G3_Stock_PolymerB_Black" }
-	{ "G3_Magazine_Ribbed" "G3_Handguard_Slim_Green" "G3_Lower_Metal_Green" "G3_Stock_PolymerA_Green" "G3_Stock_Buttplate_Green" "G3_Stock_PolymerB_Green" }
+	{	"G3_Receiver"	"G3_Magazine"	"G3_Handguard_Slim_Black"	"G3_Lower_Metal_Black"	"G3_Stock_PolymerA_Black"	"G3_Stock_PolymerB_Black"	}
+	{	"G3_Receiver" "G3_Magazine"	"camo_slim"	"Camo_Lower_Metal"	"Camo_Stock_PolymerA"	"Camo_Stock_PolymerB"	}
+	{	"pap_bo1"	"G3_Magazine"	"G3_Handguard_Slim_Black"	"G3_Lower_Metal_Black"	"G3_Stock_PolymerA_Black"	"G3_Stock_PolymerB_Black"	}
+	{	"pap_bo1"	"G3_Magazine"	"camo_slim"	"Camo_Lower_Metal"	"Camo_Stock_PolymerA"	"Camo_Stock_PolymerB"	}
 }
 
 $attachment "1" "tag_flash" 7.12 0 2.25 rotate 0 0 0
