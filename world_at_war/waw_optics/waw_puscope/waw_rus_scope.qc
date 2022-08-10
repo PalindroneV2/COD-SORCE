@@ -9,8 +9,6 @@ $bodygroup "body"
 	studio "rus_scope.smd"
 }
 
-$origin 0 0 0 -90
-$scale 0.375
 
 $surfaceprop "item"
 
@@ -24,15 +22,17 @@ $cbox 0 0 0 0 0 0
 
 $bbox -4.273 -1.351 -0.302 4.784 1.351 2.478
 
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
 
 $sequence "idle" {
-	"anims\idle.smd"
+	"waw_rus_scope_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$collisionmodel "rus_scope.smd"
+$collisionmodel "waw_rus_scope_physics.smd"
 {
 	$mass 5
 	$inertia 1
