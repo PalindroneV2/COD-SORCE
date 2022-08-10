@@ -30,15 +30,10 @@ $cdmaterials "models\weapons\arc9\mw2\mw2_glock\"
 
 $texturegroup "skinfamilies"
 {
-	{ "g18"     "g18_1" "g17" "g17_color" }
-	{ "pap_bo1" "g18_1" "pap_waw" "g17_color" }
-	{ "g18"     "tan" 	"g17" "g17_tan" }
-	{ "pap_bo1" "tan"   "pap_waw" "g17_tan" }
-	{ "g18"     "od"    "g17" "g17_od" }
-	{ "pap_bo1" "od"    "pap_waw" "g17_od" }
-	{ "g18"     "red"   "g17" "g17_red" }
-	{ "pap_bo1" "red"   "pap_waw" "g17_red" }
-	{ "tan1"    "tan"   "tan_17" "g17_tan" }
+	{ "g18"     "g18_1" 	"g17" 		"g17_color" }
+	{ "g18"     "g18_camo" 	"g17" 		"g17_camo" 	}
+	{ "pap_bo1" "g18_1" 	"pap_waw" 	"g17_color" }
+	{ "pap_bo1" "g18_camo" 	"pap_waw" 	"g17_camo" 	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
