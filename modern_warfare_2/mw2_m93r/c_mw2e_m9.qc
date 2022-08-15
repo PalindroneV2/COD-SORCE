@@ -214,8 +214,8 @@ $sequence "idle_k" {
 	fps 30
 }
 
-$sequence "idle_empty_k" {
-	"anims\idle_empty_k.smd"
+$sequence "idle_k_empty" {
+	"anims\idle_k_empty.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -356,8 +356,8 @@ $sequence "idle_bst" {
 	fps 30
 }
 
-$sequence "idle_empty_bst" {
-	"anims\idle_empty_bst.smd"
+$sequence "idle_bst_empty" {
+	"anims\idle_bst_empty.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
