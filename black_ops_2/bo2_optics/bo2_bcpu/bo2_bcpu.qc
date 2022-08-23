@@ -1,15 +1,19 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/bo2_suppressor_80s_2.mdl"
+$modelname "weapons/arc9/atts/bo2_bcpu.mdl"
 
 $scale 0.375
 $origin 0 0 0 -90
 
 $bodygroup "body"
 {
-	studio "suppressor_80s_2.smd"
+	studio "bcpu.smd"
 }
-
+$bodygroup "screen"
+{
+	blank
+	studio "bcpu_screen.smd"
+}
 
 $surfaceprop "weapon"
 
@@ -17,9 +21,9 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models\weapons\arc9\bo2\bo2_suppressors\"
+$cdmaterials "models\weapons\arc9\bo2\bo2_optics\"
 
-$attachment "muzzle" "muzzle" 0 0 0 rotate 0 90 0
+$attachment "bcpu" "bcpu" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -32,7 +36,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "suppressor_80s_2.smd"
+$collisionmodel "bcpu.smd"
 {
 	$mass 1
 	$inertia 1

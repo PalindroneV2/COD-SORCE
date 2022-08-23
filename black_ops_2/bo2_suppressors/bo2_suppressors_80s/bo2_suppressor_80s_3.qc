@@ -25,10 +25,6 @@ $cbox 0 0 0 0 0 0
 
 $bbox -0.58 -1.098 -1.101 10.636 1.105 1.071
 
-$definebone "root" "" 0 0 0 0 0 89.999982 0 0 0 0 0 0
-$definebone "muzzle" "root" 0 -0.000001 6.06042 0 -0.000057 89.999982 0 0 0 0 0 0
-
-
 $sequence "idle" {
 	"anims\idle.smd"
 	fadein 0.2
