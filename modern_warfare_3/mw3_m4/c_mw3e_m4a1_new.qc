@@ -23,6 +23,7 @@ $bodygroup "3"
 	studio "new/handguard.smd"
 	studio "new/handguard_m16.smd"
 	studio "new/handguard_fss.smd"
+	studio "new/handguard_classic.smd"
 }
 $bodygroup "4"
 {
