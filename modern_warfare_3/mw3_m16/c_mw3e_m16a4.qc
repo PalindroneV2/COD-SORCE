@@ -4,49 +4,61 @@ $modelname "weapons/arc9/c_mw3e_m16a4.mdl"
 
 $bodygroup "body"
 {
-	studio "m16.smd"
+	studio "new/m16.smd"
 }
 $bodygroup "1"
 {
-	studio "mag.smd"
-	studio "mag_small.smd"
+	studio "new/mag.smd"
+	studio "new/mag_small.smd"
 }
 $bodygroup "2"
 {
-	studio "m16_barrel.smd"
-	studio "mk12_barrel.smd"
-	studio "car15_barrel.smd"
-	studio "m4_barrel.smd"
-	studio "mk18_barrel.smd"
-	studio "mw19_barrel.smd"
+	studio "new/barrel_m16.smd"
+	studio "new/barrel_mk12.smd"
+}
+$bodygroup "2"
+{
+	studio "new/round_m16.smd"
+	studio "new/ris_m16.smd"
 }
 $bodygroup "3"
 {
-	studio "carryhandle.smd"
-	studio "irons.smd"
-	studio "gasblock.smd"
-	studio "carryhandle_mk12.smd"
-	studio "irons_mk12.smd"
-	studio "usgi.smd"
-	studio "gasblock_mk12.smd"
-	studio "carryhandle_m4.smd"
-	studio "irons_m4.smd"
-	studio "usgi_m4.smd"
-	studio "gasblock_m4.smd"
+	studio "new/carryhandle.smd"
+	studio "new/irons.smd"
+	studio "new/usgi.smd"
 }
 $bodygroup "4"
 {
-	blank
-	studio "m203.smd"
-	studio "bipod.smd"
-	studio "bipod_down.smd"
+	studio "new/classic.smd"
+	studio "new/front.smd"
+	studio "new/classic_mk12.smd"
+	studio "new/front_mk12.smd"
+	studio "new/front_usgi.smd"
 }
 $bodygroup "5"
 {
-	studio "stock_none.smd"
-	studio "stock_l.smd"
-	studio "stock_m.smd"
-	studio "stock_h.smd"
+	blank
+	studio "new/m203.smd"
+	studio "new/bipod.smd"
+	studio "new/bipod_down.smd"
+}
+$bodygroup "6"
+{
+	studio "new/stock_none.smd"
+	studio "new/stock_l.smd"
+	studio "new/stock_m.smd"
+	studio "new/stock_h.smd"
+}
+$bodygroup "7"
+{
+	blank
+	studio "new/gasblock.smd"
+	studio "new/gasblock_mk12.smd"
+}
+$bodygroup "8"
+{
+	blank
+	studio "new/covers1.smd"
 }
 
 
@@ -62,14 +74,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m16a4"   "m16a4_2"   "m4a1_2"   }
-	{ "pap_waw" "m16a4_2"   "m4a1_2"   }
-	{ "pap_bo1" "m16a4_2"   "m4a1_2"   }
-	{ "pap_bo2" "m16a4_2"   "m4a1_2"   }
-	{ "m16a4"   "m16a4_tan" "m4a1_tan" }
-	{ "pap_waw" "m16a4_tan" "m4a1_tan" }
-	{ "pap_bo1" "m16a4_tan" "m4a1_tan" }
-	{ "pap_bo2" "m16a4_tan" "m4a1_tan" }
+	{	"m16a4"		"m16a4_1"	"m16a4_2"	"m16a4_3"	"m4a1"		"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	}
+	{	"camo_m16"		"camo_m16"		"camo_m16"		"camo_m16"		"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"			}
+	{	"pap_bo1"	"m16a4_1"	"m16a4_2"	"m16a4_3"	"m4a1"		"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	}
+	{	"pap_bo1"	"camo_m16"		"camo_m16"		"camo_m16"		"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"			}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -534,7 +542,7 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "c_mw3e_m16a4_physics.smd"
+$collisionmodel "m16.smd"
 {
 	$mass 10
 	$inertia 1

@@ -4,50 +4,65 @@ $modelname "weapons/arc9/c_mw3e_m4a1.mdl"
 
 $bodygroup "body"
 {
-	studio "m4.smd"
-	studio "m4_2.smd"
+	studio "new/m4.smd"
+	studio "new/m4_2.smd"
 }
 $bodygroup "1"
 {
-	studio "mag_m16.smd"
-	studio "mag.smd"
+	studio "new/mag_m16.smd"
+	studio "new/mag.smd"
 }
 $bodygroup "2"
 {
-	studio "m4_barrel.smd"
-	studio "mk18_barrel.smd"
-	studio "mk12_barrel.smd"
-	studio "mw19_barrel.smd"
+	studio "new/barrel_m4.smd"
+	studio "new/barrel_mk18.smd"
+	studio "new/barrel_m16.smd"
 }
 $bodygroup "3"
 {
-	studio "carryhandle.smd"
-	studio "irons.smd"
-	studio "usgi.smd"
-	studio "gasblock.smd"
-	studio "carryhandle_mk12.smd"
-	studio "irons_mk12.smd"
-	studio "usgi_m16.smd"
-	studio "gasblock_mk12.smd"
+	studio "new/handguard.smd"
+	studio "new/handguard_m16.smd"
+	studio "new/handguard_fss.smd"
 }
 $bodygroup "4"
 {
-	studio "grip.smd"
-	studio "m203.smd"
-	blank
+	studio "new/irons.smd"
+	studio "new/carryhandle.smd"
+	studio "new/usgi.smd"
 }
 $bodygroup "5"
 {
-	studio "stock_none.smd"
-	studio "stock_l.smd"
-	studio "stock_m.smd"
-	studio "stock_h.smd"
+	studio "new/front_m4.smd"
+	studio "new/front_classic_m4.smd"
+	studio "new/front_usgi_m4.smd"
+	studio "new/front_m16.smd"
+	studio "new/front_classic_m16.smd"
+	studio "new/front_usgi_m16.smd"
 }
 $bodygroup "6"
 {
 	blank
-	studio "bipod.smd"
-	studio "bipod_down.smd"
+	studio "new/gasblock_m4.smd"
+	studio "new/gasblock_mk12.smd"
+}
+$bodygroup "7"
+{
+	studio "new/grip.smd"
+	studio "new/m203.smd"
+	blank
+}
+$bodygroup "8"
+{
+	studio "new/stock_none.smd"
+	studio "new/stock_l.smd"
+	studio "new/stock_m.smd"
+	studio "new/stock_h.smd"
+}
+$bodygroup "9"
+{
+	blank
+	studio "new/bipod.smd"
+	studio "new/bipod_down.smd"
 }
 
 
@@ -64,9 +79,9 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 $texturegroup "skinfamilies"
 {
 	{	"m16a4"		"m16a4_1"	"m16a4_2"	"m16a4_3"	"m4a1"		"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	}
-	{	"camo"		"camo"		"camo"		"camo"		"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo"			}
+	{	"camo_m16"		"camo_m16"		"camo_m16"		"camo_m16"		"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"			}
 	{	"pap_bo1"	"m16a4_1"	"m16a4_2"	"m16a4_3"	"m4a1"		"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	}
-	{	"pap_bo1"	"camo"		"camo"		"camo"		"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo"			}
+	{	"pap_bo1"	"camo_m16"		"camo_m16"		"camo_m16"		"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"			}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
