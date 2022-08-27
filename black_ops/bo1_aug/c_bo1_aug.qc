@@ -21,12 +21,14 @@ $bodygroup "barrel"
 $bodygroup "rail"
 {
 	studio "aug_sight_rail.smd"
+	studio "aug_a3_rail.smd"
 	blank
 	studio "aug_sight_scope.smd"
 }
 $bodygroup "iron"
 {
 	studio "aug_sight_iron.smd"
+	studio "aug_a3_iron.smd"
 	blank
 }
 $bodygroup "hand"
@@ -711,7 +713,7 @@ $sequence "sprint_out_mksetup" {
 	fps 10
 }
 
-$collisionmodel "c_bo1_aug_physics.smd"
+$collisionmodel "aug_body.smd"
 {
 	$mass 10
 	$inertia 1
