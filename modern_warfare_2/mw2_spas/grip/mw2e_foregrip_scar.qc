@@ -1,13 +1,13 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/mw2e_foregrip_scar.mdl"
+$modelname "weapons/arc9/atts/mw2e_foregrip_scar2.mdl"
 $include "codrig.qci"
-// $origin 0 0 0 -90
-// $scale 0.375
+$origin 0 0 0 -90
+$scale 0.375
 
 $bodygroup "body"
 {
-	studio "scargrip.smd"
+	studio "grip_heavy.smd"
 	blank
 }
 
@@ -32,7 +32,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "scargrip.smd"
+$collisionmodel "grip_heavy.smd"
 {
 	$mass 0.5
 	$inertia 1

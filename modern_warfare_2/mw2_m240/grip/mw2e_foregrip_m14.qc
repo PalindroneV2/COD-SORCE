@@ -1,13 +1,13 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/mw2e_foregrip_scar.mdl"
+$modelname "weapons/arc9/atts/mw2e_foregrip_m14.mdl"
 $include "codrig.qci"
 // $origin 0 0 0 -90
 // $scale 0.375
 
 $bodygroup "body"
 {
-	studio "scargrip.smd"
+	studio "grip_m14.smd"
 	blank
 }
 
@@ -17,7 +17,7 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models\weapons\arc9\mw2\mw2_scar\"
+$cdmaterials "models\weapons\arc9\mw2\mw2_m14\"
 
 $attachment "griproot" "griproot" 0 0 0 rotate 0 0 0
 
@@ -32,7 +32,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "scargrip.smd"
+$collisionmodel "grip_m14.smd"
 {
 	$mass 0.5
 	$inertia 1
