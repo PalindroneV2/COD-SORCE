@@ -1,24 +1,13 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_waw_p38.mdl"
+$modelname "weapons/arc9/c_waw_tt33.mdl"
 $include "codrig.qci"
 $origin 0 0 0 -90
 $scale 0.375
 
 $bodygroup "frame"
 {
-	studio "p38.smd"
-	studio "p38_w.smd"
-}
-$bodygroup "stock"
-{
-	blank
-	studio "uncle_stock.smd"
-}
-$bodygroup "sil"
-{
-	blank
-	studio "uncle_sil.smd"
+	studio "tt33.smd"
 }
 
 
@@ -28,16 +17,14 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
-$cdmaterials "models\weapons\arc9\waw\waw_p38\"
+$cdmaterials "models\weapons\arc9\waw\waw_tt33\"
 
 $texturegroup "skinfamilies"
 {
-	{	"p38"		"p38_grip"      }
-	{	"pap_waw"	"p38_grip"		}
-	{	"megatron"	"p38_grip"		}
-	{	"pap_bo1"	"p38_grip"		}
-	{	"gold"		"p38_grip"		}
-	{	"pap_bo2"	"p38_grip"		}
+	{	"tt33"		}
+	{	"pap_waw"	}
+	{	"gold"		}
+	{	"pap_bo2"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -143,7 +130,7 @@ $sequence "fire_ads" {
 	fps 30
 }
 
-$collisionmodel "p38_w.smd"
+$collisionmodel "tt33.smd"
 {
 	$mass 10
 	$inertia 1

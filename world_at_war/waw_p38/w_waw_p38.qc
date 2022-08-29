@@ -32,10 +32,12 @@ $cdmaterials "models\weapons\arc9\waw\waw_p38\"
 
 $texturegroup "skinfamilies"
 {
-	{ "p38"      "p38_grip"      }
-	{ "megatron" "megatron_grip" }
-	{ "pap_waw"  "p38_grip"      }
-	{ "pap_waw"  "megatron_grip" }
+	{	"p38"		"p38_grip"      }
+	{	"pap_waw"	"p38_grip"		}
+	{	"megatron"	"p38_grip"		}
+	{	"pap_bo1"	"p38_grip"		}
+	{	"gold"		"p38_grip"		}
+	{	"pap_bo2"	"p38_grip"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

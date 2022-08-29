@@ -35,7 +35,7 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
-$cdmaterials "models\weapons\arc9\mw2\mw2_m4\"
+$cdmaterials "models\weapons\arc9\mw2\mw2_scar\"
 $cdmaterials "models\weapons\arc9\mw3\mw3_m203\"
 $cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 
