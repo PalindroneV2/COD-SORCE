@@ -1,15 +1,27 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_mw3e_p90.mdl"
+$modelname "weapons/arc9/c_mw3e_mk14.mdl"
 
 $bodygroup "0"
 {
-	studio "p90.smd"
+	studio "mk14.smd"
 }
 $bodygroup "1"
 {
-	studio "irons.smd"
 	blank
+	studio "rail.smd"
+}
+$bodygroup "2"
+{
+	blank
+	studio "stock_l.smd"
+	studio "stock_m.smd"
+}
+$bodygroup "3"
+{
+	blank
+	studio "bipod.smd"
+	studio "bipod_down.smd"
 }
 
 
@@ -19,14 +31,14 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
-$cdmaterials "models\weapons\arc9\mw3\mw3_p90\"
+$cdmaterials "models\weapons\arc9\mw3\mw3_mk14\"
 
 $texturegroup "skinfamilies"
 {
-	{ "p90_camo"	"p90"		}
-	{ "p90_camo2"	"p90_camo2"	}
-	{ "pap_bo1"		"p90"		}
-	{ "pap_bo1"		"p90_camo2"	}
+	{ "mk14_camo"	"mk14" }
+	{ "camo"		"camo"}
+	{ "pap_bo1"		"mk14" }
+	{ "pap_bo1"		"camo"}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -35,7 +47,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -4.698 -8.301 -16.345 21.297 8.19 0.795
+$bbox -6.376 -15.186 -15.631 44.187 8.064 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -118,10 +130,11 @@ $definebone "ValveBiped.Bip01_R_Finger01" "j_thumb_ri_1" 0.015159 0.112615 0.312
 $definebone "ValveBiped.Bip01_R_Finger0" "j_thumb_ri_0" -0.164265 -0.500914 0.506267 7.352518 168.106774 -175.155748 0 0 0 0 0 0
 $definebone "tag_weapon" "tag_torso" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_gun" "tag_weapon" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "j_bolt" "j_gun" 6.689929 0.938131 0.602144 0 0 0 0 0 0 0 0 0
-$definebone "tag_brass" "j_gun" -1.705382 0 -2.85606 89.997632 0 0 0 0 0 0 0 0
-$definebone "tag_clip" "j_gun" 7.431018 0 1.221226 0 0 0 0 0 0 0 0 0
-$definebone "tag_flash" "j_gun" 10.151963 0 0.704291 0 0 0 0 0 0 0 0 0
+$definebone "j_reload" "j_gun" 8.385007 -1.014755 2.30861 0 0 0 0 0 0 0 0 0
+$definebone "tag_brass" "j_gun" 8.397491 0 2.028683 -34.996493 -89.99253 -0.00149 0 0 0 0 0 0
+$definebone "tag_clip" "j_gun" 7.619998 0 0.324073 0 0 0 0 0 0 0 0 0
+$definebone "j_bullet" "tag_clip" -0.23988 0.09878 2.10179 0 0 0 0 0 0 0 0 0
+$definebone "tag_flash" "j_gun" 37.96999 0 2.351579 0 0 0 0 0 0 0 0 0
 $definebone "tag_cambone" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_camera" "tag_cambone" 0 0 0 0 0 0 0 0 0 0 0 0
 
@@ -207,7 +220,7 @@ $bonemerge "ValveBiped.Bip01_R_Finger0"
 
 
 $sequence "idle" {
-	"c_mw3e_p90_anims\idle.smd"
+	"c_mw3e_mk14_anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -215,7 +228,7 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"c_mw3e_p90_anims\reload.smd"
+	"c_mw3e_mk14_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -223,7 +236,7 @@ $sequence "reload" {
 }
 
 $sequence "reload_empty" {
-	"c_mw3e_p90_anims\reload_empty.smd"
+	"c_mw3e_mk14_anims\reload_empty.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -231,7 +244,7 @@ $sequence "reload_empty" {
 }
 
 $sequence "draw" {
-	"c_mw3e_p90_anims\draw.smd"
+	"c_mw3e_mk14_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -239,15 +252,25 @@ $sequence "draw" {
 }
 
 $sequence "first_draw" {
-	"c_mw3e_p90_anims\first_draw.smd"
-	activity "ACT_VM_DRAW_DEPLOYED" 1
+	"c_mw3e_mk14_anims\first_draw.smd"
+	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "fire" {
-	"c_mw3e_p90_anims\fire.smd"
+	"c_mw3e_mk14_anims\fire.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "fire_last" {
+	"c_mw3e_mk14_anims\fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -257,7 +280,7 @@ $sequence "fire" {
 }
 
 $sequence "fire_ads" {
-	"c_mw3e_p90_anims\fire_ads.smd"
+	"c_mw3e_mk14_anims\fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -267,7 +290,7 @@ $sequence "fire_ads" {
 }
 
 $sequence "holster" {
-	"c_mw3e_p90_anims\holster.smd"
+	"c_mw3e_mk14_anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -275,7 +298,7 @@ $sequence "holster" {
 }
 
 $sequence "sprint_in" {
-	"c_mw3e_p90_anims\sprint_in.smd"
+	"c_mw3e_mk14_anims\sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -283,7 +306,7 @@ $sequence "sprint_in" {
 }
 
 $sequence "sprint_loop" {
-	"c_mw3e_p90_anims\sprint_loop.smd"
+	"c_mw3e_mk14_anims\sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -292,14 +315,14 @@ $sequence "sprint_loop" {
 }
 
 $sequence "sprint_out" {
-	"c_mw3e_p90_anims\sprint_out.smd"
+	"c_mw3e_mk14_anims\sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
 	fps 30
 }
 
-$collisionmodel "c_mw3e_p90_physics.smd"
+$collisionmodel "c_mw3e_mk14_physics.smd"
 {
 	$mass 10
 	$inertia 1
