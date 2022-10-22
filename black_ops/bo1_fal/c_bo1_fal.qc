@@ -50,14 +50,14 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "fal"     "fal_furniture" }
-	{ "fal"     "fal_camo"     }
-	{ "pap_waw" "fal_furniture" }
-	{ "pap_waw" "fal_camo"     }
-	{ "pap_bo1" "fal_furniture" }
-	{ "pap_bo1" "fal_camo"     }
-	{ "pap_bo2" "fal_furniture" }
-	{ "pap_bo2" "fal_camo"     }
+	{ "fal"     "fal_furniture"	"osw"	"osw_1"	"osw_2"	"osw_3"	}
+	{ "fal"     "fal_camo"     	"osw_camo"	"osw_camo"	"osw_camo"	"osw_camo"	}
+	{ "pap_waw" "fal_furniture" "osw"	"osw_1"	"osw_2"	"osw_3"	}
+	{ "pap_waw" "fal_camo"     	"osw_camo"	"osw_camo"	"osw_camo"	"osw_camo"	}
+	{ "pap_bo1" "fal_furniture"	"osw"	"osw_1"	"osw_2"	"osw_3"	}
+	{ "pap_bo1" "fal_camo"		"osw_camo"	"osw_camo"	"osw_camo"	"osw_camo"	}
+	{ "pap_bo2" "fal_furniture"	"osw"	"osw_1"	"osw_2"	"osw_3"	}
+	{ "pap_bo2" "fal_camo"		"osw_camo"	"osw_camo"	"osw_camo"	"osw_camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
