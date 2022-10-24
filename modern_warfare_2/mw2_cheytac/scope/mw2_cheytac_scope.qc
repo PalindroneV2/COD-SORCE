@@ -21,12 +21,6 @@ $illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\mw2\mw2_optics\"
 
-$texturegroup "skinfamilies"
-{
-	{	"chetyac_scope"			}
-	{	"cheytac_scope_camo"	}
-}
-
 $attachment "holosight" "holosight" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
