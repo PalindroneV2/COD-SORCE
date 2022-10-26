@@ -480,13 +480,13 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "c_mw3e_acr_physics.smd"
+$collisionmodel "acr.smd"
 {
 	$mass 10
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone "j_gun"
+	$rootbone " "
 
 }
 
