@@ -45,6 +45,7 @@ $bodygroup "handguard"
 	studio "handguard_famas.smd"
 	studio "handguard_9mm.smd"
 	studio "handguard_ris_mw19.smd"
+	studio "mlok.smd"
 }
 $bodygroup "ub"
 {
@@ -133,10 +134,12 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "Body_A1" "Body_A2" "Body_A2_3"     "Body_A4" "Parts_A2_2"     "mw2_m16"   "Parts_Carbine_2"     "cm901_furn"  "mw2_m16carry"	"m4_mw2_color" 	"mw3_m4_color" "rsass"		"parts_m203"	}
-	{ "Body_A1" "Body_A2" "Body_A2_camo"  "Body_A4" "Parts_A2_camo"  "mw2_m16_camo"  "Parts_Carbine_camo"  "cm901_camo"  "mw2_m16carry"	"m4_mw2_camo"	"mw3_m4_camo"  "rsass_camo" "parts_m203_2"	}
-	{ "pap_bo1" "pap_bo1" "Body_A2_3"     "pap_bo1" "Parts_A2_2"     "mw2_m16"   "Parts_Carbine_2"     "cm901_furn"  "pap_bo1"    	"m4_mw2_color"	"mw3_m4_color" "rsass"		"parts_m203"	}
-	{ "pap_bo1" "pap_bo1" "Body_A2_camo"  "pap_bo1" "Parts_A2_camo"  "mw2_m16_camo"   "Parts_Carbine_camo"  "cm901_camo"  "pap_bo1"    	"m4_mw2_camo"	"mw3_m4_camo"  "rsass_camo" "parts_m203_2"	}
+	{ "Body_A1" 		"Body_A2" 		"Body_A2_3"     "Body_A4" 		"Parts_A2_2"     "mw2_m16"			"Parts_Carbine_2"     "cm901_furn"  "mw2_m16carry"		"m4_mw2_color"	"mw3_m4"		"mw3_m4_color" "rsass"		"parts_m203"	}
+	{ "Body_A1" 		"Body_A2"		"Body_A2_camo"  "Body_A4" 		"Parts_A2_camo"  "mw2_m16_camo"		"Parts_Carbine_camo"  "cm901_camo"  "mw2_m16carry"		"m4_mw2_camo"	"mw3_m4"		"mw3_m4_camo"  "rsass_camo" "parts_m203_2"	}
+	{ "Body_A1_camo"	"Body_A2_camo"	"Body_A2_camo"  "Body_A2_camo"	"Parts_A2_camo"  "mw2_m16_camo"		"Parts_Carbine_camo"  "cm901_camo"  "mw2_m16carry_camo"	"m4_mw2_camo"	"mw3_m4_camo"	"mw3_m4_camo"  "rsass_camo" "parts_m203_2"	}
+	{ "pap_bo1" 		"pap_bo1"		"Body_A2_3"     "pap_bo1"		"Parts_A2_2"     "mw2_m16"			"Parts_Carbine_2"     "cm901_furn"  "pap_bo1"			"m4_mw2_color"	"mw3_m4"		"mw3_m4_color" "rsass"		"parts_m203"	}
+	{ "pap_bo1"			"pap_bo1"		"Body_A2_camo"  "pap_bo1"		"Parts_A2_camo"  "mw2_m16_camo"		"Parts_Carbine_camo"  "cm901_camo"  "pap_bo1"			"m4_mw2_camo"	"mw3_m4"		"mw3_m4_camo"  "rsass_camo" "parts_m203_2"	}
+	{ "pap_bo1"			"pap_bo1"		"Body_A2_camo"  "pap_bo1"		"Parts_A2_camo"  "mw2_m16_camo"		"Parts_Carbine_camo"  "cm901_camo"  "pap_bo1"			"m4_mw2_camo"	"mw3_m4_camo"	"mw3_m4_camo"  "rsass_camo" "parts_m203_2"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

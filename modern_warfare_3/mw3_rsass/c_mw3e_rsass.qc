@@ -19,9 +19,9 @@ $bodygroup "irons"
 }
 $bodygroup "bipod"
 {
+	blank
 	studio "bipod.smd"
 	studio "bipod_down.smd"
-	blank
 }
 
 
@@ -35,10 +35,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_rsass\"
 
 $texturegroup "skinfamilies"
 {
-	{ "rsass_camo" }
-	{ "pap_waw"    }
-	{ "pap_bo1"    }
-	{ "pap_bo2"    }
+	{ "rsass_camo"	"rsass"	"cm901"			"cm901_2"		"cm901_furn"	}
+	{ "camo"		"camo"	"cm901_camo2"	"cm901_camo2"	"cm901_camo2"	}
+	{ "pap_bo1"		"rsass"	"cm901"			"cm901_2"		"cm901_furn"	}
+	{ "pap_bo1"		"camo"	"cm901_camo2"	"cm901_camo2"	"cm901_camo2"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -328,13 +328,13 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "c_mw3e_rsass_physics.smd"
+$collisionmodel "rsass.smd"
 {
 	$mass 15
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone "j_gun"
+	$rootbone " "
 
 }
 
