@@ -1,6 +1,7 @@
 // Created by Crowbar 0.68
 
 $modelname "weapons/arc9/item/bo2_custom_riser2.mdl"
+$origin 0 0 0 -90
 
 $staticprop
 

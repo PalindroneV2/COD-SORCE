@@ -2,6 +2,7 @@
 
 $modelname "weapons/arc9/item/bo1_hk_riser.mdl"
 
+$origin 0 0 0 -90
 $staticprop
 
 $bodygroup "body"

@@ -46,6 +46,8 @@ $bodygroup "handguard"
 	studio "handguard_9mm.smd"
 	studio "handguard_ris_mw19.smd"
 	studio "mlok.smd"
+	studio "mlok_mid.smd"
+	studio "mlok_short.smd"
 }
 $bodygroup "ub"
 {

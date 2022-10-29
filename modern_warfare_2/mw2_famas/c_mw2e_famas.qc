@@ -1,51 +1,33 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_mw3e_cm901.mdl"
+$modelname "weapons/arc9/c_mw2e_famas.mdl"
 
 $bodygroup "body"
 {
-	studio "cm901.smd"
+	studio "famas.smd"
 }
 $bodygroup "1"
 {
-	studio "mag.smd"
-	studio "mag_ext.smd"
+	studio "top_rail.smd"
+	blank
 }
 $bodygroup "2"
 {
 	studio "irons.smd"
-	studio "irons_down.smd"
-	studio "irons_short.smd"
-	studio "irons_down_short.smd"
+	studio "iron_folded.smd"
 	blank
 }
 $bodygroup "3"
 {
-	studio "barrel_base.smd"
-	studio "barrel_short.smd"
-	studio "barrel_long.smd"
+	studio "bipod.smd"
+	studio "bipod_down.smd"
+	blank
 }
 $bodygroup "4"
 {
 	blank
-	studio "stock_l.smd"
-	studio "stock_m.smd"
-	studio "stock_h.smd"
-}
-$bodygroup "5"
-{
-	blank
-	studio "m320.smd"
-}
-$bodygroup "6"
-{
-	studio "sightbase.smd"
-	blank
-}
-$bodygroup "7"
-{
-	studio "sightbase.smd"
-	blank
+	studio "m203.smd"
+	studio "mk.smd"
 }
 
 
@@ -55,28 +37,25 @@ $contents "solid"
 
 $illumposition 0 -9.805 -6.259
 
-$cdmaterials "models\weapons\arc9\mw3\mw3_cm901\"
+$cdmaterials "models\weapons\arc9\mw2\mw2_famas\"
 $cdmaterials "models\weapons\arc9\mw3\mw3_ubs\"
-$cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{	"cm901_camo"	"cm901"			"rsass"			}
-	{	"cm901_camo2"	"cm901_camo2"	"rsass_camo"	}
-	{	"pap_bo2"		"cm901"			"rsass"			}
-	{	"pap_bo2"		"cm901_camo2"	"rsass_camo"	}
+	{	"famas_camo"	"famas"	}
+	{	"camo"			"camo"	}
+	{	"pap_bo1"		"famas"	}
+	{	"pap_bo1"		"camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "3" "tag_suppressor" 0 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
-$attachment "5" "tag_flash" -2 0 0 rotate 0 0 0
-$attachment "6" "tag_flash" 5 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -7.192 -11.106 -12.9 27.661 5.237 1.414
+$bbox -4.58 -12.319 -14.36 31.108 8.1 0.39
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -160,14 +139,17 @@ $definebone "ValveBiped.Bip01_R_Finger0" "j_thumb_ri_0" -0.164265 -0.500914 0.50
 $definebone "tag_weapon" "tag_torso" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_gun" "tag_weapon" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_suppressor" "j_gun" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "j_reload" "j_gun" -1.457769 0 3.062057 0 0 0 0 0 0 0 0 0
-$definebone "tag_brass" "j_gun" 4.346066 -0.657773 2.120318 -34.996434 -89.992421 -0.001604 0 0 0 0 0 0
-$definebone "tag_flash" "j_gun" 20.592747 0.015002 2.624724 0 0 0 0 0 0 0 0 0
+$definebone "j_bolt" "j_gun" 2.988893 0 2.382901 0 0 0 0 0 0 0 0 0
+$definebone "tag_brass" "j_gun" -5.879828 -0.452865 1.608407 -34.996434 -89.99236 -0.001719 0 0 0 0 0 0
+$definebone "tag_clip" "j_gun" -5.879828 0 0.685225 0 0 0 0 0 0 0 0 0
+$definebone "tag_flash" "j_gun" 14.802863 0 1.403893 0 0 0 0 0 0 0 0 0
 $definebone "tag_cambone" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_camera" "tag_cambone" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "tag_clip" "j_gun" 4.089685 -0.007999 1.224343 0 0 0 0 0 0 0 0 0
-$definebone "j_grenade_m320" "j_gun" 21.318844 0 0.226661 0 0 0 0 0 0 0 0 0
-$definebone "j_slider_m320" "j_gun" 16.043297 0 0.1875 0 0 0 0 0 0 0 0 0
+$definebone "j_grenade_m203" "j_gun" 18.932178 0 -1.329916 0 0 0 0 0 0 0 0 0
+$definebone "j_slider_m203" "j_gun" 8.590319 0 -1.369077 0 0 0 0 0 0 0 0 0
+$definebone "j_ammo_shotgun" "j_gun" 8.260095 0.022188 -4.032284 0 0 0 0 0 0 0 0 0
+$definebone "j_pump_shotgun" "j_gun" 16.71212 0 -1.871097 0 0 0 0 0 0 0 0 0
+$definebone "j_reload_shotgun" "j_gun" 7.224626 0.022188 -2.375995 0 0 0 0 0 0 0 0 0
 
 $bonemerge "tag_view"
 $bonemerge "tag_ads"
@@ -254,7 +236,7 @@ $bonemerge "tag_suppressor"
 
 
 $sequence "idle" {
-	"c_mw3e_cm901_anims\idle.smd"
+	"c_mw2e_famas_anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -262,7 +244,7 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"c_mw3e_cm901_anims\reload.smd"
+	"c_mw2e_famas_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -270,7 +252,7 @@ $sequence "reload" {
 }
 
 $sequence "reload_empty" {
-	"c_mw3e_cm901_anims\reload_empty.smd"
+	"c_mw2e_famas_anims\reload_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -278,23 +260,15 @@ $sequence "reload_empty" {
 }
 
 $sequence "draw" {
-	"c_mw3e_cm901_anims\draw.smd"
+	"c_mw2e_famas_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$sequence "first_draw" {
-	"c_mw3e_cm901_anims\first_draw.smd"
-	activity "ACT_VM_DRAW_DEPLOYED" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
 $sequence "fire" {
-	"c_mw3e_cm901_anims\fire.smd"
+	"c_mw2e_famas_anims\fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -304,7 +278,7 @@ $sequence "fire" {
 }
 
 $sequence "fire_ads" {
-	"c_mw3e_cm901_anims\fire_ads.smd"
+	"c_mw2e_famas_anims\fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -314,7 +288,7 @@ $sequence "fire_ads" {
 }
 
 $sequence "holster" {
-	"c_mw3e_cm901_anims\holster.smd"
+	"c_mw2e_famas_anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -322,7 +296,7 @@ $sequence "holster" {
 }
 
 $sequence "sprint_in" {
-	"c_mw3e_cm901_anims\sprint_in.smd"
+	"c_mw2e_famas_anims\sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -330,7 +304,7 @@ $sequence "sprint_in" {
 }
 
 $sequence "sprint_loop" {
-	"c_mw3e_cm901_anims\sprint_loop.smd"
+	"c_mw2e_famas_anims\sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -338,7 +312,7 @@ $sequence "sprint_loop" {
 }
 
 $sequence "sprint_out" {
-	"c_mw3e_cm901_anims\sprint_out.smd"
+	"c_mw2e_famas_anims\sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -346,7 +320,7 @@ $sequence "sprint_out" {
 }
 
 $sequence "idle_gl" {
-	"c_mw3e_cm901_anims\idle_gl.smd"
+	"c_mw2e_famas_anims\idle_gl.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -354,7 +328,7 @@ $sequence "idle_gl" {
 }
 
 $sequence "reload_gl" {
-	"c_mw3e_cm901_anims\reload_gl.smd"
+	"c_mw2e_famas_anims\reload_gl.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -362,7 +336,7 @@ $sequence "reload_gl" {
 }
 
 $sequence "reload_empty_gl" {
-	"c_mw3e_cm901_anims\reload_empty_gl.smd"
+	"c_mw2e_famas_anims\reload_empty_gl.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -370,7 +344,7 @@ $sequence "reload_empty_gl" {
 }
 
 $sequence "draw_gl" {
-	"c_mw3e_cm901_anims\draw_gl.smd"
+	"c_mw2e_famas_anims\draw_gl.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -378,7 +352,7 @@ $sequence "draw_gl" {
 }
 
 $sequence "fire_gl" {
-	"c_mw3e_cm901_anims\fire_gl.smd"
+	"c_mw2e_famas_anims\fire_gl.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -388,7 +362,7 @@ $sequence "fire_gl" {
 }
 
 $sequence "fire_ads_gl" {
-	"c_mw3e_cm901_anims\fire_ads_gl.smd"
+	"c_mw2e_famas_anims\fire_ads_gl.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -398,7 +372,7 @@ $sequence "fire_ads_gl" {
 }
 
 $sequence "holster_gl" {
-	"c_mw3e_cm901_anims\holster_gl.smd"
+	"c_mw2e_famas_anims\holster_gl.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -406,7 +380,7 @@ $sequence "holster_gl" {
 }
 
 $sequence "sprint_in_gl" {
-	"c_mw3e_cm901_anims\sprint_in_gl.smd"
+	"c_mw2e_famas_anims\sprint_in_gl.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -414,7 +388,7 @@ $sequence "sprint_in_gl" {
 }
 
 $sequence "sprint_loop_gl" {
-	"c_mw3e_cm901_anims\sprint_loop_gl.smd"
+	"c_mw2e_famas_anims\sprint_loop_gl.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -422,7 +396,7 @@ $sequence "sprint_loop_gl" {
 }
 
 $sequence "sprint_out_gl" {
-	"c_mw3e_cm901_anims\sprint_out_gl.smd"
+	"c_mw2e_famas_anims\sprint_out_gl.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -430,7 +404,7 @@ $sequence "sprint_out_gl" {
 }
 
 $sequence "idle_glsetup" {
-	"c_mw3e_cm901_anims\idle_glsetup.smd"
+	"c_mw2e_famas_anims\idle_glsetup.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -438,7 +412,7 @@ $sequence "idle_glsetup" {
 }
 
 $sequence "reload_glsetup" {
-	"c_mw3e_cm901_anims\reload_glsetup.smd"
+	"c_mw2e_famas_anims\reload_glsetup.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -446,7 +420,7 @@ $sequence "reload_glsetup" {
 }
 
 $sequence "fire_glsetup" {
-	"c_mw3e_cm901_anims\fire_glsetup.smd"
+	"c_mw2e_famas_anims\fire_glsetup.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	fadein 0.2
 	fadeout 0.2
@@ -455,7 +429,7 @@ $sequence "fire_glsetup" {
 }
 
 $sequence "glsetup_in" {
-	"c_mw3e_cm901_anims\glsetup_in.smd"
+	"c_mw2e_famas_anims\glsetup_in.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
@@ -463,7 +437,7 @@ $sequence "glsetup_in" {
 }
 
 $sequence "glsetup_out" {
-	"c_mw3e_cm901_anims\glsetup_out.smd"
+	"c_mw2e_famas_anims\glsetup_out.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -471,7 +445,7 @@ $sequence "glsetup_out" {
 }
 
 $sequence "sprint_in_glsetup" {
-	"c_mw3e_cm901_anims\sprint_in_glsetup.smd"
+	"c_mw2e_famas_anims\sprint_in_glsetup.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -479,7 +453,7 @@ $sequence "sprint_in_glsetup" {
 }
 
 $sequence "sprint_loop_glsetup" {
-	"c_mw3e_cm901_anims\sprint_loop_glsetup.smd"
+	"c_mw2e_famas_anims\sprint_loop_glsetup.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -487,16 +461,190 @@ $sequence "sprint_loop_glsetup" {
 }
 
 $sequence "sprint_out_glsetup" {
-	"c_mw3e_cm901_anims\sprint_out_glsetup.smd"
+	"c_mw2e_famas_anims\sprint_out_glsetup.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
 	fps 30
 }
 
-$collisionmodel "cm901.smd"
+$sequence "idle_mk" {
+	"c_mw2e_famas_anims\idle_mk.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "reload_mk" {
+	"c_mw2e_famas_anims\reload_mk.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "reload_empty_mk" {
+	"c_mw2e_famas_anims\reload_empty_mk.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "draw_mk" {
+	"c_mw2e_famas_anims\draw_mk.smd"
+	activity "ACT_VM_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "fire_mk" {
+	"c_mw2e_famas_anims\fire_mk.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "fire_ads_mk" {
+	"c_mw2e_famas_anims\fire_ads_mk.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "holster_mk" {
+	"c_mw2e_famas_anims\holster_mk.smd"
+	activity "ACT_VM_HOLSTER" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "sprint_in_mk" {
+	"c_mw2e_famas_anims\sprint_in_mk.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30
+}
+
+$sequence "sprint_loop_mk" {
+	"c_mw2e_famas_anims\sprint_loop_mk.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30
+}
+
+$sequence "sprint_out_mk" {
+	"c_mw2e_famas_anims\sprint_out_mk.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30
+}
+
+$sequence "idle_mksetup" {
+	"c_mw2e_famas_anims\idle_mksetup.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "reload_in_mksetup" {
+	"c_mw2e_famas_anims\reload_in_mksetup.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "reload_loop_mksetup" {
+	"c_mw2e_famas_anims\reload_loop_mksetup.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "reload_out_mksetup" {
+	"c_mw2e_famas_anims\reload_out_mksetup.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "fire_mksetup" {
+	"c_mw2e_famas_anims\fire_mksetup.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "pump_mksetup" {
+	"c_mw2e_famas_anims\pump_mksetup.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "mksetup_in" {
+	"c_mw2e_famas_anims\mksetup_in.smd"
+	activity "ACT_VM_DRAW_DEPLOYED" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "mksetup_out" {
+	"c_mw2e_famas_anims\mksetup_out.smd"
+	activity "ACT_VM_HOLSTER" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "sprint_in_mksetup" {
+	"c_mw2e_famas_anims\sprint_in_mksetup.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30
+}
+
+$sequence "sprint_loop_mksetup" {
+	"c_mw2e_famas_anims\sprint_loop_mksetup.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30
+}
+
+$sequence "sprint_out_mksetup" {
+	"c_mw2e_famas_anims\sprint_out_mksetup.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30
+}
+
+$collisionmodel "famas.smd"
 {
-	$mass 11
+	$mass 10
 	$inertia 1
 	$damping 0
 	$rotdamping 0
