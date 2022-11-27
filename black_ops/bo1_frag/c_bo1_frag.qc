@@ -1,13 +1,13 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_cod4_frag.mdl"
+$modelname "weapons/arc9/c_bo1_frag.mdl"
 $include "codrig.qci"
 $origin 0 0 0 -90
 $scale 0.375
 
 $bodygroup "0"
 {
-	studio "m67.smd"
+	studio "m67_nade.smd"
 }
 
 
@@ -15,9 +15,7 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
-
-$cdmaterials "models\weapons\arc9\cod4\cod4_grenades\"
+$cdmaterials "models\weapons\arc9\bo1\bo1_grenades\"
 
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
@@ -58,7 +56,7 @@ $sequence "throw" {
 	fps 30
 }
 
-$collisionmodel "m67.smd"
+$collisionmodel "m67_nade.smd"
 {
 	$mass 5
 	$inertia 1
