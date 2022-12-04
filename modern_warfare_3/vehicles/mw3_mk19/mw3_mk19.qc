@@ -15,6 +15,11 @@ $contents "solid"
 
 $cdmaterials "models\profiteers\defense\mw3_mk19\"
 
+// $attachment "swivel" "tag_aim_pivot" 0 0 0 rotate 0 0 0
+// $attachment "updown" "tag_aim_animated" 0 0 0 rotate 0 0 0
+$attachment "flash" "tag_flash" 0 0 0 rotate 0 0 0
+$attachment "laser" "tag_laser" 0 0 0 rotate 0 0 0
+
 $sequence "idle" {
 	"anims\propidle.smd"
 	activity "ACT_VM_IDLE" 1
@@ -25,7 +30,7 @@ $sequence "idle" {
 
 $collisionmodel "mk19.smd"
 {
-	$mass 1000
+	$mass 100
 	$inertia 10
 	$damping 0
 	$rotdamping 0
