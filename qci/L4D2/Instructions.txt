@@ -1,0 +1,5 @@
+Open Blender
+Import your L4D2 Weapon QC
+rename the weapon skeleton to source_skeleton
+Run Script
+Alignment issues might happen at first, but it should work.

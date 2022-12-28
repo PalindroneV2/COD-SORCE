@@ -17,7 +17,7 @@ $bodygroup "frame"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -10,7 +10,7 @@ $bodygroup "0"
 	studio "riotshield.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

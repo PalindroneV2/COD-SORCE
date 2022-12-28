@@ -9,7 +9,7 @@ $bodygroup "0"
 	studio "harrier.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

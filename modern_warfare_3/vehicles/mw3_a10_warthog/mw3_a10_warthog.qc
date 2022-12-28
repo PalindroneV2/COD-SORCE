@@ -9,7 +9,7 @@ $bodygroup "0"
 	studio "a10_warthog.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

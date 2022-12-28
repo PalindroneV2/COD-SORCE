@@ -9,7 +9,7 @@ $bodygroup "0"
 	studio "b52.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

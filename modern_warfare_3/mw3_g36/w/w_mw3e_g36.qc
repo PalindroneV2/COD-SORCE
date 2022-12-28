@@ -51,7 +51,7 @@ $bodygroup "ubrail"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -18,7 +18,7 @@ $bodygroup "barrel"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

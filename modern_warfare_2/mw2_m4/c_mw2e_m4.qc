@@ -37,7 +37,7 @@ $bodygroup "stock"
 	studio "stock_h"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

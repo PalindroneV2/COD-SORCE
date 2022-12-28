@@ -11,7 +11,7 @@ $bodygroup "0"
 	studio "gau19_w.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

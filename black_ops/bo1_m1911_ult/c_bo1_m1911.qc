@@ -55,7 +55,7 @@ $bodygroup "fmj"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

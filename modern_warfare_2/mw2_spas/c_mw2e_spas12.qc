@@ -22,7 +22,7 @@ $bodygroup "rail"
 	studio "stock.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

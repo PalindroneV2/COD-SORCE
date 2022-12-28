@@ -33,7 +33,7 @@ $bodygroup "muzzle"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

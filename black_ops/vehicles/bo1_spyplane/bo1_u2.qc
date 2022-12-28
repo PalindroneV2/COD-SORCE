@@ -9,7 +9,7 @@ $bodygroup "0"
 	studio "u2.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

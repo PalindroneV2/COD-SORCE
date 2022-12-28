@@ -30,7 +30,7 @@ $bodygroup "fastmag"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

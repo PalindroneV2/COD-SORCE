@@ -22,11 +22,15 @@ $bodygroup "sil"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 0 0 0 0 0
 
 $cdmaterials "models\weapons\arc9\waw\waw_p38\"
 
@@ -44,10 +48,6 @@ $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "3" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
-
-$cbox 0 0 0 0 0 0
-
-$bbox -8.829 -8.064 -14.424 28.905 8.064 0
 
 $sequence "idle" {
 	"anims\idle.smd"

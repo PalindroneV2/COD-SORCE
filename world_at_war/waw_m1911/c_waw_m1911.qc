@@ -7,8 +7,7 @@ $bodygroup "0"
 	studio "m1911.smd"
 }
 
-
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -42,7 +41,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -11.654 -9.939 -14.335 23.153 7.702 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

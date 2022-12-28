@@ -11,7 +11,7 @@ $bodygroup "arms"
 	studio "arms_bo2.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

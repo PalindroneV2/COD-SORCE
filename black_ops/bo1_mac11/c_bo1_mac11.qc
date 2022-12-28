@@ -28,7 +28,7 @@ $bodygroup "suppressor"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

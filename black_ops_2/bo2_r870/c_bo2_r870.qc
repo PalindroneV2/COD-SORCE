@@ -25,7 +25,7 @@ $bodygroup "shells"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

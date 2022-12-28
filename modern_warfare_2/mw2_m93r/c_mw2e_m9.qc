@@ -37,7 +37,7 @@ $bodygroup "5"
 	studio "stock_l.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

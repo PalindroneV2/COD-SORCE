@@ -19,11 +19,15 @@ $bodygroup "mag"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 0 0 0 0 0
 
 $cdmaterials "models\weapons\arc9\waw\waw_ppsh\"
 
@@ -38,10 +42,6 @@ $texturegroup "skinfamilies"
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
-
-$cbox 0 0 0 0 0 0
-
-$bbox -14.395 -10.314 -15.318 25.746 13.161 7.361
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

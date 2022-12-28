@@ -25,7 +25,7 @@ $bodygroup "muzzle"
 
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -47,7 +47,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -67.434 -12.959 -12.789 56.24 10.249 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

@@ -56,7 +56,7 @@ $bodygroup "supp"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -10,7 +10,7 @@ $bodygroup "0"
 	studio "m203.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -16,7 +16,7 @@ $bodygroup "rail"
 	blank
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -19,7 +19,7 @@ $bodygroup "bipod"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

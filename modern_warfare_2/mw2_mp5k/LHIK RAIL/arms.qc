@@ -6,7 +6,7 @@ $include "codrig.qci"
 $origin 0 0 0 -90
 $scale 0.375
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

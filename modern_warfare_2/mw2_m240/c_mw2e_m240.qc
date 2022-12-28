@@ -23,7 +23,7 @@ $bodygroup "2"
 	studio "bipod_w.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

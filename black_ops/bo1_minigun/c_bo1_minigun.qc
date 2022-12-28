@@ -14,7 +14,7 @@ $bodygroup "chute"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

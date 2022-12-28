@@ -125,11 +125,9 @@ $bodygroup "bolt"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
-
-$illumposition 0 -9.805 -6.259
 
 $cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
@@ -149,9 +147,11 @@ $attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "3" "tag_flash" 6.37 0 0 rotate 0 0 0
 $attachment "4" "tag_camera" 0 0 0 rotate 0 0 0
 
+$illumposition 0 0 0
+
 $cbox 0 0 0 0 0 0
 
-$bbox -13.966 -12.211 -12.646 32.899 8.613 0.725
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

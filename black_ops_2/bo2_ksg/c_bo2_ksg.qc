@@ -13,7 +13,7 @@ $bodygroup "sight"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

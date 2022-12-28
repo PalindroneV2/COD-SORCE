@@ -26,11 +26,9 @@ $bodygroup "3"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
-
-$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\waw\waw_stg44\"
 
@@ -46,9 +44,11 @@ $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "2" "tag_brass" 0 0 0 rotate 0 0 90
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
+$illumposition 0 0 0
+
 $cbox 0 0 0 0 0 0
 
-$bbox -10.473 -9.939 -13.784 48.806 8.049 4.725
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

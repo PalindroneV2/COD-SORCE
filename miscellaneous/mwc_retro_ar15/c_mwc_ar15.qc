@@ -124,7 +124,7 @@ $bodygroup "bolt"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

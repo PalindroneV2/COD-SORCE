@@ -17,7 +17,7 @@ $bodygroup "sparemag"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

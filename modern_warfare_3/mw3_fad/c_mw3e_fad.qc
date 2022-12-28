@@ -22,7 +22,7 @@ $bodygroup "ub"
 	studio "mk.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

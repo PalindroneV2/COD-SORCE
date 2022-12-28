@@ -9,7 +9,7 @@ $bodygroup "0"
 	studio "littlebird.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -19,7 +19,7 @@ $bodygroup "1"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -41,7 +41,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -3.827 -13.513 -13.233 48.808 8.273 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -358,7 +358,7 @@ $sequence "holster_empty" {
 	fps 30
 }
 
-$collisionmodel "c_waw_bar_physics.smd"
+$collisionmodel "bar.smd"
 {
 	$mass 10
 	$inertia 1

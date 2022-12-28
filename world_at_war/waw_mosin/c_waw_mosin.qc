@@ -20,11 +20,15 @@ $bodygroup "muzzle"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 39.621 -28.675 -14.527
+$illumposition 0 0 0
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 0 0 0 0 0
 
 $cdmaterials "models\weapons\arc9\waw\waw_mosin\"
 
@@ -39,10 +43,6 @@ $texturegroup "skinfamilies"
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "2" "tag_brass" 0 0 0 rotate 0 0 90
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
-
-$cbox 0 0 0 0 0 0
-
-$bbox -7.008 -13.231 -32.935 64.131 92.474 3.88
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

@@ -29,7 +29,7 @@ $bodygroup "4"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
