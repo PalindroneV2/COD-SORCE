@@ -40,8 +40,6 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
-
 $cdmaterials "models\weapons\arc9\bo2\bo2_xm8\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
 
@@ -58,9 +56,11 @@ $attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "3" "tag_suppressor" 0 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
+$illumposition 0 0 0
+
 $cbox 0 0 0 0 0 0
 
-$bbox -13.867 -13.215 -13.98 32.259 8.617 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

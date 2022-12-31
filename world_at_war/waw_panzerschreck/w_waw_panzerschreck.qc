@@ -5,7 +5,7 @@ $modelname "weapons/arc9/w_waw_panzerschreck.mdl"
 $bodygroup "0"
 {
 	studio "panzer_w.smd"
-	studio "panzer_w_2.smd"
+	studio "panzer_w.smd"
 }
 $bodygroup "1"
 {
@@ -299,7 +299,7 @@ $sequence "holster" {
 	fps 30
 }
 
-$collisionmodel "w_waw_panzerschreck_physics.smd"
+$collisionmodel "panzer_w.smd"
 {
 	$mass 20
 	$inertia 1

@@ -23,7 +23,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo2\bo2_pdw57\"
 
@@ -43,7 +43,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -12.183 -9.834 -11.864 21.957 8.064 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -371,7 +371,7 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "c_bo2_pdw57_physics.smd"
+$collisionmodel "pdww.smd"
 {
 	$mass 10
 	$inertia 1

@@ -1,13 +1,13 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_mw3e_riotshield.mdl"
+$modelname "weapons/arc9/w_mw3e_riotshield.mdl"
 $include "codrig.qci"
 $origin 0 0 0 -90
 $scale 0.375
 
 $bodygroup "0"
 {
-	studio "riotshield.smd"
+	studio "wiotshield.smd"
 }
 
 $surfaceprop "weapon"
@@ -15,6 +15,7 @@ $surfaceprop "weapon"
 $contents "solid"
 
 $illumposition 0 0 0
+
 $cdmaterials "models\weapons\arc9\mw3\mw3_riotshield\"
 
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
@@ -72,7 +73,7 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "riotshield.smd"
+$collisionmodel "wiotshield.smd"
 {
 	$mass 10
 	$inertia 1

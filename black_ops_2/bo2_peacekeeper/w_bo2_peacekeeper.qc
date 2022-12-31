@@ -5,7 +5,7 @@ $modelname "weapons/arc9/w_bo2_peacekeeper.mdl"
 $bodygroup "0"
 {
 	studio "PK_w.smd"
-	studio "PK.smd"
+	studio "PK_w.smd"
 }
 $bodygroup "1"
 {
@@ -30,7 +30,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo2\bo2_peacekeeper\"
 
@@ -49,7 +49,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -10.681 -8.17 -15.295 22.582 8.064 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

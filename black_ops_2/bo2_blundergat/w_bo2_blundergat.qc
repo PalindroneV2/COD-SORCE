@@ -5,12 +5,12 @@ $scale 0.375
 
 $bodygroup "0"
 {
-	studio "blunder.smd"
+	studio "w_blunder.smd"
 	studio "w_blunder.smd"
 }
 $bodygroup "1"
 {
-	studio "gat.smd"
+	studio "w_gat.smd"
 	studio "w_gat.smd"
 	studio "acid.smd"
 	studio "w_acid.smd"
@@ -18,7 +18,7 @@ $bodygroup "1"
 $bodygroup "2"
 {
 	blank
-	studio "armor.smd"
+	studio "w_armor.smd"
 	studio "w_armor.smd"
 }
 
