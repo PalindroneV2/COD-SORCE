@@ -32,10 +32,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_thompson\"
 
 $texturegroup "skinfamilies"
 {
-	{ "thompson" }
-	{ "pap_waw"  }
-	{ "pap_bo1"  }
-	{ "pap_bo2"  }
+	{   "thompson"      "thompson_1"   	}
+	{   "gold"          "gold"		}
+	{   "mob"           "thompson_1"	}
+	{   "cosmic"    	"gold"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
