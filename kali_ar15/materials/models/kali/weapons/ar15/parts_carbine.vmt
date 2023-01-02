@@ -1,8 +1,8 @@
 "VertexlitGeneric"
 {
 
-	"$basetexture" "models\Kali\Weapons\AR15\Parts_Carbine_C"
-	"$bumpmap" "models\Kali\Weapons\AR15\Parts_Carbine_N"
+	"$basetexture" "models/Kali/Weapons/AR15/Parts_Carbine_C"
+	"$bumpmap" "models/Kali/Weapons/AR15/Parts_Carbine_N"
 	"$halflambert" "1"				
 	"$nocull" 1		
 
@@ -12,7 +12,7 @@
 	"$envmapFresnel" "0.2"					
 
 	"$phong" "1"						
-	"$phongexponenttexture" "models\Kali\Weapons\AR15\Parts_Carbine_Exp"
+	"$phongexponenttexture" "models/Kali/Weapons/AR15/Parts_Carbine_Exp"
 	"$phongboost" "1.5"						
 	"$phongfresnelranges"	"[ .2 1.2 8]"	
 

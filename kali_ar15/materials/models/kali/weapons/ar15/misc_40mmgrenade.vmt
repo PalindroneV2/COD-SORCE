@@ -1,8 +1,8 @@
 "VertexlitGeneric"
 {
 
-	"$basetexture" "models\Kali\Weapons\AR15\Misc_40mmGrenade_C"
-	"$bumpmap" "models\Kali\Weapons\AR15\Misc_40mmGrenade_N"
+	"$basetexture" "models/Kali/Weapons/AR15/Misc_40mmGrenade_C"
+	"$bumpmap" "models/Kali/Weapons/AR15/Misc_40mmGrenade_N"
 	"$halflambert" "1"				
 	"$nocull" 1		
 
@@ -12,7 +12,7 @@
  	"$envmapFresnel" "0.5"					
 
 	"$phong" "1"						
-	"$phongexponenttexture" "models\Kali\Weapons\AR15\Misc_40mmGrenade_Exp"
+	"$phongexponenttexture" "models/Kali/Weapons/AR15/Misc_40mmGrenade_Exp"
 	"$phongboost" "0.15"						
 	"$phongfresnelranges"	"[ .2 1.2 8]"	
 

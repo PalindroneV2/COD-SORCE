@@ -1,8 +1,8 @@
 "VertexlitGeneric"
 {
 
-	"$basetexture" "models\Kali\Weapons\AR15\Misc_Tape_C"
-	"$bumpmap" "models\Kali\Weapons\AR15\Misc_Tape_N"
+	"$basetexture" "models/Kali/Weapons/AR15/Misc_Tape_C"
+	"$bumpmap" "models/Kali/Weapons/AR15/Misc_Tape_N"
 	"$halflambert" "1"				
 	"$nocull" 1		
 
