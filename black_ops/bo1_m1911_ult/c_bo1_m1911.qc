@@ -59,11 +59,11 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
-$cdmaterials "models\weapons\arc9\bo1\bo1_m1911\"
-$cdmaterials "models\weapons\arc9\bo3\bo3_m1911\"
-$cdmaterials "models\weapons\arc9\bocw\bocw_m1911\"
+$cdmaterials "models/weapons/arc9/bo1/bo1_m1911/"
+$cdmaterials "models/weapons/arc9/bo3/bo3_m1911/"
+$cdmaterials "models/weapons/arc9/bocw/bocw_m1911/"
 
 $texturegroup "skinfamilies"
 {
@@ -72,7 +72,8 @@ $texturegroup "skinfamilies"
 	{ "BO1_SP"  "BO1_SP_grip" "sp_frame"   "sp_grips" "sp_mag"     "sp_slide"   "sp_frame_base" "sp_grips_base" "sp_slide_base" "sp_slide_mid" "sp_slide_long"	}
 	{ "pap_waw" "BO2_grip"    "pap_waw_a2" "grips"    "pap_waw_a3" "pap_waw_a1" "pap_waw" "grips_base" "pap_waw" "pap_waw" "pap_waw"	}
 	{ "pap_bo1" "nickel_grip" "pap_bo1_a2" "n_grips"  "pap_bo1_a3" "pap_bo1_a1" "pap_bo1" "grips_base" "pap_bo1" "pap_bo1" "pap_bo1"	}
-	{ "pap_bo2" "nickel_grip" "pap_bo2_a2" "n_grips"  "pap_bo2_a3" "pap_bo2_a1" "gold_frame_base" "n_grips_base" "gold_slide_base" "gold_slide_mid" "gold_slide_long"	}
+	{ "gold" "nickel_grip" "gold_frame" "n_grips"  "gold_mag" "gold_slide" "gold_frame_base" "n_grips_base" "gold_slide_base" "gold_slide_mid" "gold_slide_long"	}
+	{ "pap_bo2" "nickel_grip" "pap_bo2_a2" "n_grips"  "gold_mag" "pap_bo2_a1" "gold_frame_base" "n_grips_base" "gold_slide_base" "gold_slide_mid" "gold_slide_long"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -81,7 +82,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -8.83 -8.064 -12.123 22.892 8.064 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -285,7 +286,7 @@ $bonemerge "tag_camera"
 
 
 $sequence "idle" {
-	"c_bo1_m1911_anims\idle.smd"
+	"c_bo1_m1911_anims/idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -293,7 +294,7 @@ $sequence "idle" {
 }
 
 $sequence "idle_empty" {
-	"c_bo1_m1911_anims\idle_empty.smd"
+	"c_bo1_m1911_anims/idle_empty.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -301,7 +302,7 @@ $sequence "idle_empty" {
 }
 
 $sequence "reload" {
-	"c_bo1_m1911_anims\reload.smd"
+	"c_bo1_m1911_anims/reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -309,7 +310,7 @@ $sequence "reload" {
 }
 
 $sequence "reload_empty" {
-	"c_bo1_m1911_anims\reload_empty.smd"
+	"c_bo1_m1911_anims/reload_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -317,7 +318,7 @@ $sequence "reload_empty" {
 }
 
 $sequence "draw" {
-	"c_bo1_m1911_anims\draw.smd"
+	"c_bo1_m1911_anims/draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -325,7 +326,7 @@ $sequence "draw" {
 }
 
 $sequence "draw_empty" {
-	"c_bo1_m1911_anims\draw_empty.smd"
+	"c_bo1_m1911_anims/draw_empty.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -333,7 +334,7 @@ $sequence "draw_empty" {
 }
 
 $sequence "first_draw" {
-	"c_bo1_m1911_anims\first_draw.smd"
+	"c_bo1_m1911_anims/first_draw.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
@@ -341,7 +342,7 @@ $sequence "first_draw" {
 }
 
 $sequence "fire" {
-	"c_bo1_m1911_anims\fire.smd"
+	"c_bo1_m1911_anims/fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -351,7 +352,7 @@ $sequence "fire" {
 }
 
 $sequence "fire_last" {
-	"c_bo1_m1911_anims\fire_last.smd"
+	"c_bo1_m1911_anims/fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -361,7 +362,7 @@ $sequence "fire_last" {
 }
 
 $sequence "fire_ads" {
-	"c_bo1_m1911_anims\fire_ads.smd"
+	"c_bo1_m1911_anims/fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -371,7 +372,7 @@ $sequence "fire_ads" {
 }
 
 $sequence "holster" {
-	"c_bo1_m1911_anims\holster.smd"
+	"c_bo1_m1911_anims/holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -379,7 +380,7 @@ $sequence "holster" {
 }
 
 $sequence "sprint_in" {
-	"c_bo1_m1911_anims\sprint_in.smd"
+	"c_bo1_m1911_anims/sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -387,7 +388,7 @@ $sequence "sprint_in" {
 }
 
 $sequence "sprint_loop" {
-	"c_bo1_m1911_anims\sprint_loop.smd"
+	"c_bo1_m1911_anims/sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -395,7 +396,7 @@ $sequence "sprint_loop" {
 }
 
 $sequence "sprint_out" {
-	"c_bo1_m1911_anims\sprint_out.smd"
+	"c_bo1_m1911_anims/sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -403,7 +404,7 @@ $sequence "sprint_out" {
 }
 
 $sequence "sprint_in_empty" {
-	"c_bo1_m1911_anims\sprint_in_empty.smd"
+	"c_bo1_m1911_anims/sprint_in_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -411,7 +412,7 @@ $sequence "sprint_in_empty" {
 }
 
 $sequence "sprint_loop_empty" {
-	"c_bo1_m1911_anims\sprint_loop_empty.smd"
+	"c_bo1_m1911_anims/sprint_loop_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
@@ -419,14 +420,14 @@ $sequence "sprint_loop_empty" {
 }
 
 $sequence "sprint_out_empty" {
-	"c_bo1_m1911_anims\sprint_out_empty.smd"
+	"c_bo1_m1911_anims/sprint_out_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
 	fps 10
 }
 
-$collisionmodel "c_bo1_m1911_physics.smd"
+$collisionmodel "phys.smd"
 {
 	$mass 10
 	$inertia 1
