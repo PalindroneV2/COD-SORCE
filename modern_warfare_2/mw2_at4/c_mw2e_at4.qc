@@ -15,7 +15,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\mw2\mw2_at4\"
 
@@ -32,7 +32,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.241 -9.698 -14.365 30.462 8.064 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
@@ -97,13 +97,6 @@ $sequence "reload" {
 	fps 30
 }
 
-$sequence "reload_ads" {
-	"anims\reload_ads.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
-
 $sequence "sprint_in" {
 	"anims\sprint_in.smd"
 	fadein 0.2
@@ -132,7 +125,7 @@ $collisionmodel "at4.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
+	$rootbone "j_gun"
 
 }
 
