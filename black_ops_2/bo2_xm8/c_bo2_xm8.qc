@@ -45,10 +45,10 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
 
 $texturegroup "skinfamilies"
 {
-	{ "xm8"	"xm8_1"	"xm8_2" }
-	{ "camo"	"camo"	"camo" }
-	{ "xm8"	"xm8_1"	"xm8_2" }
-	{ "pap_bo2"	"camo"	"camo" }
+	{ "xm8"		"xm8_1"	"xm8_2" }
+	{ "camo"	"camo"	"camo" 	}
+	{ "pap_bo2"	"xm8_1"	"xm8_2" }
+	{ "pap_bo2"	"camo"	"camo" 	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
