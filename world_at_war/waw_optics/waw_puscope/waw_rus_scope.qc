@@ -6,7 +6,7 @@ $staticprop
 
 $bodygroup "body"
 {
-	studio "rus_scope.smd"
+	studio "waw_puscope.smd"
 }
 
 
@@ -14,25 +14,22 @@ $surfaceprop "item"
 
 $contents "solid"
 
-$illumposition 0 -0.258 1.082
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\waw\waw_optics\"
 
 $cbox 0 0 0 0 0 0
 
-$bbox -4.273 -1.351 -0.302 4.784 1.351 2.478
-
-$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
-
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
-	"waw_rus_scope_anims\idle.smd"
+	"anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$collisionmodel "waw_rus_scope_physics.smd"
+$collisionmodel "waw_puscope.smd"
 {
 	$mass 5
 	$inertia 1
