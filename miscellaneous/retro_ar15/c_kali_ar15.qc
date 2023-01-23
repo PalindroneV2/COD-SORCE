@@ -29,9 +29,8 @@ $bodygroup "barrel"
 	studio "barrel_607.smd"
 	studio "barrel_fpw.smd"
 	studio "barrel_14_famas.smd"
-	studio "barrel_9mm.smd"
-	studio "barrel_11_sog.smd"
 	studio "a4_v2/barrel_7.smd"
+	studio "barrel_11_sog.smd"
 }
 $bodygroup "handguard"
 {
@@ -44,7 +43,7 @@ $bodygroup "handguard"
 	studio "handguard_607.smd"
 	studio "handguard_fpw.smd"
 	studio "handguard_famas.smd"
-	studio "handguard_9mm.smd"
+	studio "a4_v2/handguard_9mm.smd"
 	studio "handguard_ris_mw19.smd"
 	studio "a4_v2/handguard_hb.smd"
 	studio "a4_v2/handguard_hb_sbr.smd"
@@ -75,7 +74,6 @@ $bodygroup "stock"
 	studio "stock_gen3_e.smd"
 	studio "stock_sniper.smd"
 	studio "famas_stock.smd"
-	studio "famas_stock.smd"
 	studio "a4_v2/stock_hb_col.smd"
 	studio "a4_v2/stock_hb_ext.smd"
 	blank
@@ -90,6 +88,7 @@ $bodygroup "rail"
 	studio "famas_rail.smd"
 	studio "a4_v2/troy_rear.smd"
 	studio "a4_v2/irons_a2.smd"
+	studio "a4_v2/iron_masada.smd"
 }
 $bodygroup "strap"
 {
@@ -110,22 +109,27 @@ $bodygroup "frontsight"
 	blank
 	studio "troy_front_m16.smd"
 	studio "troy_front_carbine.smd"
+	studio "troy_front_mw19.smd"
 	studio "frontsight_usgi_m16.smd"
 	studio "frontsight_usgi_carbine.smd"
+	studio "frontsight_usgi_mw19.smd"
+	studio "a4_v2/frontsight_masada.smd"
+	studio "a4_v2/frontsight_masada_carbine.smd"
+	studio "a4_v2/frontsight_masada_mw19.smd"
 	studio "a4_v2/frontsight_9mm_up.smd"
 	studio "frontsight_9mm_down.smd"
-	studio "troy_front_mw19.smd"
-	studio "frontsight_usgi_mw19.smd"
 }
 $bodygroup "bolt"
 {
 	studio "bolt_A1.smd"
 	studio "bolt_mw3.smd"
 }
-$bodygroup "bolt"
+$bodygroup "railscovers"
 {
 	blank
 	studio "covers.smd"
+	studio "a4_v2/mlok_railslong.smd"
+	studio "a4_v2/mlok_rails_sbr.smd"
 }
 
 

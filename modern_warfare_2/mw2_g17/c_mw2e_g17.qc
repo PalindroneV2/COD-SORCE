@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/w_cod4_usp.mdl"
+$modelname "weapons/arc9/c_mw2e_g17.mdl"
 
 $include "codrig.qci"
 $origin 0 0 0 -90
@@ -8,8 +8,12 @@ $scale 0.375
 
 $bodygroup "body"
 {
-	studio "uspw.smd"
-	studio "uspw.smd"
+	studio "g17.smd"
+	studio "g17_w.smd"
+}
+$bodygroup "mag"
+{
+	studio "mag.smd"
 }
 
 $surfaceprop "weapon"
@@ -18,12 +22,14 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models\weapons\arc9\cod4\cod4_usp\"
+$cdmaterials "models/weapons/arc9/mw2/mw2_glock/"
 
 $texturegroup "skinfamilies"
 {
-	{	"usp"	"usp_1"		}
-	{	"usp"	"pap_bo2"	}
+	{	"g17"		"g17_color"	}
+	{	"g17_camo"	"g17_camo"	}
+	{	"pap_bo1"	"g17_color"	}
+	{	"pap_bo1"	"g17_camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -36,14 +42,14 @@ $bbox 0 0 0 0 0 0
 
 
 $sequence "idle" {
-	"anims\idle.smd"
+	"anims/idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 $sequence "idle_empty" {
-	"anims\idle_empty.smd"
+	"anims/idle_empty.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -51,7 +57,7 @@ $sequence "idle_empty" {
 }
 
 $sequence "reload" {
-	"anims\reload.smd"
+	"anims/reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -59,7 +65,7 @@ $sequence "reload" {
 }
 
 $sequence "reload_empty" {
-	"anims\reload_empty.smd"
+	"anims/reload_empty.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -67,14 +73,14 @@ $sequence "reload_empty" {
 }
 
 $sequence "draw" {
-	"anims\draw.smd"
+	"anims/draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 $sequence "draw_empty" {
-	"anims\draw_empty.smd"
+	"anims/draw_empty.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -82,7 +88,7 @@ $sequence "draw_empty" {
 }
 
 $sequence "fire" {
-	"anims\fire.smd"
+	"anims/fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -92,7 +98,7 @@ $sequence "fire" {
 }
 
 $sequence "fire_last" {
-	"anims\fire_last.smd"
+	"anims/fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -102,7 +108,7 @@ $sequence "fire_last" {
 }
 
 $sequence "fire_ads" {
-	"anims\fire_ads.smd"
+	"anims/fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -112,7 +118,7 @@ $sequence "fire_ads" {
 }
 
 $sequence "holster" {
-	"anims\holster.smd"
+	"anims/holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -120,7 +126,7 @@ $sequence "holster" {
 }
 
 $sequence "holster_empty" {
-	"anims\holster_empty.smd"
+	"anims/holster_empty.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -128,7 +134,7 @@ $sequence "holster_empty" {
 }
 
 $sequence "sprint_in" {
-	"anims\sprint_in.smd"
+	"anims/sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -136,7 +142,7 @@ $sequence "sprint_in" {
 }
 
 $sequence "sprint_loop" {
-	"anims\sprint_loop.smd"
+	"anims/sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -144,7 +150,7 @@ $sequence "sprint_loop" {
 }
 
 $sequence "sprint_out" {
-	"anims\sprint_out.smd"
+	"anims/sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -152,7 +158,7 @@ $sequence "sprint_out" {
 }
 
 $sequence "sprint_in_empty" {
-	"anims\sprint_in_empty.smd"
+	"anims/sprint_in_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -160,7 +166,7 @@ $sequence "sprint_in_empty" {
 }
 
 $sequence "sprint_loop_empty" {
-	"anims\sprint_loop_empty.smd"
+	"anims/sprint_loop_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -168,14 +174,14 @@ $sequence "sprint_loop_empty" {
 }
 
 $sequence "sprint_out_empty" {
-	"anims\sprint_out_empty.smd"
+	"anims/sprint_out_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$collisionmodel "uspw.smd"
+$collisionmodel "g17_w.smd"
 {
 	$mass 10
 	$inertia 1

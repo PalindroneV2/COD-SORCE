@@ -10,6 +10,11 @@ $bodygroup "0"
 	studio "gau19.smd"
 	studio "gau19_w.smd"
 }
+$bodygroup "1"
+{
+	studio "boolet.smd"
+	blank
+}
 
 $surfaceprop "weapon"
 
