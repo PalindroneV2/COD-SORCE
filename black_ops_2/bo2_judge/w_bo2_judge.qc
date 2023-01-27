@@ -17,7 +17,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo2\bo2_judge\"
 
@@ -35,7 +35,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -8.831 -8.064 -14.757 27.703 8.064 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

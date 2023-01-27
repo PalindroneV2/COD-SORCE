@@ -14,7 +14,7 @@ $bodygroup "sight"
 $bodygroup "stock"
 {
 	studio "spas12_stock.smd"
-	studio "spas12_stock_back.smd"
+	studio "spas12_stock_back2.smd"
 	blank
 }
 

@@ -15,16 +15,15 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
-
 $cdmaterials "models\weapons\arc9\cod4\cod4_grenades\"
 
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
+$illumposition 0 0 0
+
 $cbox 0 0 0 0 0 0
 
-$bbox -13.731 -12.854 -13.835 32.596 8.744 0.057
-$sectionframes 30 155
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
@@ -32,6 +31,7 @@ $sequence "idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "pickup" {
@@ -40,6 +40,7 @@ $sequence "pickup" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "pullpin" {
@@ -48,6 +49,7 @@ $sequence "pullpin" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "throw" {
@@ -56,6 +58,7 @@ $sequence "throw" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $collisionmodel "m67.smd"
