@@ -16,12 +16,11 @@ $bodygroup "frame"
 	blank
 }
 
-
 $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo1\bo1_makarov\"
 
@@ -39,7 +38,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -109.493 -8.064 -26.76 18.765 9.232 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
@@ -47,6 +46,7 @@ $sequence "idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "idle_empty" {
@@ -55,6 +55,7 @@ $sequence "idle_empty" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload" {

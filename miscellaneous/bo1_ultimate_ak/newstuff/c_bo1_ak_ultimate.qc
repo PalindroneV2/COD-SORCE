@@ -77,7 +77,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cde\bo1_ak_ultimate\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"

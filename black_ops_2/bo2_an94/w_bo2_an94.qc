@@ -41,7 +41,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo2\bo2_an94\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
@@ -61,7 +61,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -23.823 -8.064 -35.808 33.535 8.945 0.119
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -275,6 +275,7 @@ $sequence "idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload" {
@@ -387,6 +388,7 @@ $sequence "idle_gl" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload_gl" {
@@ -558,13 +560,13 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "w_bo2_an94_physics.smd"
+$collisionmodel "an94.smd"
 {
 	$mass 10
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
+	$rootbone "j_gun"
 
 }
 

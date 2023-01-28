@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_bo2_fiveseven.mdl"
+$modelname "weapons/arc9/w_bo2_fiveseven.mdl"
 
 $bodygroup "frame"
 {
@@ -13,7 +13,7 @@ $bodygroup "irons"
 }
 $bodygroup "sparemag"
 {
-	studio "sparemag.smd"
+	blank
 }
 
 
@@ -21,7 +21,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo2\bo2_fiveseven\"
 
@@ -39,7 +39,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -118.053 -8.064 -75.945 19.549 9.233 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -245,17 +245,15 @@ $bonemerge "tag_camera"
 $sequence "idle" {
 	"c_bo2_fiveseven_anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "idle_empty" {
 	"c_bo2_fiveseven_anims\idle_empty.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload" {
@@ -384,7 +382,7 @@ $sequence "sprint_out_empty" {
 	fps 30
 }
 
-$collisionmodel "c_bo2_fiveseven_physics.smd"
+$collisionmodel "fiveseven.smd"
 {
 	$mass 10
 	$inertia 1

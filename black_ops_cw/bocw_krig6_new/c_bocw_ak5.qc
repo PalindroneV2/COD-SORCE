@@ -47,7 +47,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 $cdmaterials "models\weapons\arc9\cde\bocw_krig6\"

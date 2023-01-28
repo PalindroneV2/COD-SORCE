@@ -28,7 +28,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\mw2\mw2_fnfal\"
 $cdmaterials "models\weapons\arc9\mw3\mw3_m203\"
@@ -56,6 +56,7 @@ $sequence "idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30 // 30
+	snap
 }
 
 $sequence "reload" {
@@ -64,6 +65,7 @@ $sequence "reload" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30 // 100
+	snap
 }
 
 $sequence "reload_empty" {
@@ -140,6 +142,7 @@ $sequence "idle_gl" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30 // 30
+	snap
 }
 
 $sequence "reload_gl" {
@@ -305,6 +308,7 @@ $sequence "idle_mk" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30 // 30
+	snap
 }
 
 $sequence "reload_mk" {

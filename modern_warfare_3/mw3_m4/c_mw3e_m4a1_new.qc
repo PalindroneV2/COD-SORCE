@@ -74,7 +74,7 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\mw3\mw3_m4\"
 $cdmaterials "models\weapons\arc9\mw3\mw3_m203\"
@@ -97,7 +97,7 @@ $attachment "6" "tag_flash_mk18" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.837 -12.36 -12.942 36.154 6.048 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
