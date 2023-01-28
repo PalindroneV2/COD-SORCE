@@ -32,10 +32,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_l86\"
 
 $texturegroup "skinfamilies"
 {
-	{ "l86_camo" }
-	{ "pap_waw"  }
-	{ "pap_bo1"  }
-	{ "pap_bo2"  }
+	{	"l86"		"l86_camo"	}
+	{	"camo"		"camo"		}
+	{	"pap_bo1"	"l86_camo"	}
+	{	"pap_bo1"	"camo"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
