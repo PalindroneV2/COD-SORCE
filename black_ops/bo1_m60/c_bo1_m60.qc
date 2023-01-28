@@ -6,6 +6,11 @@ $bodygroup "0"
 {
 	studio "m60_body.smd"
 }
+$bodygroup "0"
+{
+	studio "barrel_nam.smd"
+	studio "barrel_e3.smd"
+}
 $bodygroup "1"
 {
 	studio "m60_box.smd"
@@ -20,6 +25,8 @@ $bodygroup "2"
 $bodygroup "3"
 {
 	blank
+	studio "heat_bipod_up.smd"
+	studio "heat_bipod_down.smd"
 	studio "bipod_up.smd"
 	studio "bipod_down.smd"
 }
@@ -40,14 +47,14 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_m60\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m60"     "m60_misc" "m60_alpha"}
-	{ "m60_camo" "m60_miscamo" "m60_alphacamo"}
-	{ "pap_waw" "m60_miscamo" "m60_alphacamo"}
-	{ "pap_waw"     "m60_misc" "m60_alpha"}
-	{ "pap_bo1" "m60_miscamo" "m60_alphacamo"}
-	{ "pap_bo1"     "m60_misc" "m60_alpha"}
-	{ "pap_bo2" "m60_miscamo" "m60_alphacamo"}
-	{ "pap_bo2"     "m60_misc" "m60_alpha"}
+	{ "m60"     	"m60_misc"		"m60_alpha"		}
+	{ "m60_camo" 	"m60_miscamo"	"m60_alphacamo"	}
+	{ "pap_waw" 	"m60_miscamo"	"m60_alphacamo"	}
+	{ "pap_waw"     "m60_misc" 		"m60_alpha"		}
+	{ "pap_bo1" 	"m60_miscamo" 	"m60_alphacamo"	}
+	{ "pap_bo1"     "m60_misc"		"m60_alpha"		}
+	{ "pap_bo2" 	"m60_miscamo"	"m60_alphacamo"	}
+	{ "pap_bo2"     "m60_misc" 		"m60_alpha"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -57,7 +64,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -4.639 -10.2 -16.875 40.805 8.582 0.57
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -407,9 +414,9 @@ $sequence "sprint_out_grip" {
 	fps 10
 }
 
-$collisionmodel "c_bo1_m60_physics.smd"
+$collisionmodel "phys.smd"
 {
-	$mass 10
+	$mass 16
 	$inertia 1
 	$damping 0
 	$rotdamping 0
