@@ -38,10 +38,10 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_m60\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m60_camo" }
-	{ "golden"  }
-	{ "pap_bo1"  }
-	{ "pap_bo2"  }
+	{	"m60_camo"	}
+	{	"camo"	}
+	{	"golden"	}
+	{	"pap_bo1"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -50,7 +50,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -7.543 -10.2 -16.875 37.853 8.582 0.258
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0

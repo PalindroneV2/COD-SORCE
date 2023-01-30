@@ -33,10 +33,10 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_rpd\"
 
 $texturegroup "skinfamilies"
 {
-	{ "rpd"     }
-	{ "pap_waw" }
-	{ "pap_bo1" }
-	{ "pap_bo2" }
+	{ "rpd"     "rpd_1"	}
+	{ "camo"     "rpd_1"	}
+	{ "pap_bo2"     "rpd_1"	}
+	{ "pap_bo2"     "rpd_1"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

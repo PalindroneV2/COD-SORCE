@@ -61,10 +61,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_m203\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m4m16_camo" }
-	{ "pap_waw"    }
-	{ "pap_bo1"    }
-	{ "pap_bo2"    }
+	{	"m4m16_camo"	"m4m16"	}
+	{	"m4m16_camo"	"camo"	}
+	{	"pap_bo1"		"m4m16"	}
+	{	"pap_bo1"		"camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -75,7 +75,7 @@ $attachment "5" "tag_flash" -4.69 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.966 -11.868 -11.657 33.849 8.583 1.466
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -485,7 +485,7 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_m4m16_physics.smd"
+$collisionmodel "receiver.smd"
 {
 	$mass 10
 	$inertia 1

@@ -21,8 +21,10 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_m82\"
 
 $texturegroup "skinfamilies"
 {
-	{	"m82"	"m82_nocamo"	}
+	{	"m82"		"m82_nocamo"	}
+	{	"camo"		"m82_nocamo"	}
 	{	"pap_bo2"	"m82_nocamo"	}
+	{	"pap_bo2"	"camo"			}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

@@ -27,7 +27,9 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_skorpion\"
 $texturegroup "skinfamilies"
 {
 	{	"skorpion"	"skorpion_nocamo"	}
+	{	"kamo"		"skorpion_nocamo"	}
 	{	"pap_bo2"	"skorpion_nocamo"	}
+	{	"pap_bo2"	"kamo"				}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

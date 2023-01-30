@@ -37,22 +37,10 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_mp5\"
 
 $texturegroup "skinfamilies"
 {
-	{ "cod4_camo" "cod4_color" "mw3_camo" "mw3_color" }
-	{ "pap_waw"   "cod4_color" "pap_waw"  "mw3_color" }
-	{ "pap_bo1"   "cod4_color" "pap_bo1"  "mw3_color" }
-	{ "pap_bo2"   "cod4_color" "pap_bo2"  "mw3_color" }
-	{ "cod4_camo" "cod4_blue"  "mw3_camo" "mw3_blue"  }
-	{ "pap_waw"   "cod4_blue"  "pap_waw"  "mw3_blue"  }
-	{ "pap_bo1"   "cod4_blue"  "pap_bo1"  "mw3_blue"  }
-	{ "pap_bo2"   "cod4_blue"  "pap_bo2"  "mw3_blue"  }
-	{ "cod4_camo" "cod4_green" "mw3_camo" "mw3_green" }
-	{ "pap_waw"   "cod4_green" "pap_waw"  "mw3_green" }
-	{ "pap_bo1"   "cod4_green" "pap_bo1"  "mw3_green" }
-	{ "pap_bo2"   "cod4_green" "pap_bo2"  "mw3_green" }
-	{ "cod4_camo" "cod4_tan"   "mw3_camo" "mw3_tan"   }
-	{ "pap_waw"   "cod4_tan"   "pap_waw"  "mw3_tan"   }
-	{ "pap_bo1"   "cod4_tan"   "pap_bo1"  "mw3_tan"   }
-	{ "pap_bo2"   "cod4_tan"   "pap_bo2"  "mw3_tan"   }
+	{ "cod4_camo" "cod4_color" "mw3_camo" "mw3_color"	"cod4_sd" }
+	{ "cod4_camo" "camo_cod4"  "camo_mw3" "camo_mw3"	"camo_sd" }
+	{ "pap_bo1"   "cod4_color" "pap_bo1"  "mw3_color" 	"cod4_sd" }
+	{ "pap_bo1"   "camo_cod4"  "pap_bo1"  "camo_mw3"	"camo_sd" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -61,7 +49,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -10.187 -12.694 -15.008 29.589 6.08 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -317,7 +305,7 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_mp5_physics.smd"
+$collisionmodel "mp5.smd"
 {
 	$mass 10
 	$inertia 1

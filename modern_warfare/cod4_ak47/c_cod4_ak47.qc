@@ -42,25 +42,23 @@ $cdmaterials "models\weapons\arc9\mw2\mw2_ak47\"
 
 $texturegroup "skinfamilies"
 {
-	{ "ak47" "ak47_camo" "ak_tactical"   "ak_tactical_color" "ak_tactical_camo" }
-	{ "ak47" "pap_waw"   "ak_tactical"   "ak_tactical_color" "pap_waw"          }
-	{ "ak47" "pap_bo1"   "ak_tactical"   "ak_tactical_color" "pap_bo1"          }
-	{ "ak47" "pap_bo2"   "ak_tactical"   "ak_tactical_color" "pap_bo2"          }
-	{ "gold" "gold"      "gold_tactical" "ak_tactical_black" "gold_tactical"    }
-	{ "gold" "pap_waw"   "gold_tactical" "ak_tactical_black" "pap_waw"          }
-	{ "gold" "pap_bo1"   "gold_tactical" "ak_tactical_black" "pap_bo1"          }
-	{ "gold" "pap_bo2"   "gold_tactical" "ak_tactical_black" "pap_bo2"          }
+	{ "ak47" "ak47_camo"	"ak47_wood"	 "ak_tactical"  "ak_tactical_color" 	"ak_tactical_camo" 	}
+	{ "ak47" "ak47_camo"	"camo"  	 "camo_mw2"		"camo_mw2" 				"ak_tactical_camo" 	}
+	{ "ak47" "pap_bo2"		"ak47_wood"  "ak_tactical"  "ak_tactical_color" 	"ak_tactical_camo" 	}
+	{ "ak47" "pap_bo2"		"camo"		 "camo_mw2"		"camo_mw2" 				"ak_tactical_camo" 	}
+	{ "gold" "gold"			"ak47_wood"  "gold_tactical" "ak_tactical_black" 	"gold_tactical"		}
+	{ "gold" "gold"			"camo"  	 "camo_mw2" 	"camo_mw2" 				"gold_tactical"		}
+	{ "gold" "gold"			"ak47_wood"  "gold_tactical" "ak_tactical_black" 	"gold_tactical"		}
+	{ "gold" "gold"			"camo"		 "camo_mw2" 	"camo_mw2" 				"gold_tactical"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
-$attachment "3" "tag_flash" 3.75 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
-$attachment "5" "tag_flash" -4.69 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -8.254 -14.261 -12.062 32.519 8.064 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -471,7 +469,7 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_ak47_physics.smd"
+$collisionmodel "ak47.smd"
 {
 	$mass 10
 	$inertia 1
