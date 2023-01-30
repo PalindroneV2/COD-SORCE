@@ -20,10 +20,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_optics\"
 
 $texturegroup "skinfamilies"
 {
-	{   "mauser_scope"  			"mauser_scope_1"		}
-	{   "mauser_scope_gold"         "mauser_scope_gold"		}
-	{   "mauser_scope_pap"          "mauser_scope_1"		}
-	{   "mauser_scope_cosmic"    	"mauser_scope_gold"		}
+	{   "mauser_scope"  			"mauser_scope_1"				}
+	{   "mauser_scope_gold"         "mauser_scope_gold"				}
+	{   "mauser_scope_pap"          "mauser_scope_diesel"			}
+	{   "mauser_scope_cosmic"    	"mauser_scope_gold_diesel"		}
 }
 
 $attachment "tag_scope" "tag_scope" 0 0 0 rotate 0 0 0

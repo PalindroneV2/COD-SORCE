@@ -25,10 +25,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_mg08\"
 
 $texturegroup "skinfamilies"
 {
-	{ "mg08"	"mg08_1"     "mag_1"	"mag"	}
-	{ "gold"	"gold"     "gold_mag"	"gold_mag"	}
-	{ "pap"	"pap"     "pap_mag"	"pap_mag"	}
-	{ "cosmic_mag"	"gold"     "cosmic_mag"	"gold_mag"	}
+	{ "mg08"		"mg08_1"		"mag_1"			"mag"			}
+	{ "gold"		"gold"			"gold_mag"		"gold_mag"		}
+	{ "diesel"		"pap"   		"diesel"		"pap_mag"		}
+	{ "gold_diesel"	"cosmic"		"gold_diesel"	"cosmic_mag"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

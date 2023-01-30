@@ -20,10 +20,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_c96\"
 
 $texturegroup "skinfamilies"
 {
-	{   "c96"         	"c96_2"		}
-	{   "gold"          "gold"		}
-	{   "pap"           "c96_2"		}
-	{   "cosmic"    	"gold"		}
+	{   "c96"         	"c96_2"			}
+	{   "gold"          "gold"			}
+	{   "pap"           "diesel"		}
+	{   "cosmic"    	"gold_diesel"	}
 }
 
 $attachment "flash" "tag_flash" 0 0 0 rotate 0 0 0

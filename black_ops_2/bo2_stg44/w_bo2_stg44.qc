@@ -67,8 +67,8 @@ $texturegroup "skinfamilies"
 {
 	{   "stg44"         "stg44_2"   }
 	{   "gold"          "gold_1"    }
-	{   "pap"           "stg44_2"   }
-	{   "cosmic"    	"gold_1"    }
+	{   "pap"           "diesel"   }
+	{   "cosmic"    	"gold_diesel"    }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

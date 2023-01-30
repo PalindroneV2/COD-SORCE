@@ -32,10 +32,10 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_mp40\"
 
 $texturegroup "skinfamilies"
 {
-	{   "mp40"         	"mp40_1"	}
-	{   "gold"          "gold"		}
-	{   "pap"           "mp40_1"	}
-	{   "cosmic"    	"gold"		}
+	{   "mp40"         	"mp40_1"			}
+	{   "gold"          "gold"				}
+	{   "pap"           "diesel"			}
+	{   "cosmic"    	"gold_diesel"		}
 }
 
 $attachment "flash" "tag_flash" 0 0 0 rotate 0 0 0
