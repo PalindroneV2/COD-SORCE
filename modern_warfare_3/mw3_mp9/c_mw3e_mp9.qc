@@ -26,10 +26,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_mp9\"
 
 $texturegroup "skinfamilies"
 {
-	{ "mp9_camo" }
-	{ "pap_waw"  }
-	{ "pap_bo1"  }
-	{ "pap_bo2"  }
+	{	"mp9_camo"	"mp9"		"tmp_camo"	"tmp"		}
+	{	"mp9_camo2"	"mp9_camo2"	"tmp_camo2"	"tmp_camo2"	}
+	{	"pap_bo1"	"mp9"		"pap_bo1"	"tmp"		}
+	{	"pap_bo1"	"mp9_camo2"	"pap_bo1"	"tmp_camo2"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -38,7 +38,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -5.845 -8.064 -14.156 20.735 8.064 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -369,7 +369,7 @@ $sequence "sprint_out_1h" {
 	fps 30
 }
 
-$collisionmodel "c_mw3e_mp9_physics.smd"
+$collisionmodel "mp9.smd"
 {
 	$mass 10
 	$inertia 1
