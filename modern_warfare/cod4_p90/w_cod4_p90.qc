@@ -35,6 +35,8 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_p90\"
 $texturegroup "skinfamilies"
 {
 	{	"p90"       "p90_1" "p90_2" }
+	{	"camo"      "p90_1" "p90_2" }
+	{	"pap_bo1"   "p90_1" "p90_2" }
 	{	"pap_bo1"   "p90_1" "p90_2" }
 }
 

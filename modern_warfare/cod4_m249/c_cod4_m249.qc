@@ -47,9 +47,8 @@ $cdmaterials "models\weapons\arc9\cod4\cod4_m249\"
 $texturegroup "skinfamilies"
 {
 	{ "saw"     }
-	{ "pap_waw" }
+	{ "camo" 	}
 	{ "pap_bo1" }
-	{ "pap_bo2" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

@@ -23,20 +23,20 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cod4\cod4_uzi\"
 
 $texturegroup "skinfamilies"
 {
 	{ "uzi_camo"    "uzi"    }
-	{ "pap_waw"     "uzi"    }
-	{ "pap_bo1"     "uzi"    }
-	{ "pap_bo2"     "uzi"    }
+	{ "camo" 		"uzi" 	 }
 	{ "golden_camo" "golden" }
-	{ "pap_waw"     "golden" }
-	{ "pap_bo1"     "golden" }
+	{ "camo"		"golden" }
+	{ "pap_bo2"     "uzi"    }
+	{ "pap_bo2"     "camo"	 }
 	{ "pap_bo2"     "golden" }
+	{ "pap_bo2"     "camo" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -45,7 +45,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -5.845 -8.064 -24.981 22.344 13.421 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -302,7 +302,7 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_uzi_physics.smd"
+$collisionmodel "uzi.smd"
 {
 	$mass 10
 	$inertia 1

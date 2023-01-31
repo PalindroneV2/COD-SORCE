@@ -47,17 +47,11 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_m203\"
 $texturegroup "skinfamilies"
 {
 	{ "m14"      "m14_camo" "m14_scope"      }
-	{ "m14"      "pap_waw"  "m14_scope"      }
-	{ "m14"      "pap_bo1"  "m14_scope"      }
-	{ "m14"      "pap_bo2"  "m14_scope"      }
+	{ "m14"      "camo" 	"m14_scope"      }
 	{ "woodland" "woodland" "woodland_scope" }
-	{ "woodland" "pap_waw"  "woodland_scope" }
-	{ "woodland" "pap_bo1"  "woodland_scope" }
-	{ "woodland" "pap_bo2"  "woodland_scope" }
-	{ "m14"      "m14_wood" "m14_scope"      }
-	{ "m14"      "pap_waw"  "m14_scope"      }
-	{ "m14"      "pap_bo1"  "m14_scope"      }
 	{ "m14"      "pap_bo2"  "m14_scope"      }
+	{ "m14"      "pap_bo2"  "m14_scope"      }
+	{ "woodland" "pap_bo2"  "woodland_scope" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -66,7 +60,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -15.305 -15.133 -10.744 36.017 4.323 2.37
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -507,9 +501,9 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_m14_physics.smd"
+$collisionmodel "m14.smd"
 {
-	$mass 14
+	$mass 12
 	$inertia 1
 	$damping 0
 	$rotdamping 0

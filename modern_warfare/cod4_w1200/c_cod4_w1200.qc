@@ -22,16 +22,16 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cod4\cod4_w1200\"
 
 $texturegroup "skinfamilies"
 {
-	{ "w1200_camo" }
-	{ "pap_waw"    }
-	{ "pap_bo1"    }
-	{ "pap_bo2"    }
+	{	"w1200_camo"	"w1200"	}
+	{	"camo"			"w1200"	}
+	{	"pap_bo1"		"w1200"	}
+	{	"pap_bo1"		"w1200"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -41,7 +41,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -7.639 -11.129 -13.134 37.71 5 0.053
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -424,7 +424,7 @@ $sequence "sprint_out_grip" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_w1200_physics.smd"
+$collisionmodel "w1200.smd"
 {
 	$mass 15
 	$inertia 1

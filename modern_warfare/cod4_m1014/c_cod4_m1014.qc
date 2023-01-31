@@ -28,16 +28,16 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cod4\cod4_m1014\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m1014_camo" }
-	{ "pap_waw"    }
-	{ "pap_bo1"    }
-	{ "pap_bo2"    }
+	{	"m1014_camo"	"m1014"	}
+	{	"camo"			"m1014"	}
+	{	"pap_bo1"		"m1014"	}
+	{	"pap_bo1"		"m1014"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -47,7 +47,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -7.786 -12.096 -16.706 34.099 5 0
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -406,9 +406,9 @@ $sequence "sprint_out_grip" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_m1014_physics.smd"
+$collisionmodel "m1014.smd"
 {
-	$mass 15
+	$mass 12
 	$inertia 1
 	$damping 0
 	$rotdamping 0

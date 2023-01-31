@@ -12,16 +12,16 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0 -9.805 -6.259
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cod4\cod4_r700\"
 
 $texturegroup "skinfamilies"
 {
-	{ "r700_camo" }
-	{ "pap_waw"   }
-	{ "pap_bo1"   }
-	{ "pap_bo2"   }
+	{	"r700_camo"	"r700_color"	}
+	{	"r700_camo"	"camo"			}
+	{	"pap_bo1"	"r700_color"	}
+	{	"pap_bo1"	"camo"			}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -30,7 +30,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -15.488 -14.887 -10.964 36.941 4.824 1.612
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -304,7 +304,7 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "c_cod4_r700_physics.smd"
+$collisionmodel "r700.smd"
 {
 	$mass 11
 	$inertia 1
