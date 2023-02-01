@@ -10,6 +10,11 @@ $bodygroup "body"
 {
 	studio "m82.smd"
 }
+$bodygroup "body"
+{
+	studio "muzzle.smd"
+	blank
+}
 
 $surfaceprop "weapon"
 

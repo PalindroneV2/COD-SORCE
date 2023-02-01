@@ -9,7 +9,12 @@ $bodygroup "0"
 {
 	studio "as50.smd"
 }
-$bodygroup "0"
+$bodygroup "1"
+{
+	studio "muzzle.smd"
+	blank
+}
+$bodygroup "2"
 {
 	studio "boolet.smd"
 	blank

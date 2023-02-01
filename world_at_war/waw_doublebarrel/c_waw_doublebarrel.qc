@@ -386,7 +386,7 @@ $sequence "holster_grip" {
 	fps 30
 }
 
-$collisionmodel "c_waw_doublebarrel_physics.smd"
+$collisionmodel "phys.smd"
 {
 	$mass 10
 	$inertia 1
