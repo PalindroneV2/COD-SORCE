@@ -23,9 +23,6 @@ $cbox 0 0 0 0 0 0
 
 $bbox 0 0 0 0 0 0
 
-$definebone "rail_att" "rail_att" 0 0 0 0 0 0 0 0 0 0 0 0
-
-
 $sequence "idle" {
 	"anims\propidle.smd"
 	fadein 0.2
