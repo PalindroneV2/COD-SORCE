@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/bo1_reflex.mdl"
+$modelname "weapons/arc9/atts/bo1_reflex_w.mdl"
 
 $bodygroup "body"
 {

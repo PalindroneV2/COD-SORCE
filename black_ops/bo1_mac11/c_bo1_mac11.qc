@@ -21,6 +21,7 @@ $bodygroup "mount"
 }
 $bodygroup "stock"
 {
+	blank
 	studio "stock_0.smd"
 	studio "stock_1.smd"
 }
