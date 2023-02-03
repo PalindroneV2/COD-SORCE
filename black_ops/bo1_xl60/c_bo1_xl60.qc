@@ -53,7 +53,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -12.679 -8.064 -12.712 28.451 8.096 0.046
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -522,7 +522,7 @@ $sequence "idle_mk" {
 }
 
 $sequence "reload_mk" {
-	"c_bo1_xl60_anims\reload_mk.smd"
+	"anims\reload_mk.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -530,7 +530,7 @@ $sequence "reload_mk" {
 }
 
 $sequence "reload_empty_mk" {
-	"c_bo1_xl60_anims\reload_empty_mk.smd"
+	"anims\reload_empty_mk.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -614,19 +614,21 @@ $sequence "idle_mksetup" {
 }
 
 $sequence "reload_in_mksetup" {
-	"c_bo1_xl60_anims\reload_in_mksetup.smd"
+	"anims\reload_in_mksetup.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload_loop_mksetup" {
-	"c_bo1_xl60_anims\reload_loop_mksetup.smd"
+	"anims\reload_loop_mksetup.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload_out_mksetup" {
@@ -635,6 +637,7 @@ $sequence "reload_out_mksetup" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "fire_mksetup" {
@@ -647,7 +650,7 @@ $sequence "fire_mksetup" {
 }
 
 $sequence "pump_mksetup" {
-	"c_bo1_xl60_anims\pump_mksetup.smd"
+	"anims\pump_mksetup.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	fadein 0.2
 	fadeout 0.2

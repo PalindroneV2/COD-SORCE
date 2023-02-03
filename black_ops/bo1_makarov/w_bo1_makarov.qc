@@ -184,7 +184,7 @@ $sequence "sprint_out_empty" {
 	fps 10
 }
 
-$collisionmodel "makarov.smd"
+$collisionmodel "makarovworldcol.smd"
 {
 	$mass 10
 	$inertia 1

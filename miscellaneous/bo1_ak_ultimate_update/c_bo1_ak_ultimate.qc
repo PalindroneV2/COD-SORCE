@@ -322,7 +322,7 @@ $sequence "idle" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload" {
@@ -330,7 +330,7 @@ $sequence "reload" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "reload_empty" {
@@ -338,7 +338,7 @@ $sequence "reload_empty" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "draw" {
@@ -346,7 +346,7 @@ $sequence "draw" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 //25
 }
 
 $sequence "first_draw" {
@@ -354,7 +354,7 @@ $sequence "first_draw" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 //35
 }
 
 $sequence "fire" {
@@ -364,7 +364,7 @@ $sequence "fire" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "fire_ads" {
@@ -374,7 +374,7 @@ $sequence "fire_ads" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "holster" {
@@ -382,7 +382,7 @@ $sequence "holster" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 //20
 }
 
 $sequence "sprint_in" {
@@ -390,7 +390,7 @@ $sequence "sprint_in" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop" {
@@ -398,7 +398,7 @@ $sequence "sprint_loop" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out" {
@@ -406,7 +406,7 @@ $sequence "sprint_out" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_gp25" {
@@ -414,7 +414,7 @@ $sequence "idle_gp25" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_gp25" {
@@ -422,7 +422,7 @@ $sequence "reload_gp25" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "reload_empty_gp25" {
@@ -430,7 +430,7 @@ $sequence "reload_empty_gp25" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "draw_gp25" {
@@ -438,7 +438,7 @@ $sequence "draw_gp25" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 //25
 }
 
 $sequence "first_draw_gp25" {
@@ -446,7 +446,7 @@ $sequence "first_draw_gp25" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 //35
 }
 
 $sequence "fire_gp25" {
@@ -456,7 +456,7 @@ $sequence "fire_gp25" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "fire_ads_gp25" {
@@ -466,7 +466,7 @@ $sequence "fire_ads_gp25" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "holster_gp25" {
@@ -474,7 +474,7 @@ $sequence "holster_gp25" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 //20
 }
 
 $sequence "sprint_in_gp25" {
@@ -482,7 +482,7 @@ $sequence "sprint_in_gp25" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_gp25" {
@@ -490,7 +490,7 @@ $sequence "sprint_loop_gp25" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_gp25" {
@@ -498,7 +498,7 @@ $sequence "sprint_out_gp25" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_gp25setup" {
@@ -506,7 +506,7 @@ $sequence "idle_gp25setup" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_gp25setup" {
@@ -514,7 +514,7 @@ $sequence "reload_gp25setup" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "fire_gp25setup" {
@@ -523,7 +523,7 @@ $sequence "fire_gp25setup" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "gp25setup_in" {
@@ -531,7 +531,7 @@ $sequence "gp25setup_in" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "gp25setup_out" {
@@ -539,7 +539,7 @@ $sequence "gp25setup_out" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_in_gp25setup" {
@@ -547,7 +547,7 @@ $sequence "sprint_in_gp25setup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_gp25setup" {
@@ -555,7 +555,7 @@ $sequence "sprint_loop_gp25setup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_gp25setup" {
@@ -563,7 +563,7 @@ $sequence "sprint_out_gp25setup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_mk" {
@@ -571,7 +571,7 @@ $sequence "idle_mk" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_mk" {
@@ -579,7 +579,7 @@ $sequence "reload_mk" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "reload_empty_mk" {
@@ -587,7 +587,7 @@ $sequence "reload_empty_mk" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "draw_mk" {
@@ -595,7 +595,7 @@ $sequence "draw_mk" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 //25
 }
 
 $sequence "first_draw_mk" {
@@ -603,7 +603,7 @@ $sequence "first_draw_mk" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 //35
 }
 
 $sequence "fire_mk" {
@@ -613,7 +613,7 @@ $sequence "fire_mk" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "fire_ads_mk" {
@@ -623,7 +623,7 @@ $sequence "fire_ads_mk" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "holster_mk" {
@@ -631,7 +631,7 @@ $sequence "holster_mk" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 //20
 }
 
 $sequence "sprint_in_mk" {
@@ -639,7 +639,7 @@ $sequence "sprint_in_mk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_mk" {
@@ -647,7 +647,7 @@ $sequence "sprint_loop_mk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_mk" {
@@ -655,7 +655,7 @@ $sequence "sprint_out_mk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_mksetup" {
@@ -663,7 +663,7 @@ $sequence "idle_mksetup" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_in_mksetup" {
@@ -671,7 +671,8 @@ $sequence "reload_in_mksetup" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 //35
+	snap
 }
 
 $sequence "reload_loop_mksetup" {
@@ -679,15 +680,17 @@ $sequence "reload_loop_mksetup" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 33
+	fps 30 //33
+	snap
 }
 
 $sequence "reload_out_mksetup" {
-	"c_bo1_ak_ultimate_anims\reload_out_mksetup.smd"
+	"anims\reload_out_mksetup.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 50
+	fps 30 //50
+	snap
 }
 
 $sequence "fire_mksetup" {
@@ -696,7 +699,7 @@ $sequence "fire_mksetup" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 17
+	fps 30 //17
 }
 
 $sequence "pump_mksetup" {
@@ -705,7 +708,7 @@ $sequence "pump_mksetup" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "mksetup_in" {
@@ -713,7 +716,7 @@ $sequence "mksetup_in" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "mksetup_out" {
@@ -721,7 +724,7 @@ $sequence "mksetup_out" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_in_mksetup" {
@@ -729,7 +732,7 @@ $sequence "sprint_in_mksetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_mksetup" {
@@ -737,7 +740,7 @@ $sequence "sprint_loop_mksetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_mksetup" {
@@ -745,7 +748,7 @@ $sequence "sprint_out_mksetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_ak74u" {
@@ -753,7 +756,7 @@ $sequence "idle_ak74u" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_ak74u" {
@@ -761,7 +764,7 @@ $sequence "reload_ak74u" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "reload_empty_ak74u" {
@@ -769,7 +772,7 @@ $sequence "reload_empty_ak74u" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "draw_ak74u" {
@@ -777,7 +780,7 @@ $sequence "draw_ak74u" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 //25
 }
 
 $sequence "first_draw_ak74u" {
@@ -785,7 +788,7 @@ $sequence "first_draw_ak74u" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 //35
 }
 
 $sequence "fire_ak74u" {
@@ -795,7 +798,7 @@ $sequence "fire_ak74u" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "fire_ads_ak74u" {
@@ -805,7 +808,7 @@ $sequence "fire_ads_ak74u" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "holster_ak74u" {
@@ -813,7 +816,7 @@ $sequence "holster_ak74u" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 //20
 }
 
 $sequence "sprint_in_ak74u" {
@@ -821,7 +824,7 @@ $sequence "sprint_in_ak74u" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_ak74u" {
@@ -829,7 +832,7 @@ $sequence "sprint_loop_ak74u" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_ak74u" {
@@ -837,7 +840,7 @@ $sequence "sprint_out_ak74u" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_tishina" {
@@ -845,7 +848,7 @@ $sequence "idle_tishina" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_tishina" {
@@ -853,7 +856,7 @@ $sequence "reload_tishina" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "reload_empty_tishina" {
@@ -861,7 +864,7 @@ $sequence "reload_empty_tishina" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "draw_tishina" {
@@ -869,7 +872,7 @@ $sequence "draw_tishina" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 //25
 }
 
 $sequence "fire_tishina" {
@@ -879,7 +882,7 @@ $sequence "fire_tishina" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "fire_ads_tishina" {
@@ -889,7 +892,7 @@ $sequence "fire_ads_tishina" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "holster_tishina" {
@@ -897,7 +900,7 @@ $sequence "holster_tishina" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 //20
 }
 
 $sequence "sprint_in_tishina" {
@@ -905,7 +908,7 @@ $sequence "sprint_in_tishina" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_tishina" {
@@ -913,7 +916,7 @@ $sequence "sprint_loop_tishina" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_tishina" {
@@ -921,7 +924,7 @@ $sequence "sprint_out_tishina" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_tishinasetup" {
@@ -929,7 +932,7 @@ $sequence "idle_tishinasetup" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_tishinasetup" {
@@ -937,7 +940,7 @@ $sequence "reload_tishinasetup" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "fire_tishinasetup" {
@@ -946,7 +949,7 @@ $sequence "fire_tishinasetup" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "tishinasetup_in" {
@@ -954,7 +957,7 @@ $sequence "tishinasetup_in" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "tishinasetup_out" {
@@ -962,7 +965,7 @@ $sequence "tishinasetup_out" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_in_tishinasetup" {
@@ -970,7 +973,7 @@ $sequence "sprint_in_tishinasetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_tishinasetup" {
@@ -978,7 +981,7 @@ $sequence "sprint_loop_tishinasetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_tishinasetup" {
@@ -986,7 +989,7 @@ $sequence "sprint_out_tishinasetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "idle_rpk" {
@@ -994,7 +997,7 @@ $sequence "idle_rpk" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 //30
 }
 
 $sequence "reload_rpk" {
@@ -1002,7 +1005,7 @@ $sequence "reload_rpk" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "reload_empty_rpk" {
@@ -1010,7 +1013,7 @@ $sequence "reload_empty_rpk" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "fast_rpk" {
@@ -1018,7 +1021,7 @@ $sequence "fast_rpk" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "fast_empty_rpk" {
@@ -1026,7 +1029,7 @@ $sequence "fast_empty_rpk" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "drum" {
@@ -1034,7 +1037,7 @@ $sequence "drum" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 //100
 }
 
 $sequence "drum_empty" {
@@ -1042,7 +1045,7 @@ $sequence "drum_empty" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 //120
 }
 
 $sequence "draw_rpk" {
@@ -1050,7 +1053,7 @@ $sequence "draw_rpk" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 //25
 }
 
 $sequence "first_draw_rpk" {
@@ -1058,7 +1061,7 @@ $sequence "first_draw_rpk" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 //35
 }
 
 $sequence "fire_rpk" {
@@ -1068,7 +1071,7 @@ $sequence "fire_rpk" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "fire_ads_rpk" {
@@ -1078,7 +1081,7 @@ $sequence "fire_ads_rpk" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 //30
 }
 
 $sequence "holster_rpk" {
@@ -1086,7 +1089,7 @@ $sequence "holster_rpk" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 //20
 }
 
 $sequence "sprint_in_rpk" {
@@ -1094,7 +1097,7 @@ $sequence "sprint_in_rpk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $sequence "sprint_loop_rpk" {
@@ -1102,7 +1105,7 @@ $sequence "sprint_loop_rpk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 //30
 }
 
 $sequence "sprint_out_rpk" {
@@ -1110,7 +1113,7 @@ $sequence "sprint_out_rpk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 //10
 }
 
 $collisionmodel "c_bo1_ak_ultimate_physics.smd"

@@ -632,19 +632,21 @@ $sequence "idle_mksetup" {
 }
 
 $sequence "reload_in_mksetup" {
-	"c_bo1_aug_anims\reload_in_mksetup.smd"
+	"anims\reload_in_mksetup.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 35
+	snap
 }
 
 $sequence "reload_loop_mksetup" {
-	"c_bo1_aug_anims\reload_loop_mksetup.smd"
+	"anims\reload_loop_mksetup.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 33
+	snap
 }
 
 $sequence "reload_out_mksetup" {
@@ -653,6 +655,7 @@ $sequence "reload_out_mksetup" {
 	fadein 0.2
 	fadeout 0.2
 	fps 50
+	snap
 }
 
 $sequence "fire_mksetup" {
