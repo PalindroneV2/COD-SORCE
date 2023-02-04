@@ -42,14 +42,14 @@ $cdmaterials "models\weapons\arc9\mw2\mw2_ak47\"
 
 $texturegroup "skinfamilies"
 {
-	{ "ak47" "ak47_camo"	"ak47_wood"	 "ak_tactical"  "ak_tactical_color" 	"ak_tactical_camo" 	}
-	{ "ak47" "ak47_camo"	"camo"  	 "camo_mw2"		"camo_mw2" 				"ak_tactical_camo" 	}
-	{ "ak47" "pap_bo2"		"ak47_wood"  "ak_tactical"  "ak_tactical_color" 	"ak_tactical_camo" 	}
-	{ "ak47" "pap_bo2"		"camo"		 "camo_mw2"		"camo_mw2" 				"ak_tactical_camo" 	}
-	{ "gold" "gold"			"ak47_wood"  "gold_tactical" "ak_tactical_black" 	"gold_tactical"		}
-	{ "gold" "gold"			"camo"  	 "camo_mw2" 	"camo_mw2" 				"gold_tactical"		}
-	{ "gold" "gold"			"ak47_wood"  "gold_tactical" "ak_tactical_black" 	"gold_tactical"		}
-	{ "gold" "gold"			"camo"		 "camo_mw2" 	"camo_mw2" 				"gold_tactical"		}
+	{ "ak47" "ak47_camo"	"ak47_wood"	 "ak_tactical"  	"ak_tactical_color" 	"ak_tactical_camo" 	}
+	{ "ak47" "ak47_camo"	"camo"  	 "ak_tactical"		"camo_mw2" 				"ak_tactical_camo" 	}
+	{ "ak47" "pap_bo2"		"ak47_wood"  "pap_bo2"  		"ak_tactical_color" 	"pap_bo2" 			}
+	{ "ak47" "pap_bo2"		"camo"		 "pap_bo2"			"camo_mw2" 				"pap_bo2" 			}
+	{ "gold" "gold"			"ak47_wood"  "gold_tactical" 	"ak_tactical_black" 	"gold_tactical"		}
+	{ "gold" "gold"			"camo"  	 "gold_tactical" 	"camo_mw2" 				"gold_tactical"		}
+	{ "gold" "pap_bo2"		"ak47_wood"  "gold_tactical"	"ak_tactical_black" 	"pap_bo2"			}
+	{ "gold" "pap_bo2"		"camo"		 "gold_tactical" 	"camo_mw2" 				"pap_bo2"			}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

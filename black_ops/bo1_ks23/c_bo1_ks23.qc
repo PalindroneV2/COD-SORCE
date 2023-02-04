@@ -28,10 +28,10 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_ks23\"
 
 $texturegroup "skinfamilies"
 {
-	{ "ks23"    }
-	{ "pap_waw" }
-	{ "pap_bo1" }
-	{ "pap_bo2" }
+	{	"ks23"		"ks23_wood"	}
+	{	"ks23"		"camo"		}
+	{	"pap_bo2"	"ks23_wood"	}
+	{	"pap_bo2"	"camo"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -41,7 +41,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -21.864 -8.064 -12.253 30.447 8.064 1.873
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -382,7 +382,7 @@ $sequence "sprint_out" {
 	fps 30
 }
 
-$collisionmodel "c_bo1_ks23_physics.smd"
+$collisionmodel "ks23.smd"
 {
 	$mass 10
 	$inertia 1

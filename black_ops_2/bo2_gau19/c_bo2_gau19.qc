@@ -24,6 +24,14 @@ $illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo2\bo2_gau19\"
 
+$texturegroup "skinfamilies"
+{
+	{   "gau19"         "gau19_1"		}
+	{   "gold"        	"gold"			}
+	{   "pap"           "gau19_1"		}
+	{   "pap"    		"gold_diesel"	}
+}
+
 $attachment "flash" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "brass" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0

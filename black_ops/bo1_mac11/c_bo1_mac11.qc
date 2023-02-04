@@ -39,7 +39,7 @@ $texturegroup "skinfamilies"
 {
 	{ "mac11"	"mac11_plastic"	}
 	{ "camo"	"camo"	}
-	{ "mac11"	"mac11_plastic"	}
+	{ "pap_bo2"	"mac11_plastic"	}
 	{ "pap_bo2"	"camo"	}
 }
 
