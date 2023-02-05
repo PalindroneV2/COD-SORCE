@@ -2,7 +2,6 @@
 
 $modelname "weapons/arc9/c_bo1_m1911.mdl"
 $include "codrig.qci"
-
 $origin 0 0 0 -90
 $scale 0.375
 
