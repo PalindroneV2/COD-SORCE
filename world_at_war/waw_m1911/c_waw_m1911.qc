@@ -17,22 +17,14 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_m1911\"
 
 $texturegroup "skinfamilies"
 {
-	{ "BO2"	"BO2_grip"	}
-	{ "pap_waw"	"BO2_grip"	}
-	{ "pap_bo1"	"BO2_grip"	}
-	{ "pap_bo2"	"BO2_grip"	}
-	{ "nickel"	"nickel_grip"	}
-	{ "pap_waw"	"nickel_grip"	}
-	{ "pap_bo1"	"nickel_grip"	}
-	{ "pap_bo2"	"nickel_grip"	}
-	{ "BO1_SP"	"BO1_SP_grip"	}
-	{ "pap_waw"	"BO1_SP_grip"	}
-	{ "pap_bo1"	"BO1_SP_grip"	}
-	{ "pap_bo2"	"BO1_SP_grip"	}
-	{ "gold"	"nickel_grip"	}
-	{ "pap_waw"	"nickel_grip"	}
-	{ "pap_bo1"	"nickel_grip"	}
-	{ "pap_bo2"	"nickel_grip"	}
+	{	"BO2"			"BO2_grip"		}
+	{	"BO1_SP"		"BO1_SP_grip"	}
+	{	"nickel"		"nickel_grip"	}
+	{	"gold"			"nickel_grip"	}
+	{	"etching"		"BO2_grip"		}
+	{	"circuits"		"nickel_grip"	}
+	{	"cosmic"		"nickel_grip"	}
+	{	"etching_gold"	"nickel_grip"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
