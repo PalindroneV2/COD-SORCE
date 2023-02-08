@@ -204,6 +204,13 @@ $bonemerge "tag_aimpoint"
 $sectionframes 30 450
 
 $sequence "idle" {
+	"anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "idle_long" {
 	"c_bo1_sog_knife_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2

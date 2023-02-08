@@ -5,9 +5,13 @@ $modelname "weapons/arc9/c_bo1_ak_ultimate.mdl"
 $bodygroup "body"
 {
 	studio "ak.smd"
+	studio "ak_alt.smd"
 	studio "ak74u.smd"
 	studio "rpk.smd"
+	studio "rpk_alt.smd"
 	studio "asval.smd"
+	studio "ak12_pseudo.smd"
+	studio "rpk12_pseudo.smd"
 }
 $bodygroup "mag"
 {
@@ -21,26 +25,31 @@ $bodygroup "mag"
 }
 $bodygroup "irons"
 {
-	studio "irons_ak47.smd"
-	studio "altirons_ak47.smd"
-	studio "lowirons_ak47.smd"
-	studio "irons_74u.smd"
-	studio "altirons_74u.smd"
-	studio "lowirons_74u.smd"
-	studio "irons_rpk.smd"
-	studio "altirons_rpk.smd"
+	studio "newirons/irons_ak47.smd"
+	studio "newirons/irons_74u.smd"
+	studio "newirons/irons_alt.smd"
+	studio "newirons/irons_ak12.smd"
 	blank
-	studio "irons_asval.smd"
-	studio "rail_asval.smd"
+}
+$bodygroup "front"
+{
+	studio "newirons/front_ak47.smd"
+	studio "newirons/lowirons_ak47.smd"
+	studio "newirons/front_74u.smd"
+	studio "newirons/lowirons_74u.smd"
+	studio "newirons/front_rpk.smd"
+	studio "newirons/lowirons_rpk.smd"
+	studio "newirons/front_102.smd"
+	studio "newirons/lowirons_102.smd"
+	studio "newirons/front_rpd.smd"
 	blank
-	studio "irons_rpd.smd"
-	studio "altirons_rpd.smd"
 }
 $bodygroup "barrel"
 {
 	studio "barrel_ak.smd"
 	studio "barrel_74u.smd"
 	studio "barrel_rpk.smd"
+	studio "barrel_102.smd"
 	studio "barrel_asval.smd"
 	studio "barrel_rpd.smd"
 }
@@ -56,6 +65,8 @@ $bodygroup "furniture"
 	studio "furniture_rpd_rpk.smd"
 	studio "furniture_asval.smd"
 	studio "furniture_vss.smd"
+	studio "furniture_ak12.smd"
+	studio "furniture_rpk12.smd"
 }
 $bodygroup "grips"
 {

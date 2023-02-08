@@ -1,33 +1,35 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_bo1_sog_knife.mdl"
+$modelname "weapons/arc9/c_bo1_shiv.mdl"
 
 $bodygroup "0"
 {
-	studio "sog_knife.smd"
+	studio "shiv.smd"
+	blank
 }
+
 
 $surfaceprop "default"
 
 $contents "solid"
-
-$cdmaterials "models\weapons\arc9\bo1\bo1_sog_knife\"
-
-$texturegroup "skinfamilies"
-{
-	{ "sog_knife_camo" }
-	{ "pap_waw"        }
-	{ "pap_bo1"        }
-	{ "pap_bo2"        }
-}
-
-$attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $illumposition 0 0 0
 
 $cbox 0 0 0 0 0 0
 
 $bbox 0 0 0 0 0 0
+
+$cdmaterials "models\weapons\arc9\bo1\bo1_shiv\"
+
+$texturegroup "skinfamilies"
+{
+	{ "shiv"    }
+	{ "pap_waw" }
+	{ "pap_bo1" }
+	{ "pap_bo2" }
+}
+
+$attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -217,55 +219,55 @@ $sequence "idle_long" {
 }
 
 $sequence "draw" {
-	"c_bo1_sog_knife_anims\draw.smd"
+	"c_bo1_shiv_anims\draw.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "holster" {
-	"c_bo1_sog_knife_anims\holster.smd"
+	"c_bo1_shiv_anims\holster.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "draw_fast" {
-	"c_bo1_sog_knife_anims\draw_fast.smd"
+	"c_bo1_shiv_anims\draw_fast.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "holster_fast" {
-	"c_bo1_sog_knife_anims\holster_fast.smd"
+	"c_bo1_shiv_anims\holster_fast.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "swipe" {
-	"c_bo1_sog_knife_anims\swipe.smd"
+	"c_bo1_shiv_anims\swipe.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "stab" {
-	"c_bo1_sog_knife_anims\stab.smd"
+	"c_bo1_shiv_anims\stab.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "sprint_loop" {
-	"c_bo1_sog_knife_anims\sprint_loop.smd"
+	"c_bo1_shiv_anims\sprint_loop.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$collisionmodel "sog_knife.smd"
+$collisionmodel "shiv.smd"
 {
 	$mass 10
 	$inertia 1
