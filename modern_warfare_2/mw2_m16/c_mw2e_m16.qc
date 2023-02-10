@@ -34,7 +34,7 @@ $bodygroup "ub"
 }
 $bodygroup "stock"
 {
-	blank
+	studio "stock_n"
 	studio "stock_m"
 	studio "stock_h"
 	studio "stock_h_w"
@@ -58,11 +58,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m16"    "m4_mw2"	}
-	{ "m16_camo" "m4_camo"	}
-	{ "pap_waw" "pap_waw"	}
-	{ "pap_bo1" "pap_bo1"	}
-	{ "pap_bo2" "pap_bo2"	}
+	{   "m16"       "m16_1"     "m4_mw2"	}
+	{   "m16_camo"  "m16_camo"  "m4_camo"	}
+	{   "pap_bo1"   "m16_1"     "m4_mw2"	}
+	{   "pap_bo1"   "m16_camo"  "m4_camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -71,7 +70,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.241 -9.698 -14.365 30.462 8.064 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
@@ -512,7 +511,7 @@ $sequence "sprint_out_mksetup" {
 	fps 30 // 10
 }
 
-$collisionmodel "m16.smd"
+$collisionmodel "m16_w.smd"
 {
 	$mass 10
 	$inertia 1

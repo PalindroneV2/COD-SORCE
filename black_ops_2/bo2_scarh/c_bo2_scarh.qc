@@ -4,7 +4,7 @@ $modelname "weapons/arc9/c_bo2_scarh.mdl"
 
 $bodygroup "0"
 {
-	studio "scarhbo2.smd"
+	studio "scarh.smd"
 	studio "scarworld.smd"
 }
 $bodygroup "1"
@@ -14,7 +14,6 @@ $bodygroup "1"
 $bodygroup "2"
 {
 	studio "scarbo2_irons.smd"
-	studio "scar_irons.smd"
 	blank
 }
 $bodygroup "3"
@@ -26,9 +25,7 @@ $bodygroup "4"
 {
 	blank
 	studio "scarw_stock.smd"
-	studio "scar_heavystock.smd"
 }
-
 
 $surfaceprop "weapon"
 
@@ -36,17 +33,15 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models\weapons\arc9\cde\gso_scar\"
 $cdmaterials "models\weapons\arc9\bo2\bo2_scarh\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
 
 $texturegroup "skinfamilies"
 {
-	{ "scarhbo2"       "scarhbo2_1"     "scar20"       "scarh"       }
-	{ "scarcamo"       "scarcamo"     "scar20"       "scarcamo"       }
-	{ "pap_waw"        "pap_waw"        "pap_waw"      "pap_waw"     }
-	{ "pap_bo1"        "pap_bo1"        "pap_bo1"      "pap_bo1"     }
-	{ "pap_bo2"        "pap_bo2"        "pap_bo2"      "pap_bo2"     }
+	{	"scarh"		"scarh_1"	"scarh_2"	}
+	{	"camo"		"camo"		"camo"		}
+	{	"pap_bo2"	"scarh_1"	"scarh_2"	}
+	{	"pap_bo2"	"camo"		"camo"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -56,7 +51,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -14.691 -8.064 -11.815 32.371 8.064 3.939
+$bbox 0 0 0 0 0 0
 
 $definebone "tag_view" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
@@ -652,7 +647,7 @@ $sequence "sprint_out_glsetup" {
 	fps 30
 }
 
-$collisionmodel "c_bo2_scarh_physics.smd"
+$collisionmodel "scarphys.smd"
 {
 	$mass 10
 	$inertia 1

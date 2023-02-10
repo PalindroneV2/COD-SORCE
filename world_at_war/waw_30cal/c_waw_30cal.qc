@@ -13,13 +13,17 @@ $bodygroup "1"
 	studio "bipod_up.smd"
 	studio "bipod_down.smd"
 }
-$bodygroup "0"
+$bodygroup "2"
 {
 	studio "cloth.smd"
 	studio "carryhand.smd"
 	blank
 }
-
+$bodygroup "3"
+{
+	studio "boolet.smd"
+	blank
+}
 
 $surfaceprop "weapon"
 
@@ -241,7 +245,7 @@ $bonemerge "ValveBiped.Bip01_R_Finger0"
 $sectionframes 30 262
 
 $sequence "idle" {
-	"c_waw_30cal_anims\idle.smd"
+	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -249,7 +253,7 @@ $sequence "idle" {
 }
 
 $sequence "idle_empty" {
-	"c_waw_30cal_anims\idle_empty.smd"
+	"anims\idle_empty.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -257,7 +261,7 @@ $sequence "idle_empty" {
 }
 
 $sequence "idle_st" {
-	"c_waw_30cal_anims\idle_st.smd"
+	"anims\idle_st.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -265,7 +269,7 @@ $sequence "idle_st" {
 }
 
 $sequence "idle_st_empty" {
-	"c_waw_30cal_anims\idle_st_empty.smd"
+	"anims\idle_st_empty.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -273,7 +277,7 @@ $sequence "idle_st_empty" {
 }
 
 $sequence "draw" {
-	"c_waw_30cal_anims\draw.smd"
+	"anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -281,7 +285,7 @@ $sequence "draw" {
 }
 
 $sequence "draw_empty" {
-	"c_waw_30cal_anims\draw_empty.smd"
+	"anims\draw_empty.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -289,7 +293,7 @@ $sequence "draw_empty" {
 }
 
 $sequence "holster" {
-	"c_waw_30cal_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -297,7 +301,7 @@ $sequence "holster" {
 }
 
 $sequence "holster_empty" {
-	"c_waw_30cal_anims\holster_empty.smd"
+	"anims\holster_empty.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -305,7 +309,7 @@ $sequence "holster_empty" {
 }
 
 $sequence "reload" {
-	"c_waw_30cal_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -313,7 +317,7 @@ $sequence "reload" {
 }
 
 $sequence "fire" {
-	"c_waw_30cal_anims\fire.smd"
+	"anims\fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -323,7 +327,7 @@ $sequence "fire" {
 }
 
 $sequence "fire_ads" {
-	"c_waw_30cal_anims\fire_ads.smd"
+	"anims\fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -333,7 +337,7 @@ $sequence "fire_ads" {
 }
 
 $sequence "fire_last" {
-	"c_waw_30cal_anims\fire_last.smd"
+	"anims\fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2
@@ -343,7 +347,7 @@ $sequence "fire_last" {
 }
 
 $sequence "fire_ads_last" {
-	"c_waw_30cal_anims\fire_ads_last.smd"
+	"anims\fire_ads_last.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
 	fadein 0.2

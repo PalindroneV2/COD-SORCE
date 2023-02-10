@@ -49,15 +49,15 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 $cdmaterials "models\weapons\arc9\cde\bocw_krig6\"
+$cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 
 $texturegroup "skinfamilies"
 {
 	{ "body"  }
-	{ "pap_waw" }
-	{ "pap_bo1" }
-	{ "pap_bo2" }
+	{ "pap_etching" }
+	{ "pap_circuits" }
+	{ "pap_wp115" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

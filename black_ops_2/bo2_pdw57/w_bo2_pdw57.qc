@@ -29,11 +29,12 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_pdw57\"
 
 $texturegroup "skinfamilies"
 {
-	{ "pdw57"   }
-	{ "pdw57_camo"   }
-	{ "pap_waw" }
-	{ "pap_bo1" }
-	{ "pap_bo2" }
+	{	"pdw57"	"pdw57_1"	"pdw57_2"	}
+	{	"camo"	"camo"		"camo"		}
+	{	"pdw57"	"pap_bo2"	"pap_bo2"	}
+	{	"camo"	"pap_bo2"	"pap_bo2"	}
+	{	"pdw57"	"pap_bo1"	"pap_bo1"	}
+	{	"camo"	"pap_bo1"	"pap_bo1"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

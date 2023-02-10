@@ -56,6 +56,7 @@ $sequence "idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "idle_empty" {
@@ -64,6 +65,7 @@ $sequence "idle_empty" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+	snap
 }
 
 $sequence "reload" {
