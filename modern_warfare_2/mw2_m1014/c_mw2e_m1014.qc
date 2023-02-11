@@ -29,8 +29,8 @@ $texturegroup "skinfamilies"
 {
 	{	"m1014"		"m1014_1"	"m1014_2"	}
 	{	"camo"		"camo"		"camo"		}
-	{	"pap_bo2"	"m1014_1"	"m1014_2"	}
-	{	"pap_bo2"	"camo"		"camo"		}
+	{	"m1014"		"pap_bo2"	"m1014_2"	}
+	{	"camo"		"pap_bo2"	"camo"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
