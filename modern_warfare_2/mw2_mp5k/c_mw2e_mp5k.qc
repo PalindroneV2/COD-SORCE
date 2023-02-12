@@ -60,7 +60,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.241 -9.698 -14.365 30.462 8.064 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
@@ -68,10 +68,15 @@ $sequence "idle" {
 	fadeout 0.2
 	fps 30
 }
+$sequence "longidle" {
+	"anims\longidle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
 
 $sequence "fire" {
 	"anims\fire.smd"
-	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -80,7 +85,6 @@ $sequence "fire" {
 
 $sequence "fire_ads" {
 	"anims\fire_ads.smd"
-	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -153,7 +157,6 @@ $sequence "idle_grip" {
 
 $sequence "fire_grip" {
 	"anims\fire_grip.smd"
-	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -162,7 +165,6 @@ $sequence "fire_grip" {
 
 $sequence "fire_ads_grip" {
 	"anims\fire_ads_grip.smd"
-	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -235,7 +237,6 @@ $sequence "idle_r" {
 
 $sequence "fire_r" {
 	"anims\fire_r.smd"
-	{ event 5001 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
