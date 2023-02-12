@@ -15,10 +15,11 @@ $bodygroup "body"
 }
 $bodygroup "mag"
 {
-	studio "mag.smd"
+	studio "magnew.smd"
 	studio "mag_long.smd"
 	studio "mag_74.smd"
 	studio "mag_dual.smd"
+	studio "mag_45_ak.smd"
 	studio "mag_45.smd"
 	studio "mag_45_dual.smd"
 	studio "drum.smd"
