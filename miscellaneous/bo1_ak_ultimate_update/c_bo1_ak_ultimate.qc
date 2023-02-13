@@ -12,6 +12,7 @@ $bodygroup "body"
 	studio "asval.smd"
 	studio "ak12_pseudo.smd"
 	studio "rpk12_pseudo.smd"
+	studio "ak12_hybrid.smd"
 }
 $bodygroup "mag"
 {
