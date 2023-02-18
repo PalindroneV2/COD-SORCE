@@ -62,15 +62,17 @@ $bodygroup "furniture"
 	studio "furniture_wood.smd"
 	studio "furniture_plastic.smd"
 	studio "furniture_modern.smd"
+	studio "furniture_mw3.smd"
+	studio "furniture_ak12.smd"
 	studio "furniture_rpd.smd"
 	studio "furniture_wood_rpk.smd"
 	studio "furniture_plastic_rpk.smd"
 	studio "furniture_modern_rpk.smd"
+	studio "furniture_mw3_rpk.smd"
+	studio "furniture_rpk12.smd"
 	studio "furniture_rpd_rpk.smd"
 	studio "furniture_asval.smd"
 	studio "furniture_vss.smd"
-	studio "furniture_ak12.smd"
-	studio "furniture_rpk12.smd"
 }
 $bodygroup "grips"
 {
@@ -109,6 +111,12 @@ $bodygroup "rail"
 	studio "rail_bo1.smd"
 	studio "rail_tactical.smd"
 }
+$bodygroup "covers"
+{
+	blank
+	studio "covers_mw3.smd"
+	studio "covers_mw3_rpk.smd"
+}
 
 $surfaceprop "weapon"
 
@@ -119,14 +127,14 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_color"   "ak_tactical_color" "ak_mag_bake" "ak_atts"     "ak_wood"    "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" }
-	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "ak_atts"     "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" }
-	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_color"   "ak_tactical_color" "ak_mag_bake" "pap_bo2"     "ak_wood"    "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" }
-	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "pap_bo2"     "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" }
-	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_plastic" "ak_tactical_color" "ak_mag_bake" "golden_atts" "ak_plastic" "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" }
-	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "golden_atts" "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" }
-	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_plastic" "ak_tactical_color" "ak_mag_bake" "golden_atts" "ak_plastic" "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" }
-	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "golden_atts" "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" }
+	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_color"   "ak_tactical_color" "ak_mag_bake" "ak_atts"     "ak_wood"    "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
+	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "ak_atts"     "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
+	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_color"   "ak_tactical_color" "ak_mag_bake" "pap_bo2"     "ak_wood"    "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
+	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "pap_bo2"     "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
+	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy" 	"ak_tactical_color" "ak_mag_bake" "golden_atts" "ak_camo"	 "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
+	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "golden_atts" "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
+	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy" 	"ak_tactical_color" "ak_mag_bake" "golden_atts" "ak_camo" 	 "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
+	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "golden_atts" "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -331,6 +339,14 @@ $bonemerge "tag_suppressor"
 
 
 $sectionframes 30 140
+
+$sequence "reference" {
+	"anims\reference.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 //30
+}
 
 $sequence "idle" {
 	"c_bo1_ak_ultimate_anims\idle.smd"
@@ -1131,7 +1147,7 @@ $sequence "sprint_out_rpk" {
 	fps 30 //10
 }
 
-$collisionmodel "c_bo1_ak_ultimate_physics.smd"
+$collisionmodel "akphys.smd"
 {
 	$mass 10
 	$inertia 1
