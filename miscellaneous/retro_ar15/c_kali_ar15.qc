@@ -105,15 +105,6 @@ $bodygroup "gasblock"
 $bodygroup "frontsight"
 {
 	blank
-	studio "troy_front_m16.smd"
-	studio "troy_front_carbine.smd"
-	studio "troy_front_mw19.smd"
-	studio "frontsight_usgi_m16.smd"
-	studio "frontsight_usgi_carbine.smd"
-	studio "frontsight_usgi_mw19.smd"
-	studio "a4_v2/frontsight_masada.smd"
-	studio "a4_v2/frontsight_masada_carbine.smd"
-	studio "a4_v2/frontsight_masada_mw19.smd"
 	studio "a4_v2/frontsight_9mm_up.smd"
 	studio "frontsight_9mm_down.smd"
 }

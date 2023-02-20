@@ -262,13 +262,14 @@ $bonemerge "tag_gasmask"
 $bonemerge "tag_gasmask2"
 
 
-$sequence "propidle" {
-	"anims\propidle.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
+// $sequence "propidle" {
+// 	"anims\propidle.smd"
+// 	activity "ACT_VM_IDLE" 1
+// 	fadein 0.2
+// 	fadeout 0.2
+// 	fps 30
+// }
+
 $sequence "idle" {
 	"w_bo2_scarh_anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
