@@ -2,6 +2,9 @@
 
 $modelname "weapons/arc9/c_bo1_ak_ultimate.mdl"
 
+// 1.15082 m
+// -0.861594 m
+//-0. -0.573955 m
 $bodygroup "body"
 {
 	studio "ak.smd"
@@ -10,9 +13,9 @@ $bodygroup "body"
 	studio "rpk.smd"
 	studio "rpk_alt.smd"
 	studio "asval.smd"
-	studio "ak12_pseudo.smd"
-	studio "rpk12_pseudo.smd"
-	studio "ak12_hybrid.smd"
+	studio "ak12_real/ak12_real.smd"
+	studio "ak12_real/rpk12_real.smd"
+	// studio "ak12_hybrid.smd"
 }
 $bodygroup "mag"
 {
@@ -32,7 +35,7 @@ $bodygroup "irons"
 	studio "newirons/irons_ak47.smd"
 	studio "newirons/irons_74u.smd"
 	studio "newirons/irons_alt.smd"
-	studio "newirons/irons_ak12.smd"
+	studio "ak12_real/irons_ak12_new.smd"
 	blank
 }
 $bodygroup "front"
@@ -63,13 +66,13 @@ $bodygroup "furniture"
 	studio "furniture_plastic.smd"
 	studio "furniture_modern.smd"
 	studio "furniture_mw3.smd"
-	studio "furniture_ak12.smd"
+	studio "ak12_real/furniture_ak12_real.smd"
 	studio "furniture_rpd.smd"
 	studio "furniture_wood_rpk.smd"
 	studio "furniture_plastic_rpk.smd"
 	studio "furniture_modern_rpk.smd"
 	studio "furniture_mw3_rpk.smd"
-	studio "furniture_rpk12.smd"
+	studio "ak12_real/furn_rpk12_real.smd"
 	studio "furniture_rpd_rpk.smd"
 	studio "furniture_asval.smd"
 	studio "furniture_vss.smd"
@@ -79,6 +82,7 @@ $bodygroup "grips"
 	studio "grip_wood.smd"
 	studio "grip_plastic.smd"
 	studio "grip_modern.smd"
+	studio "ak12_real/ak12_grip.smd"
 	blank
 }
 $bodygroup "ub"
@@ -99,6 +103,8 @@ $bodygroup "stock"
 	studio "stock_tac.smd"
 	studio "stock_underfolder.smd"
 	studio "stock_dragunov.smd"
+	studio "ak12_real/stock_ak12.smd"
+	studio "ak12_real/ak12_stock.smd"
 }
 $bodygroup "muzzle"
 {
@@ -116,6 +122,7 @@ $bodygroup "covers"
 	blank
 	studio "covers_mw3.smd"
 	studio "covers_mw3_rpk.smd"
+	studio "ak12_real/ak12_nostock.smd"
 }
 
 $surfaceprop "weapon"
@@ -127,14 +134,14 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_color"   "ak_tactical_color" "ak_mag_bake" "ak_atts"     "ak_wood"    "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
-	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "ak_atts"     "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
-	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_color"   "ak_tactical_color" "ak_mag_bake" "pap_bo2"     "ak_wood"    "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
-	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "pap_bo2"     "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
-	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy" 	"ak_tactical_color" "ak_mag_bake" "golden_atts" "ak_camo"	 "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
-	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "golden_atts" "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
-	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy" 	"ak_tactical_color" "ak_mag_bake" "golden_atts" "ak_camo" 	 "ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	}
-	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy"   "ak_tactical_camo"  "ak_mag_camo" "golden_atts" "ak_camo"    "ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1" }
+	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_color"   "ak_tactical_color"	"ak_atts"     "ak_wood"	"ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3" 	"ak12spap"		"ak12bpap"		"ak12s1"	"ak12b1"	}
+	{ "ak47"        "ak74u_parts" "ak74u_main"  "rpk_camo"    "rpk_proxy"   "ak_tactical_camo"	"ak_atts"     "ak_camo"	"ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1"	"ak12spap"		"ak12bpap"		"ak12scamo"	"ak12bcamo"	}
+	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_color"   "ak_tactical_color"	"pap_bo2"     "ak_wood"	"ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3"	"pap_bo2" 		"pap_bo2"		"ak12s1"	"ak12b1"	}
+	{ "pap_bo2"     "ak74u_parts" "pap_bo2"     "pap_bo2"     "rpk_proxy"   "ak_tactical_camo"	"pap_bo2"     "ak_camo"	"ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1"	"pap_bo2"		"pap_bo2"		"ak12scamo"	"ak12bcamo"	}
+	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy" 	"ak_tactical_color"	"golden_atts" "ak_camo"	"ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3"	"ak12sgold"		"ak12bgold" 	"ak12s1"	"ak12b1"	}
+	{ "golden"      "golden_74u"  "golden_74u"  "golden_rpk"  "rpk_proxy"   "ak_tactical_camo"	"golden_atts" "ak_camo"	"ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1"	"ak12sgold"		"ak12bgold"		"ak12scamo"	"ak12bcamo"	}
+	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy" 	"ak_tactical_color"	"golden_atts" "ak_camo"	"ak74u_hand" "rpd_1"    "svd_wood" "ak74u_grip" "ak_mw3"	"pap_goldwaw"	"pap_goldwaw"	"ak12s1"	"ak12b1"	}
+	{ "pap_goldwaw" "golden_74u"  "pap_goldwaw" "pap_goldwaw" "rpk_proxy"   "ak_tactical_camo"	"golden_atts" "ak_camo"	"ak74u_camo" "rpd_camo" "svd_camo" "ak74u_camo" "ak_mw3_1"	"pap_goldwaw"	"pap_goldwaw"	"ak12scamo"	"ak12bcamo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

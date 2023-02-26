@@ -4,7 +4,7 @@ $modelname "weapons/arc9/atts/bo1_reflex_w.mdl"
 
 $bodygroup "body"
 {
-	studio "aimpoint.smd"
+	studio "aimpointw.smd"
 	studio "aimpointw.smd"
 }
 
