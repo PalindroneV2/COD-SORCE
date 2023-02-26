@@ -33,13 +33,11 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_asp\"
 $texturegroup "skinfamilies"
 {
 	{ "asp_main" "asp_grip" }
-	{ "pap_waw"  "asp_grip" }
 	{ "pap_bo1"  "asp_grip" }
-	{ "pap_bo2"  "asp_grip" }
 	{ "asp_main" "asp_wood" }
 	{ "pap_waw"  "asp_wood" }
-	{ "pap_bo1"  "asp_wood" }
-	{ "pap_bo2"  "asp_wood" }
+	{ "asp_main" "asp_camo" }
+	{ "pap_waw"  "asp_camo" }
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
@@ -48,14 +46,14 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -8.83 -8.064 -16.847 18.924 8.064 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 	snap
 }
 
@@ -64,7 +62,7 @@ $sequence "idle_empty" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 	snap
 }
 
@@ -73,7 +71,7 @@ $sequence "reload" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 50
+	fps 30 // 50
 }
 
 $sequence "reload_empty" {
@@ -81,7 +79,8 @@ $sequence "reload_empty" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 54
+	fps 30 // 54
+	snap
 }
 
 $sequence "first_draw" {
@@ -89,7 +88,15 @@ $sequence "first_draw" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 27
+	fps 30 // 27
+}
+
+
+$sequence "cycle_last" {
+	"anims\cycle_last.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 27
 }
 
 $sequence "fire" {
@@ -99,7 +106,7 @@ $sequence "fire" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "fire_last" {
@@ -109,7 +116,7 @@ $sequence "fire_last" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "fire_ads" {
@@ -119,7 +126,7 @@ $sequence "fire_ads" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "draw" {
@@ -127,7 +134,7 @@ $sequence "draw" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "draw_empty" {
@@ -135,7 +142,7 @@ $sequence "draw_empty" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "holster" {
@@ -143,7 +150,7 @@ $sequence "holster" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "holster_empty" {
@@ -151,7 +158,7 @@ $sequence "holster_empty" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "sprint_loop" {
@@ -159,7 +166,7 @@ $sequence "sprint_loop" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "sprint_loop_empty" {
@@ -167,7 +174,7 @@ $sequence "sprint_loop_empty" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 3
-	fps 30
+	fps 30 // 30
 }
 
 $collisionmodel "asp.smd"
@@ -176,8 +183,7 @@ $collisionmodel "asp.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-
+	$rootbone ""
 }
 
 $keyvalues
