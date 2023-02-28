@@ -87,6 +87,7 @@ $bodygroup "rail"
 	studio "a4_v2/troy_rear.smd"
 	studio "a4_v2/irons_a2.smd"
 	studio "a4_v2/iron_masada.smd"
+	studio "bonemergesights/mw2_rear.smd"
 }
 $bodygroup "strap"
 {

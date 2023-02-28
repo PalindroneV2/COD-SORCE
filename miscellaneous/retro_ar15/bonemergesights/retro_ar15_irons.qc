@@ -6,14 +6,9 @@ $origin 0 0 0 -90
 $bodygroup "frontsight"
 {
 	studio "troy_front_m16.smd"
-	studio "troy_front_carbine.smd"
-	studio "troy_front_mw19.smd"
 	studio "frontsight_usgi_m16.smd"
-	studio "frontsight_usgi_carbine.smd"
-	studio "frontsight_usgi_mw19.smd"
 	studio "frontsight_masada.smd"
-	studio "frontsight_masada_carbine.smd"
-	studio "frontsight_masada_mw19.smd"
+	studio "mw2_front.smd"
 }
 
 $surfaceprop "weapon"
