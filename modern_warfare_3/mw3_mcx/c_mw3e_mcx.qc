@@ -7,23 +7,28 @@ $include "codrig.qci"
 
 $bodygroup "body"
 {
+	studio "spear.smd"
 	studio "mcx.smd"
 }
-$bodygroup "body"
+$bodygroup "mag"
 {
 	studio "mag.smd"
+	studio "mag_556.smd"
 }
-$bodygroup "body"
+$bodygroup "stock"
 {
-	studio "stock.smd"
+	studio "stock_none.smd"
+	studio "stock_pk.smd"
+	studio "stock_m.smd"
+	studio "stock_h.smd"
 }
-$bodygroup "1"
+$bodygroup "irons"
 {
 	studio "irons_up_2.smd"
 	studio "irons_down_2.smd"
 	blank
 }
-$bodygroup "3"
+$bodygroup "ub"
 {
 	blank
 	studio "m320.smd"
@@ -180,13 +185,13 @@ $sequence "draw_gl" {
 	fps 30
 }
 
-$sequence "first_draw_gl" {
-	"anims\first_draw_gl.smd"
-	activity "ACT_VM_DRAW" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-}
+// $sequence "first_draw_gl" {
+// 	"anims\first_draw_gl.smd"
+// 	activity "ACT_VM_DRAW" 1
+// 	fadein 0.2
+// 	fadeout 0.2
+// 	fps 30
+// }
 
 $sequence "fire_gl" {
 	"anims\fire_gl.smd"
