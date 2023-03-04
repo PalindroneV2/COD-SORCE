@@ -18,6 +18,8 @@ $bodygroup "mag"
 $bodygroup "stock"
 {
 	studio "stock_none.smd"
+	studio "stock_w.smd"
+	studio "stock_hb_ext.smd"
 	studio "stock_pk.smd"
 	studio "stock_m.smd"
 	studio "stock_h.smd"
@@ -26,6 +28,9 @@ $bodygroup "irons"
 {
 	studio "irons_up_2.smd"
 	studio "irons_down_2.smd"
+	studio "iron_up.smd"
+	studio "iron_down.smd"
+	studio "hkirons.smd"
 	blank
 }
 $bodygroup "ub"
