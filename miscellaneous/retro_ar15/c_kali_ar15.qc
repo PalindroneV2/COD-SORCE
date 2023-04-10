@@ -7,6 +7,7 @@ $bodygroup "body"
 	studio "a4_v2/receiver_A1.smd"
 	studio "a4_v2/receiver_A2.smd"
 	studio "a4_v2/receiver_flat.smd"
+	blank
 }
 $bodygroup "mag"
 {
@@ -113,6 +114,7 @@ $bodygroup "bolt"
 {
 	studio "bolt_A1.smd"
 	studio "bolt_mw3.smd"
+	blank
 }
 $bodygroup "railscovers"
 {
