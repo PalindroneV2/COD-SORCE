@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/mw2e_susat.mdl"
+$modelname "weapons/arc9/atts/mw2e_susat_w.mdl"
 $origin 0 0 0 -90
 $scale 0.375
 
