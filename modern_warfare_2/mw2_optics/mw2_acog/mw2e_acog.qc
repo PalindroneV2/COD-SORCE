@@ -12,6 +12,11 @@ $bodygroup "body"
 {
 	studio "deltapoint.smd"
 }
+$bodygroup "lens"
+{
+	studio "lens2.smd"
+	studio "lens1.smd"
+}
 
 $surfaceprop "weapon"
 
