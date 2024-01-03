@@ -20,6 +20,7 @@ $bodygroup "2"
 {
 	studio "new/round_m16.smd"
 	studio "new/ris_m16.smd"
+	studio "new/grenadier_m16.smd"
 }
 $bodygroup "3"
 {
@@ -76,10 +77,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{	"m16a4"		"m16a4_1"	"m16a4_2"	"m16a4_3"	"m4a1"		"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	}
-	{	"camo_m16"	"camo_m16"	"camo_m16"	"camo_m16"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"		}
-	{	"pap_bo1"	"m16a4_1"	"m16a4_2"	"m16a4_3"	"pap_bo1"	"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	}
-	{	"pap_bo1"	"camo_m16"	"camo_m16"	"camo_m16"	"pap_bo1"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"		}
+	{	"m16a4"		"m16a4_1"	"m16a4_2"	"m16a4_3"	"m4a1"		"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	"m4m16"	}
+	{	"camo_m16"	"camo_m16"	"camo_m16"	"camo_m16"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"	"m4m16_camo"	}
+	{	"pap_bo1"	"m16a4_1"	"m16a4_2"	"m16a4_3"	"pap_bo1"	"m4a1_1"	"m4a1_2"	"m4a1_3"	"carryhandle"	"m4m16"	}
+	{	"pap_bo1"	"camo_m16"	"camo_m16"	"camo_m16"	"pap_bo1"	"camo_m4"	"camo_m4"	"camo_m4"	"camo_m16"	"m4m16_camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0

@@ -11,6 +11,13 @@ $bodygroup "body"
 	studio "m16.smd"
 	studio "m16_w.smd"
 }
+$bodygroup "handguard"
+{
+	studio "handguard_normal"
+	studio "handguard_normal_w"
+	studio "handguard_grenadier"
+	studio "handguard_grenadier_w"
+}
 $bodygroup "irons"
 {
 	studio "irons"
@@ -58,10 +65,10 @@ $cdmaterials "models\weapons\arc9\mw3\mw3_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{   "m16"       "m16_1"     "m4_mw2"	}
-	{   "m16_camo"  "m16_camo"  "m4_camo"	}
-	{   "pap_bo1"   "m16_1"     "m4_mw2"	}
-	{   "pap_bo1"   "m16_camo"  "m4_camo"	}
+	{   "m16"       "m16_1"     "m4_mw2"	"m4m16"	}
+	{   "m16_camo"  "m16_camo"  "m4_camo"	"m4m16_camo"	}
+	{   "pap_bo1"   "m16_1"     "m4_mw2"	"m4m16"	}
+	{   "pap_bo1"   "m16_camo"  "m4_camo"	"m4m16_camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
