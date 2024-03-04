@@ -2,7 +2,7 @@
 
 $modelname "weapons/arc9/c_waw_zombie.mdl"
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

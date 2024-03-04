@@ -22,7 +22,7 @@ $bodygroup "clip"
 	studio "kar98_clip.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

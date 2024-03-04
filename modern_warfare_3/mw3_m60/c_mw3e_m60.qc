@@ -1,15 +1,26 @@
 // Created by Crowbar 0.68
 
-$modelname "viewmodel.mdl"
+$modelname "weapons/arc9/c_mw3e_m60.mdl"
 
-$bodygroup "studio"
+$bodygroup "0"
 {
-	studio "viewmodel_m60_iw5_LOD0.smd"
+	studio "m60.smd"
 }
-$bodygroup "sights"
+$bodygroup "1"
 {
-	studio "viewmodel_m60_iw5_LOD0_Sights.smd"
+	studio "irons_up.smd"
+	studio "irons_down.smd"
 	blank
+}
+$bodygroup "1"
+{
+	studio "bipod_up.smd"
+	studio "bipod_down.smd"
+	blank
+}
+$bodygroup "1"
+{
+	studio "mag.smd"
 }
 
 
@@ -17,13 +28,21 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition -1.242 -6.422 -8.61
+$illumposition 0 0 0
 
-$cdmaterials "models\ma85_mw3\m60e4\"
+$cdmaterials "models\weapons\arc9\mw3\mw3_m60\"
 
-$attachment "1" "j_gun" 23.12 0 2.36 rotate 0 0 0
-$attachment "2" "j_gun" -0.11 -0.67 2.71 rotate -23.76 -90 0
-$attachment "Camera" "tag_camera" 0 0 0 rotate 0 0 0
+$texturegroup "skinfamilies"
+{
+	{	"m60"		"m60_camo"	}
+	{	"camo"		"camo"		}
+	{	"pap_bo1"	"m60_camo"	}
+	{	"pap_bo1"	"camo"		}
+}
+
+$attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
+$attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
+$attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -231,7 +250,7 @@ $bonemerge "tag_camera"
 
 $sectionframes 30 280
 
-$sequence "reg_idle" {
+$sequence "idle" {
 	"viewmodel_anims\reg_idle.smd"
 	fadein 100
 	fadeout 0.2
@@ -239,7 +258,7 @@ $sequence "reg_idle" {
 	loop
 }
 
-$sequence "reg_fire" {
+$sequence "fire" {
 	"viewmodel_anims\reg_fire.smd"
 	fadein 0.2
 	fadeout 0.2
@@ -247,7 +266,7 @@ $sequence "reg_fire" {
 	fps 30
 }
 
-$sequence "reg_ads_fire" {
+$sequence "fire_ads" {
 	"viewmodel_anims\reg_ads_fire.smd"
 	fadein 0.2
 	fadeout 0.2
@@ -255,35 +274,35 @@ $sequence "reg_ads_fire" {
 	fps 30
 }
 
-$sequence "reg_draw" {
+$sequence "draw" {
 	"viewmodel_anims\reg_draw.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$sequence "reg_holster" {
+$sequence "holster" {
 	"viewmodel_anims\reg_holster.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$sequence "reg_reload" {
+$sequence "reload" {
 	"viewmodel_anims\reg_reload.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
-$sequence "reg_sprint_in" {
+$sequence "sprint_in" {
 	"viewmodel_anims\reg_sprint_in.smd"
 	fadein 100
 	fadeout 0.2
 	fps 24
 }
 
-$sequence "reg_sprint" {
+$sequence "sprint_loop" {
 	"viewmodel_anims\reg_sprint.smd"
 	fadein 100
 	fadeout 0.2
@@ -291,7 +310,7 @@ $sequence "reg_sprint" {
 	loop
 }
 
-$sequence "reg_sprint_out" {
+$sequence "sprint_out" {
 	"viewmodel_anims\reg_sprint_out.smd"
 	fadein 100
 	fadeout 0.2
@@ -363,4 +382,22 @@ $sequence "grip_sprint_out" {
 	fadein 100
 	fadeout 0.2
 	fps 30
+}
+
+$collisionmodel "m60.smd"
+{
+	$mass 13
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone "j_gun"
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base"		"Metal.Small"
+	}
 }

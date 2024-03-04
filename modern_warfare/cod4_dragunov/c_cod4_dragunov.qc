@@ -13,7 +13,7 @@ $bodygroup "irons"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -17,7 +17,7 @@ $bodygroup "bullets"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

@@ -16,7 +16,7 @@ $bodygroup "mag"
 	blank
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

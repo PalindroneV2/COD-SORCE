@@ -7,7 +7,7 @@ $bodygroup "0"
 	studio "sog_knife.smd"
 }
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 

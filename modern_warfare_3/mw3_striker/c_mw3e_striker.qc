@@ -13,7 +13,7 @@ $bodygroup "sight"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -25,7 +25,7 @@ $texturegroup "skinfamilies"
 {
 	{	"striker_camo"	"striker"	}
 	{	"camo"			"camo"		}
-	{	"striker_camo"	"striker"	}
+	{	"pap_bo1"	"striker"	}
 	{	"pap_bo1"		"camo"		}
 }
 

@@ -22,7 +22,7 @@ $bodygroup "foregrip"
 }
 
 
-$surfaceprop "default"
+$surfaceprop "weapon"
 
 $contents "solid"
 
