@@ -27,22 +27,27 @@ $bodygroup "sights"
 	studio "shrunk/irons_novak.smd"
 	studio "shrunk/irons_novak_short.smd"
 	studio "shrunk/irons_novak_long.smd"
+	studio "shrunk/irons_2025.smd"
+	studio "shrunk/irons_2025_short.smd"
+	studio "shrunk/irons_2025_long.smd"
 }
 $bodygroup "trigger"
 {
 	studio "shrunk/trigger_base.smd"
-	studio "shrunk/trigger_modern_v1.smd"
 	studio "shrunk/trigger_modern_v2.smd"
+	studio "shrunk/trigger_2025.smd"
 }
 $bodygroup "hammer"
 {
 	studio "shrunk/hammer_base.smd"
 	studio "shrunk/hammer_cod4.smd"
+	studio "shrunk/hammer_2025.smd"
 }
 $bodygroup "mag"
 {
 	studio "shrunk/mag.smd"
-	studio "shrunk/hammer_cod4.smd"
+	studio "shrunk/fastmag.smd"
+	studio "shrunk/mag_ext.smd"
 }
 
 $surfaceprop "weapon"
@@ -52,6 +57,7 @@ $contents "solid"
 $illumposition 0 0 0
 
 $cdmaterials "models/weapons/arc9/bo1/bo1_m1911/"
+$cdmaterials "models/weapons/arc9/bo1/bo1_m1911/b23rparts"
 
 $texturegroup "skinfamilies"
 {

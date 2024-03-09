@@ -1,23 +1,19 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/retro_ar15/front_irons.mdl"
+$modelname "weapons/arc9/atts/retro_ar15/magpul_rear.mdl"
 $origin 0 0 0 -90
 
-$bodygroup "frontsight"
+$bodygroup "receiver"
 {
-	studio "troy_front_m16.smd"
-	studio "frontsight_usgi_m16.smd"
-	studio "frontsight_masada.smd"
-	studio "mw2_front.smd"
-	studio "magpul_front.smd"
+	studio "magpul_rear.smd"
 }
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 $cdmaterials "models\weapons\arc9\cde\kali_ar15\ghosts\"
+$cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 
 $attachment "1" "j_gun" 0 0 0 rotate 0 0 0
 
