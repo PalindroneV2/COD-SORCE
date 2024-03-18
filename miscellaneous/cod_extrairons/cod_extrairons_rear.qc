@@ -11,7 +11,8 @@ $bodygroup "frontsight"
 	studio "rear_40l.smd"
 	studio "rear_magpul.smd"
 	studio "rear_3arc.smd"
-	studio "rear_a2.smd"
+	studio "rear_kacfolding2.smd"
+	studio "rear_fnballista.smd"
 }
 
 $surfaceprop "weapon"
@@ -20,6 +21,7 @@ $contents "solid"
 
 $cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 $cdmaterials "models\weapons\arc9\cde\kali_ar15\ghosts\"
+$cdmaterials "models\weapons\arc9\cde\mw3_ars\"
 
 $attachment "1" "tag_iron" 0 0 0 rotate 0 0 0
 
