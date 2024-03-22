@@ -33,6 +33,11 @@ $bodygroup "5"
 	studio "barrel.smd"
 	studio "barrel_hl.smd"
 }
+$bodygroup "6"
+{
+	studio "irons.smd"
+	blank
+}
 
 
 $surfaceprop "weapon"
@@ -502,7 +507,7 @@ $sequence "sprint_out_grip" {
 	fps 30
 }
 
-$collisionmodel " .smd"
+$collisionmodel "mp7.smd"
 {
 	$mass 10
 	$inertia 1
