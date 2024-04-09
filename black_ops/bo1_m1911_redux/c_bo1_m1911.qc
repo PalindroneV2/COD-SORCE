@@ -49,6 +49,56 @@ $bodygroup "mag"
 	studio "shrunk/fastmag.smd"
 	studio "shrunk/mag_ext.smd"
 }
+$bodygroup "frame_lh"
+{
+	blank
+	studio "shrunk/lh/frame_base_lh.smd"
+	studio "shrunk/lh/frame_modern_lh.smd"
+}
+$bodygroup "slide_lh"
+{
+	blank
+	studio "shrunk/lh/slide_base_lh.smd"
+	studio "shrunk/lh/slide_short_lh.smd"
+	studio "shrunk/lh/slide_long_lh.smd"
+}
+$bodygroup "sights_lh"
+{
+	blank
+	studio "shrunk/lh/irons_base_lh.smd"
+	studio "shrunk/lh/irons_base_short_lh.smd"
+	studio "shrunk/lh/irons_base_long_lh.smd"
+	studio "shrunk/lh/irons_improved_lh.smd"
+	studio "shrunk/lh/irons_improved_short_lh.smd"
+	studio "shrunk/lh/irons_improved_long_lh.smd"
+	studio "shrunk/lh/irons_novak_lh.smd"
+	studio "shrunk/lh/irons_novak_short_lh.smd"
+	studio "shrunk/lh/irons_novak_long_lh.smd"
+	studio "shrunk/lh/irons_2025_lh.smd"
+	studio "shrunk/lh/irons_2025_short_lh.smd"
+	studio "shrunk/lh/irons_2025_long_lh.smd"
+}
+$bodygroup "trigger_lh"
+{
+	blank
+	studio "shrunk/lh/trigger_base_lh.smd"
+	studio "shrunk/lh/trigger_modern_v2_lh.smd"
+	studio "shrunk/lh/trigger_2025_lh.smd"
+}
+$bodygroup "hammer_lh"
+{
+	blank
+	studio "shrunk/lh/hammer_base_lh.smd"
+	studio "shrunk/lh/hammer_cod4_lh.smd"
+	studio "shrunk/lh/hammer_2025_lh.smd"
+}
+$bodygroup "mag_lh"
+{
+	blank
+	studio "shrunk/lh/mag_lh.smd"
+	studio "shrunk/lh/fastmag_lh.smd"
+	studio "shrunk/lh/mag_ext_lh.smd"
+}
 
 $surfaceprop "weapon"
 
@@ -71,9 +121,11 @@ $texturegroup "skinfamilies"
 	{	"etching_gold"	"nickel_grip"	}
 }
 
-$attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
-$attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
+$attachment "flash" "tag_flash" 0 0 0 rotate 0 0 0
+$attachment "brass" "tag_brass" 0 0 0 rotate 0 0 0
 $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
+$attachment "flash1" "tag_flash1" 0 0 0 rotate 0 0 0
+$attachment "brass1" "tag_brass1" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -84,7 +136,7 @@ $sequence "idle" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "idle_empty" {
@@ -92,7 +144,7 @@ $sequence "idle_empty" {
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "reload" {
@@ -100,7 +152,7 @@ $sequence "reload" {
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 100
+	fps 30 // 100
 }
 
 $sequence "reload_empty" {
@@ -108,7 +160,7 @@ $sequence "reload_empty" {
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 120
+	fps 30 // 120
 }
 
 $sequence "draw" {
@@ -116,7 +168,7 @@ $sequence "draw" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 // 25
 }
 
 $sequence "draw_empty" {
@@ -124,7 +176,7 @@ $sequence "draw_empty" {
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 25
+	fps 30 // 25
 }
 
 $sequence "first_draw" {
@@ -132,7 +184,7 @@ $sequence "first_draw" {
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30 // 35
 }
 
 $sequence "fire" {
@@ -142,7 +194,7 @@ $sequence "fire" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "fire_last" {
@@ -152,7 +204,7 @@ $sequence "fire_last" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "fire_ads" {
@@ -162,7 +214,7 @@ $sequence "fire_ads" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 30 // 30
 }
 
 $sequence "holster" {
@@ -170,55 +222,273 @@ $sequence "holster" {
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 20
+	fps 30 // 20
 }
 
 $sequence "sprint_in" {
 	"anims/sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
-	fadeout 3
-	fps 10
+	fadeout 0.2
+	fps 30 // 10
+	snap
 }
 
 $sequence "sprint_loop" {
 	"anims/sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
-	fadeout 3
-	fps 30
+	fadeout 0.2
+	fps 30 // 30
+	loop
 }
 
 $sequence "sprint_out" {
 	"anims/sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
-	fadeout 3
-	fps 10
+	fadeout 0.2
+	fps 30 // 10
+	snap
 }
 
 $sequence "sprint_in_empty" {
 	"anims/sprint_in_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
-	fadeout 3
-	fps 10
+	fadeout 0.2
+	fps 30 // 10
+	snap
 }
 
 $sequence "sprint_loop_empty" {
 	"anims/sprint_loop_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
-	fadeout 3
-	fps 30
+	fadeout 0.2
+	fps 30 // 30
+	loop
 }
 
 $sequence "sprint_out_empty" {
 	"anims/sprint_out_empty.smd"
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
+	fadeout 0.2
+	fps 30 // 10
+	snap
+}
+
+$sequence "idle_a" {
+	"anims/lh/idle_a.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 30
+	loop
+}
+
+$sequence "idle_empty_ab" {
+	"anims/lh/idle_empty_ab.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 30
+	loop
+}
+
+$sequence "idle_empty_ar" {
+	"anims/lh/idle_empty_ar.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 30
+	loop
+}
+
+$sequence "idle_empty_al" {
+	"anims/lh/idle_empty_al.smd"
+	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 30
+	loop
+}
+
+$sequence "reload_empty_ab" {
+	"anims/lh/reload_empty_ab.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 100
+}
+
+$sequence "reload_empty_ar" {
+	"anims/lh/reload_empty_ar.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 120
+}
+$sequence "reload_empty_al" {
+	"anims/lh/reload_empty_al.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 120
+}
+
+$sequence "draw_a" {
+	"anims/lh/draw_a.smd"
+	activity "ACT_VM_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 25
+}
+
+$sequence "draw_empty_a" {
+	"anims/lh/draw_empty_a.smd"
+	activity "ACT_VM_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 25
+}
+
+$sequence "first_draw_a" {
+	"anims/lh/first_draw_a.smd"
+	activity "ACT_VM_DRAW_DEPLOYED" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 35
+}
+
+$sequence "fire_ab" {
+	"anims/lh/fire_ab.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+
+$sequence "fire_ar" {
+	"anims/lh/fire_ar.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+
+$sequence "fire_al" {
+	"anims/lh/fire_al.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+
+$sequence "fire_last_ab" {
+	"anims/lh/fire_last_ab.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+$sequence "fire_last_ar" {
+	"anims/lh/fire_last_ar.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+$sequence "fire_last_al" {
+	"anims/lh/fire_last_al.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+$sequence "fire_last_al2" {
+	"anims/lh/fire_last_al2.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	{ event 5001 0 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30 // 30
+}
+
+$sequence "holster_a" {
+	"anims/lh/holster_a.smd"
+	activity "ACT_VM_HOLSTER" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 20
+}
+
+$sequence "sprint_in_a" {
+	"anims/lh/sprint_in_a.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 10
+	snap
+}
+
+$sequence "sprint_loop_a" {
+	"anims/lh/sprint_loop_a.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 30
+	loop
+}
+
+$sequence "sprint_out_a" {
+	"anims/lh/sprint_out_a.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 10
+	snap
+}
+
+$sequence "sprint_in_empty_a" {
+	"anims/lh/sprint_in_empty_a.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 10
+	snap
+}
+
+$sequence "sprint_loop_empty_a" {
+	"anims/lh/sprint_loop_empty_a.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
 	fadeout 3
-	fps 10
+	fps 30 // 30
+	loop
+}
+
+$sequence "sprint_out_empty_a" {
+	"anims/lh/sprint_out_empty_a.smd"
+	activity "ACT_VM_SPRINT" 1
+	fadein 0.2
+	fadeout 3
+	fps 30 // 10
+	snap
 }
 
 $collisionmodel "shrunk/1911_phys.smd"
