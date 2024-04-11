@@ -5,6 +5,7 @@ $modelname "weapons/arc9/c_bo1_m14.mdl"
 $bodygroup "body"
 {
 	studio "m14_body.smd"
+	studio "mk14_body.smd"
 }
 $bodygroup "mag"
 {
@@ -19,7 +20,10 @@ $bodygroup "rail"
 $bodygroup "heatshield"
 {
 	blank
+	studio "heatshield.smd"
+	studio "heatshield_socom.smd"
 	studio "m14_heatshield.smd"
+	studio "heatshield203.smd"
 }
 $bodygroup "ub"
 {
@@ -28,19 +32,29 @@ $bodygroup "ub"
 	studio "grip.smd"
 	studio "m203.smd"
 	studio "mk.smd"
+	studio "hand_ebr_00.smd"
 }
 $bodygroup "bipod"
 {
 	blank
 	studio "bipod_up.smd"
 	studio "bipod_down.smd"
+	studio "bipod_up1.smd"
+	studio "bipod_down1.smd"
 }
 $bodygroup "stock"
 {
-	blank
-	studio "m14_stock.smd"
-	studio "m14_stock_cheek.smd"
-	studio "m16_stock_tele.smd"
+	studio "m14e2.smd"
+	studio "stock_wood.smd"
+	studio "stock_polymer.smd"
+	studio "stock_ebr_ext_00.smd"
+	studio "stock_ebr.smd"
+}
+$bodygroup "stock"
+{
+	studio "barrel_lmg.smd"
+	studio "barrel_full.smd"
+	studio "barrel_ebr.smd"
 }
 
 
@@ -51,6 +65,7 @@ $contents "solid"
 $illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\bo1\bo1_m14\"
+$cdmaterials "models\weapons\arc9\bo1\bo1_m14\kally\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_m203\"
 $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
 
