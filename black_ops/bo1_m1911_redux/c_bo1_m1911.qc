@@ -134,56 +134,56 @@ $bbox 0 0 0 0 0 0
 $sequence "idle" {
 	"anims/idle.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 
 $sequence "idle_empty" {
 	"anims/idle_empty.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 
 $sequence "reload" {
 	"anims/reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 100
 }
 
 $sequence "reload_empty" {
 	"anims/reload_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 120
 }
 
 $sequence "draw" {
 	"anims/draw.smd"
 	activity "ACT_VM_DRAW" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 25
 }
 
 $sequence "draw_empty" {
 	"anims/draw_empty.smd"
 	activity "ACT_VM_DRAW" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 25
 }
 
 $sequence "first_draw" {
 	"anims/first_draw.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 35
 }
 
@@ -191,8 +191,8 @@ $sequence "fire" {
 	"anims/fire.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	snap
 	fps 30 // 30
 }
@@ -201,8 +201,8 @@ $sequence "fire_last" {
 	"anims/fire_last.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	snap
 	fps 30 // 30
 }
@@ -211,8 +211,8 @@ $sequence "fire_ads" {
 	"anims/fire_ads.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	snap
 	fps 30 // 30
 }
@@ -220,16 +220,16 @@ $sequence "fire_ads" {
 $sequence "holster" {
 	"anims/holster.smd"
 	activity "ACT_VM_HOLSTER" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 20
 }
 
 $sequence "sprint_in" {
 	"anims/sprint_in.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -237,8 +237,8 @@ $sequence "sprint_in" {
 $sequence "sprint_loop" {
 	"anims/sprint_loop.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -246,8 +246,8 @@ $sequence "sprint_loop" {
 $sequence "sprint_out" {
 	"anims/sprint_out.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -255,8 +255,8 @@ $sequence "sprint_out" {
 $sequence "sprint_in_empty" {
 	"anims/sprint_in_empty.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -264,8 +264,8 @@ $sequence "sprint_in_empty" {
 $sequence "sprint_loop_empty" {
 	"anims/sprint_loop_empty.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -273,8 +273,8 @@ $sequence "sprint_loop_empty" {
 $sequence "sprint_out_empty" {
 	"anims/sprint_out_empty.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -282,8 +282,8 @@ $sequence "sprint_out_empty" {
 $sequence "idle_a" {
 	"anims/lh/idle_a.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -291,8 +291,8 @@ $sequence "idle_a" {
 $sequence "idle_empty_ab" {
 	"anims/lh/idle_empty_ab.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -300,8 +300,8 @@ $sequence "idle_empty_ab" {
 $sequence "idle_empty_ar" {
 	"anims/lh/idle_empty_ar.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -309,8 +309,8 @@ $sequence "idle_empty_ar" {
 $sequence "idle_empty_al" {
 	"anims/lh/idle_empty_al.smd"
 	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -318,47 +318,47 @@ $sequence "idle_empty_al" {
 $sequence "reload_empty_ab" {
 	"anims/lh/reload_empty_ab.smd"
 	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 100
 }
 
 $sequence "reload_empty_ar" {
 	"anims/lh/reload_empty_ar.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 120
 }
 $sequence "reload_empty_al" {
 	"anims/lh/reload_empty_al.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 120
 }
 
 $sequence "draw_a" {
 	"anims/lh/draw_a.smd"
 	activity "ACT_VM_DRAW" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 25
 }
 
 $sequence "draw_empty_a" {
 	"anims/lh/draw_empty_a.smd"
 	activity "ACT_VM_DRAW" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 25
 }
 
 $sequence "first_draw_a" {
 	"anims/lh/first_draw_a.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 35
 }
 
@@ -366,9 +366,8 @@ $sequence "fire_ab" {
 	"anims/lh/fire_ab.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 
@@ -376,9 +375,8 @@ $sequence "fire_ar" {
 	"anims/lh/fire_ar.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 
@@ -386,9 +384,8 @@ $sequence "fire_al" {
 	"anims/lh/fire_al.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 
@@ -396,52 +393,47 @@ $sequence "fire_last_ab" {
 	"anims/lh/fire_last_ab.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 $sequence "fire_last_ar" {
 	"anims/lh/fire_last_ar.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 $sequence "fire_last_al" {
 	"anims/lh/fire_last_al.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 }
 $sequence "fire_last_al2" {
 	"anims/lh/fire_last_al2.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 5001 0 "1" }
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.1
 	fps 30 // 30
 }
 
 $sequence "holster_a" {
 	"anims/lh/holster_a.smd"
 	activity "ACT_VM_HOLSTER" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 20
 }
 
 $sequence "sprint_in_a" {
 	"anims/lh/sprint_in_a.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -449,8 +441,8 @@ $sequence "sprint_in_a" {
 $sequence "sprint_loop_a" {
 	"anims/lh/sprint_loop_a.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 30
 	loop
 }
@@ -458,8 +450,8 @@ $sequence "sprint_loop_a" {
 $sequence "sprint_out_a" {
 	"anims/lh/sprint_out_a.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -467,8 +459,8 @@ $sequence "sprint_out_a" {
 $sequence "sprint_in_empty_a" {
 	"anims/lh/sprint_in_empty_a.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0.1
+	fadeout 0.1
 	fps 30 // 10
 	snap
 }
@@ -476,7 +468,7 @@ $sequence "sprint_in_empty_a" {
 $sequence "sprint_loop_empty_a" {
 	"anims/lh/sprint_loop_empty_a.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
+	fadein 0.1
 	fadeout 3
 	fps 30 // 30
 	loop
@@ -485,7 +477,7 @@ $sequence "sprint_loop_empty_a" {
 $sequence "sprint_out_empty_a" {
 	"anims/lh/sprint_out_empty_a.smd"
 	activity "ACT_VM_SPRINT" 1
-	fadein 0.2
+	fadein 0.1
 	fadeout 3
 	fps 30 // 10
 	snap
