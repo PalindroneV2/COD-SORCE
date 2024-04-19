@@ -113,7 +113,7 @@ $bodygroup "frontsight"
 }
 $bodygroup "bolt"
 {
-	studio "bolt_A1.smd"	
+	studio "bolt_A1.smd"
 	studio "bolt_mw3.smd"
 	blank
 }
