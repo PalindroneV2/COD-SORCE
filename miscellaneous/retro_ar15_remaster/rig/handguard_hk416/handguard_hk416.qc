@@ -6,6 +6,8 @@ $scale 0.375
 
 $bodygroup "body"
 {
+	studio "handguard_hk416v2.smd"
+	studio "handguard_hk416w2.smd"
 	studio "handguard_hk416v.smd"
 	studio "handguard_hk416w.smd"
 	blank

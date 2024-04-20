@@ -10,8 +10,6 @@ $bodygroup "body"
 	studio "receiver_A1.smd"
 	studio "receiver_A2.smd"
 	studio "receiver_A4.smd"
-	studio "receiver_commandov2.smd"
-	studio "receiver_commandov2_w.smd"
 	blank
 }
 $bodygroup "mag"
