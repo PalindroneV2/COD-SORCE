@@ -248,6 +248,8 @@ $sequence "idle_empty_ab" {
 	fadeout 0.1
 	fps 30 // 30
 	loop
+	// addlayer "empty_r"
+	// addlayer "empty_l"
 }
 
 $sequence "idle_empty_ar" {
@@ -257,6 +259,8 @@ $sequence "idle_empty_ar" {
 	fadeout 0.1
 	fps 30 // 30
 	loop
+	// addlayer "empty_r"
+	// addlayer "empty_l"
 }
 
 $sequence "reload_ab" {
@@ -265,6 +269,8 @@ $sequence "reload_ab" {
 	fadein 0.1
 	fadeout 0.1
 	fps 30 // 100
+	addlayer "empty_r"
+	addlayer "empty_l"
 }
 
 $sequence "reload_ar" {
@@ -273,6 +279,7 @@ $sequence "reload_ar" {
 	fadein 0.1
 	fadeout 0.1
 	fps 30 // 120
+	addlayer "empty_r"
 }
 
 $sequence "reload_empty_ab" {
@@ -285,6 +292,14 @@ $sequence "reload_empty_ab" {
 
 $sequence "reload_empty_ar" {
 	"anims/reload_empty_ar.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.1
+	fadeout 0.1
+	fps 30 // 120
+}
+
+$sequence "reload_empty_ar2" {
+	"anims/reload_empty_ar2.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.1
 	fadeout 0.1
@@ -369,8 +384,6 @@ $sequence "fire_last_ar" {
 	fadein 0.1
 	fadeout 0.1
 	fps 30 // 30
-	addlayer "empty_r"
-	addlayer "empty_l"
 }
 $sequence "fire_last_al" {
 	"anims/fire_last_al.smd"
