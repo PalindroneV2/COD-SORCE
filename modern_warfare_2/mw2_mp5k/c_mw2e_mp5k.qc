@@ -16,11 +16,15 @@ $bodygroup "ris"
 	blank
 	studio "RIS.smd"
 	studio "RIS_long.smd"
+	studio "top_g36.smd"
+	studio "top_g36c.smd"
 }
 $bodygroup "hand"
 {
 	studio "irons.smd"
 	studio "irons_long.smd"
+	studio "irons_g36.smd"
+	studio "irons_g36c.smd"
 	blank
 }
 $bodygroup "stock"
@@ -29,6 +33,7 @@ $bodygroup "stock"
 	studio "stock_l.smd"
 	studio "stock_m.smd"
 	studio "stock_h.smd"
+	studio "stock_g36c.smd"
 	blank
 }
 $bodygroup "grip"

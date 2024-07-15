@@ -24,10 +24,12 @@ $bodygroup "hand"
 }
 $bodygroup "mount"
 {
-	blank
+	studio "mp5_irons.smd"
 	studio "mp5_rail.smd"
+	studio "top_g36.smd"
 	studio "mp5k_irons.smd"
 	studio "mp5k_rails.smd"
+	studio "top_g36c.smd"
 }
 $bodygroup "stock"
 {
@@ -36,11 +38,13 @@ $bodygroup "stock"
 	studio "mp5_stock_on.smd"
 	studio "g3_stock.smd"
 	studio "stock_pdw.smd"
+	studio "stock_g36.smd"
 	studio "stock_none_mp5k.smd"
 	studio "mp5k_stock_off.smd"
 	studio "mp5k_stock_on.smd"
 	studio "g3k_stock.smd"
 	studio "stock_pdw_mp5k.smd"
+	studio "stock_g36c.smd"
 	blank
 }
 $bodygroup "supp"
@@ -48,11 +52,17 @@ $bodygroup "supp"
 	blank
 	studio "mp5_supp.smd"
 }
-$bodygroup "supp"
+$bodygroup "ub"
 {
 	blank
 	studio "grip_mp5k.smd"
 	studio "mp5_ub_m203.smd"
+}
+$bodygroup "ub"
+{
+	blank
+	studio "irons_g36.smd"
+	studio "irons_g36c.smd"
 }
 
 
