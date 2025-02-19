@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_gst_honeybadger.mdl"
+$modelname "weapons/arc9/c_gst_r5rgp.mdl"
 $include "codrig.qci"
 
 $origin 0 0 0 -90
@@ -8,49 +8,37 @@ $scale 0.375
 
 $bodygroup "body"
 {
-	studio "badger.smd"
-}
-$bodygroup "handguard"
-{
-	studio "handguard.smd"
-	blank
-}
-$bodygroup "barrel"
-{
-	studio "barrel.smd"
-	blank
-}
-$bodygroup "suppressor"
-{
-	studio "suppressor.smd"
-	blank
+	studio "r5rgp.smd"
 }
 $bodygroup "charging_handle"
 {
 	studio "charging_handle.smd"
+	studio "charging_handle_badger.smd"
 }
 $bodygroup "irons"
 {
-	studio "ironsup.smd"
-	studio "ironsdown.smd"
+	studio "irons.smd"
+	studio "mbus_up.smd"
+	studio "mbus_down.smd"
 	blank
 }
 $bodygroup "mag"
 {
 	studio "mag.smd"
+	studio "mag_badger.smd"
 	blank
 }
 $bodygroup "stock"
 {
 	blank
 	studio "stock.smd"
-	studio "stock_m.smd"
+	studio "stock_l.smd"
 }
 $bodygroup "ub"
 {
 	blank
-	studio "40gl_cut.smd"
-	studio "maul_ub.smd"
+	studio "fn40gl.smd"
+	studio "maulub.smd"
 }
 
 $surfaceprop "weapon"
@@ -59,15 +47,15 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models/weapons/arc9/gst/gst_badger/"
+$cdmaterials "models/weapons/arc9/gst/gst_r5rgp/"
 $cdmaterials "models/weapons/arc9/gst/gst_fn40gl/"
 $cdmaterials "models/weapons/arc9/gst/gst_maul/"
 
 $texturegroup "skinfamilies"
 {
-	{	"badger"	"badger_1"	}
+	{	"r5rgp"	"r5rgp_1"	}
 	{	"camo"				"camo"			}
-	{	"badger"	"pap_bo2"	}
+	{	"r5rgp"	"pap_bo2"	}
 	{	"pap_bo2"		"camo"		  }
 }
 
@@ -99,23 +87,6 @@ $sequence "reload" {
 
 $sequence "reload_empty" {
 	"anims/reload_empty.smd"
-	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30 // 120
-}
-
-$sequence "fast" {
-	"anims/fast.smd"
-	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30 // 100
-	snap
-}
-
-$sequence "fast_empty" {
-	"anims/fast_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -208,23 +179,6 @@ $sequence "reload_gl" {
 
 $sequence "reload_empty_gl" {
 	"anims/reload_empty_gl.smd"
-	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30 // 120
-}
-
-$sequence "fast_gl" {
-	"anims/fast_gl.smd"
-	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30 // 100
-	snap
-}
-
-$sequence "fast_empty_gl" {
-	"anims/fast_empty_gl.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -358,23 +312,6 @@ $sequence "reload_mk" {
 
 $sequence "reload_empty_mk" {
 	"anims/reload_empty_mk.smd"
-	activity "ACT_VM_RELOAD_EMPTY" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30 // 120
-}
-
-$sequence "fast_mk" {
-	"anims/fast_mk.smd"
-	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30 // 100
-	snap
-}
-
-$sequence "fast_empty_mk" {
-	"anims/fast_empty_mk.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
