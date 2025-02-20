@@ -65,10 +65,10 @@ $cdmaterials "models/weapons/arc9/gst/gst_maul/"
 
 $texturegroup "skinfamilies"
 {
-	{	"badger"	"badger_1"	}
-	{	"camo"				"camo"			}
-	{	"badger"	"pap_bo2"	}
-	{	"pap_bo2"		"camo"		  }
+	{	"badger"	"badger_1"		"r5rgp"	}
+	{	"camo"				"camo"				"r5rgp_camo"	}
+	{	"badger"	"pap_bo2"		"r5rgp"	}
+	{	"pap_bo2"		"camo"			"r5rgp_camo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
