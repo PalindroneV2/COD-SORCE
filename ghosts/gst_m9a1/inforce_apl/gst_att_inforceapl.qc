@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/gst_att_inforceapl.mdl"
+$modelname "weapons/arc9/gst_atts/gst_att_inforceapl.mdl"
 
 $origin 0 0 0 -90
 $scale 0.375
