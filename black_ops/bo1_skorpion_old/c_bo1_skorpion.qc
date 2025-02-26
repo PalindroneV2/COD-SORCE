@@ -1,9 +1,6 @@
 // Created by Crowbar 0.68
 
 $modelname "weapons/arc9/c_bo1_skorpion.mdl"
-$include "codrig.qci"
-$origin 0 0 0 -90
-$scale 0.375
 
 $bodygroup "body"
 {
@@ -11,29 +8,15 @@ $bodygroup "body"
 }
 $bodygroup "mag"
 {
-	studio "mag.smd"
-	studio "mag_ext.smd"
+	studio "skorpion_mag.smd"
+	studio "skorpion_mag_ext.smd"
 }
 $bodygroup "stock"
 {
 	blank
-	studio "stock.smd"
+	studio "skorpion_stock.smd"
 }
-//left
-$bodygroup "body"
-{
-	studio "l_skorpion.smd"
-}
-$bodygroup "mag"
-{
-	studio "l_mag.smd"
-	studio "l_mag_ext.smd"
-}
-$bodygroup "stock"
-{
-	blank
-	studio "l_stock.smd"
-}
+
 
 $surfaceprop "weapon"
 
