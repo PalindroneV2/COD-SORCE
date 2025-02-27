@@ -317,7 +317,7 @@ $collisionmodel "mac11.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
+	$rootbone "j_gun"
 
 }
 
