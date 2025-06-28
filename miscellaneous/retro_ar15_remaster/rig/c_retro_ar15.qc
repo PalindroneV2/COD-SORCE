@@ -36,6 +36,7 @@ $bodygroup "barrel"
 	studio "barrel_14_famas.smd"
 	studio "barrel_7.smd"
 	studio "barrel_11_sog.smd"
+	studio	"barrel_a2.smd"
 }
 $bodygroup "handguard"
 {
