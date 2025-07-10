@@ -42,6 +42,7 @@ $bodygroup "hammer"
 	studio "shrunk/hammer_base.smd"
 	studio "shrunk/hammer_cod4.smd"
 	studio "shrunk/hammer_2025.smd"
+	studio "shrunk/hammer_bhp.smd"
 }
 $bodygroup "mag"
 {
@@ -91,6 +92,7 @@ $bodygroup "hammer_lh"
 	studio "shrunk/lh/hammer_base_lh.smd"
 	studio "shrunk/lh/hammer_cod4_lh.smd"
 	studio "shrunk/lh/hammer_2025_lh.smd"
+	studio "shrunk/lh/hammer_bhp_lh.smd"
 }
 $bodygroup "mag_lh"
 {
