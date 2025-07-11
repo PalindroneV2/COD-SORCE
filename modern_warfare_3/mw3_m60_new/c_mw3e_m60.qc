@@ -18,9 +18,9 @@ $bodygroup "1"
 }
 $bodygroup "1"
 {
+	blank
 	studio "bipod.smd"
 	studio "bipod_down.smd"
-	blank
 }
 $bodygroup "1"
 {
