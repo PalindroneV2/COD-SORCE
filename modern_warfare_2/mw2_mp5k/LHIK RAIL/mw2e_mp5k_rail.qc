@@ -8,7 +8,8 @@ $scale 0.375
 
 $bodygroup "body"
 {
-	studio "RIS.smd"
+	studio "ics_long.smd"
+	studio "ics.smd"
 }
 
 
@@ -32,7 +33,7 @@ $attachment "1" "j_gun" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.241 -9.698 -14.365 30.462 8.064 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"
@@ -41,13 +42,13 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "RIS.smd"
+$collisionmodel "ics_long.smd"
 {
 	$mass 3
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
+	$rootbone "j_gun"
 
 }
 
