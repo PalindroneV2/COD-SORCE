@@ -16,7 +16,7 @@ $bodygroup "mag"
 	studio "mag.smd"
 	studio "fastmag.smd"
 	studio "mag_k.smd"
-	studio "mag_ext_k.smd"
+	studio "extmag_k.smd"
 }
 $bodygroup "hand"
 {
