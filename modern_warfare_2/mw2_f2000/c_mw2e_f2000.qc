@@ -9,7 +9,7 @@ $bodygroup "body"
 $bodygroup "1"
 {
 	studio "irons.smd"
-	studio "f2000_scope.smd"
+	studio "f2000_scope_3.smd"
 	studio "f2000_scope_w.smd"
 	blank
 }

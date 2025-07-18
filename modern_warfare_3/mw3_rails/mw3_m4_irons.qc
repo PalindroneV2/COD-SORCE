@@ -7,9 +7,11 @@ $staticprop
 
 $bodygroup "body"
 {
-	studio "mw3_m16_irons_v2.smd"
-	studio "mw3_m4_irons_v2.smd"
-	// studio "mw3_mw19_irons.smd"
+	studio "sightup1.smd"
+	studio "sightup2.smd"
+	studio "sightdown1.smd"
+	studio "sightdown2.smd"
+	blank
 }
 
 $surfaceprop "item"
@@ -29,22 +31,4 @@ $sequence "idle" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
-}
-
-$collisionmodel "mw3_m4_irons_v2.smd"
-{
-	$mass 5
-	$inertia 1
-	$damping 0
-	$rotdamping 0
-	$rootbone "j_gun"
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Item.Small"
-	}
 }
