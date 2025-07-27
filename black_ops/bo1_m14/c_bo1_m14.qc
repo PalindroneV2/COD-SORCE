@@ -50,13 +50,17 @@ $bodygroup "stock"
 	studio "stock_ebr_ext_00.smd"
 	studio "stock_ebr.smd"
 }
-$bodygroup "stock"
+$bodygroup "barrel"
 {
 	studio "barrel_lmg.smd"
 	studio "barrel_full.smd"
 	studio "barrel_ebr.smd"
 }
-
+$bodygroup "stock"
+{
+	blank
+	studio "ghillie.smd"
+}
 
 $surfaceprop "weapon"
 
@@ -71,14 +75,14 @@ $cdmaterials "models\weapons\arc9\bo1\bo1_mk\"
 
 $texturegroup "skinfamilies"
 {
-	{ "m14_main" "m14_wood"  }
-	{ "m14_main" "m14_camo"  }
-	{ "pap_waw"  "m14_wood"  }
-	{ "pap_waw" "m14_camo"  }
-	{ "pap_bo1"  "m14_wood"  }
-	{ "pap_bo1" "m14_camo"  }
-	{ "pap_bo2"  "m14_wood"  }
-	{ "pap_bo2" "m14_camo"  }
+	{ "m14_main" "m14_wood"	"m14_stock_polymer"	"m14_stock_wood_a"	"m14_chassis_ebr"	}
+	{ "m14_main" "m14_camo"	"polycamo"	"woodcamo"	"ebrcamo"	}
+	{ "pap_waw"  "m14_wood"	"m14_stock_polymer"	"m14_stock_wood_a"	"m14_chassis_ebr"	}
+	{ "pap_waw" "m14_camo"	"polycamo"	"woodcamo"	"ebrcamo"	}
+	{ "pap_bo1"  "m14_wood"	"m14_stock_polymer"	"m14_stock_wood_a"	"m14_chassis_ebr"	}
+	{ "pap_bo1" "m14_camo"	"polycamo"	"woodcamo"	"ebrcamo"	}
+	{ "pap_bo2"  "m14_wood"	"m14_stock_polymer"	"m14_stock_wood_a"	"m14_chassis_ebr"	}
+	{ "pap_bo2" "m14_camo"	"polycamo"	"woodcamo"	"ebrcamo"	}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
