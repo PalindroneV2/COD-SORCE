@@ -4,6 +4,7 @@ $modelname "weapons/arc9/c_bo2_b23r.mdl"
 
 $bodygroup "frame"
 {
+	studio "b23r_alt.smd"
 	studio "b23r.smd"
 }
 $bodygroup "fastmag"
@@ -15,6 +16,11 @@ $bodygroup "irons"
 {
 	studio "b23r_irons.smd"
 	blank
+}
+$bodygroup "frame"
+{
+	blank
+	studio "handle.smd"
 }
 
 
