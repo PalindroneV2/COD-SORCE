@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_mw3_p99.mdl"
+$modelname "weapons/arc9/c_mw3e_p99.mdl"
 
 $include "codrig.qci"
 $origin 0 0 0 -90
@@ -73,18 +73,18 @@ $sequence "idle_empty" {
 }
 
 $sequence "reload" {
-	"anims/reload.smd"
+	"anims/2_reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0
 	fps 30
 }
 
 $sequence "reload_empty" {
-	"anims/reload_empty.smd"
+	"anims/2_reload_empty.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0
 	fps 30
 }
 
@@ -217,7 +217,7 @@ $sequence "reload_k" {
 	"anims/reload_k.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0
 	fps 30
 }
 
@@ -225,7 +225,7 @@ $sequence "reload_empty_k" {
 	"anims/reload_empty_k.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0
 	fps 30
 }
 
