@@ -5,36 +5,68 @@ $include "codrig.qci"
 $origin 0 0 0 -90
 $scale 0.375
 
+// $bodygroup "0"
+// {
+// 	studio "m92.smd"
+// 	studio "m93r.smd"
+// }
+// $bodygroup "1"
+// {
+// 	blank
+// 	studio "m92_front_serration.smd"
+// 	studio "m93r_front_serration.smd"
+// }
+// $bodygroup "2"
+// {
+// 	studio "mag_small.smd"
+// 	studio "mag_long.smd"
+// }
+// $bodygroup "3"
+// {
+// 	studio "m92_grips.smd"
+// 	studio "m93_grips.smd"
+// }
+// $bodygroup "4"
+// {
+// 	blank
+// 	studio "rail.smd"
+// }
+// $bodygroup "5"
+// {
+// 	blank
+// 	studio "stock_l.smd"
+// }
+
 $bodygroup "0"
 {
-	studio "m92.smd"
-	studio "m93r.smd"
+    studio "25chunk/m92.smd"
+    studio "25chunk/m93r.smd"
 }
 $bodygroup "1"
 {
-	blank
-	studio "m92_front_serration.smd"
-	studio "m93r_front_serration.smd"
+    blank
+    studio "25chunk/m92_front_serration.smd"
+    studio "25chunk/m93r_front_serration.smd"
 }
 $bodygroup "2"
 {
-	studio "mag_small.smd"
-	studio "mag_long.smd"
+    studio "25chunk/mag_small.smd"
+    studio "25chunk/mag_long.smd"
 }
 $bodygroup "3"
 {
-	studio "m92_grips.smd"
-	studio "m93_grips.smd"
+    studio "25chunk/m92_grips.smd"
+    studio "25chunk/m93_grips.smd"
 }
 $bodygroup "4"
 {
-	blank
-	studio "rail.smd"
+    blank
+    studio "25chunk/rail.smd"
 }
 $bodygroup "5"
 {
-	blank
-	studio "stock_l.smd"
+    blank
+    studio "25chunk/stock_l.smd"
 }
 
 $surfaceprop "weapon"

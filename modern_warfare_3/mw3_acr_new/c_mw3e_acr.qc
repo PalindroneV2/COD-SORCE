@@ -430,8 +430,8 @@ $sequence "reload_in_mksetup" {
 $sequence "reload_loop_mksetup" {
 	"anims\reload_loop_mksetup.smd"
 	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
+	fadein 0
+	fadeout 0
 	fps 30 // 33
 }
 
