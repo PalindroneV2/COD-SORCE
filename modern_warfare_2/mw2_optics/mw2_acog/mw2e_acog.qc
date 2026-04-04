@@ -8,10 +8,10 @@ $bodygroup "body"
 {
 	studio "mw2_acog.smd"
 }
-$bodygroup "body"
-{
-	studio "deltapoint.smd"
-}
+// $bodygroup "body"
+// {
+// 	studio "deltapoint.smd"
+// }
 $bodygroup "lens"
 {
 	studio "lens2.smd"
