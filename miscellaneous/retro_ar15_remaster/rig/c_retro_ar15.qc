@@ -142,10 +142,11 @@ $texturegroup "skinfamilies"
 	{ "pap_bo1"			"pap_bo1"		"Body_A2_camo"  "pap_bo1"		"Parts_A2_camo"  "mw2_m16_camo"		"Parts_Carbine_camo"  "cm901_camo"  "pap_bo1"			"m4_mw2_camo"	"mw3_m4_camo"	"mw3_m4_camo"  "rsass_camo" "parts_m203_camo"	"hb_camo"	}
 }
 
-$attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
-$attachment "2" "tag_brass" 0 0 0 rotate 0 0 0
-$attachment "3" "tag_flash" 6.37 0 0 rotate 0 0 0
-$attachment "4" "tag_camera" 0 0 0 rotate 0 0 0
+$attachment "tag_flash" "tag_flash" 0 0 0 rotate 0 0 0
+$attachment "tag_brass" "tag_brass" 0 0 0 rotate 0 0 0
+$attachment "tag_flashlong" "tag_flash" 12 0 0 rotate 0 0 0
+$attachment "tag_camera" "tag_camera" 0 0 0 rotate 0 0 0
+$attachment "tag_ublash" "tag_flash" 5 0 -7 rotate 0 0 0
 
 // To Sub
 $animation baseidle "anims\add_base.smd"

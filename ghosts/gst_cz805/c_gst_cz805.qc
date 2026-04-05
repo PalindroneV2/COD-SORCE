@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/c_gst_arx160.mdl"
+$modelname "weapons/arc9/c_gst_cz805.mdl"
 $include "codrig.qci"
 
 $origin 0 0 0 -90
@@ -8,7 +8,7 @@ $scale 0.375
 
 $bodygroup "body"
 {
-	studio "arx160.smd"
+	studio "cz805.smd"
 }
 $bodygroup "irons"
 {
@@ -16,9 +16,14 @@ $bodygroup "irons"
 	studio "irons_down.smd"
 	blank
 }
-$bodygroup "stock"
+$bodygroup "mag"
 {
-	studio "stock.smd"
+	studio "mag.smd"
+	blank
+}
+$bodygroup "sparemag"
+{
+	studio "sparemag.smd"
 	blank
 }
 $bodygroup "ub"
@@ -34,15 +39,15 @@ $contents "solid"
 
 $illumposition 0 0 0
 
-$cdmaterials "models/weapons/arc9/gst/gst_arx160/"
+$cdmaterials "models/weapons/arc9/gst/gst_cz805/"
 $cdmaterials "models/weapons/arc9/gst/gst_fn40gl/"
 $cdmaterials "models/weapons/arc9/gst/gst_maul/"
 
 $texturegroup "skinfamilies"
 {
-	{	"arx160"	"arx160_1"	}
+	{	"cz805"	"cz805_1"	}
 	{	"camo"				"camo"	}
-	{	"pap_bo2"	"arx160_1"	}
+	{	"pap_bo2"	"cz805_1"	}
 	{	"pap_bo2"		"camo"	}
 }
 
@@ -73,6 +78,22 @@ $sequence "reload" {
 
 $sequence "reload_empty" {
 	"anims/reload_empty.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 120
+}
+
+$sequence "fast" {
+	"anims/fast.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 100
+}
+
+$sequence "fast_empty" {
+	"anims/fast_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -179,6 +200,22 @@ $sequence "reload_empty_gl" {
 	fps 30 // 120
 }
 
+$sequence "fast_gl" {
+	"anims/fast_gl.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 100
+}
+
+$sequence "fast_empty_gl" {
+	"anims/fast_empty_gl.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 120
+}
+
 $sequence "draw_gl" {
 	"anims/draw_gl.smd"
 	activity "ACT_VM_DRAW" 1
@@ -265,8 +302,9 @@ $sequence "idle_glsetup" {
 $sequence "reload_glsetup" {
 	"anims/reload_glsetup.smd"
 	activity "ACT_VM_RELOAD" 1
-	fadein 0.2
-	fadeout 0.2
+	snap
+	fadein 0
+	fadeout 0
 	fps 30 // 100
 }
 
@@ -283,7 +321,7 @@ $sequence "glsetup_in" {
 	"anims/glsetup_in.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0
 	fps 30 // 30
 }
 
@@ -291,7 +329,7 @@ $sequence "glsetup_out" {
 	"anims/glsetup_out.smd"
 	activity "ACT_VM_HOLSTER" 1
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0
 	fps 30 // 30
 }
 
@@ -314,6 +352,22 @@ $sequence "reload_mk" {
 
 $sequence "reload_empty_mk" {
 	"anims/reload_empty_mk.smd"
+	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 120
+}
+
+$sequence "fast_mk" {
+	"anims/fast_mk.smd"
+	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30 // 100
+}
+
+$sequence "fast_empty_mk" {
+	"anims/fast_empty_mk.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fadein 0.2
 	fadeout 0.2
@@ -419,16 +473,8 @@ $sequence "fire_ads_mksetup" {
 	snap
 	fps 30 // 17
 }
-$sequence "fire_last_ads_mksetup" {
-	"anims/fire_last_ads_mksetup.smd"
-	activity "ACT_VM_PRIMARYATTACK" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30 // 17
-}
 
-$collisionmodel "phys.smd"
+$collisionmodel "cz805.smd"
 {
 	$mass 10
 	$inertia 1
