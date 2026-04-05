@@ -1,0 +1,1 @@
+This contains COD model files converted to SMD from CAST and previously SEMODEL for use in Source Engine games, primarily for my Garry's Mod projects, ARC9 Black Ops Classic and Modern Warfare Classic.
