@@ -86,7 +86,7 @@ $bodygroup "rail"
 {
 	blank
 	studio "rail_carryhandle.smd"
-	studio "irons_carryhandle.smd"
+	studio "irons_carryhandle_v2.smd"
 	studio "rail_famas.smd"
 	studio "irons_a2.smd"
 }

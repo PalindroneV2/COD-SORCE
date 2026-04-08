@@ -1,12 +1,13 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons/arc9/atts/retro_ar15/stock_416.mdl"
+$modelname "weapons/arc9/atts/retro_ar15/cod4e_irons.mdl"
 $origin 0 0 0 -90
 $scale 0.375
 
-$bodygroup "handguard"
+$bodygroup "body"
 {
-	studio "stock_416.smd"
+	studio "iron_carry16.smd"
+	studio "iron_a216.smd"
 	blank
 }
 
@@ -14,12 +15,17 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\weapons\arc9\bo2\bo2_m27\"
+$cdmaterials "models\weapons\arc9\cod4\cod4_m4m16\"
+$cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 
 $texturegroup "skinfamilies"
 {
-	{	"hk416"	}
-	{	"camo"	}
+	{	"m4m16_camo"	"m4m16"	}
+	{	"m4m16_camo"	"camo"	}
+	{	"camo"	"camo"	}
+	{	"pap_bo1"		"m4m16"	}
+	{	"pap_bo1"		"camo"	}
+	{	"pap_bo1"		"camo"	}
 }
 
 $attachment "1" "j_gun" 0 0 0 rotate 0 0 0
@@ -32,14 +38,13 @@ $sequence "idle" {
 	fps 30 // 30
 }
 
-$collisionmodel "stock_416.smd"
+$collisionmodel "iron_carry16.smd"
 {
-	$mass 2
+	$mass 5
 	$inertia 1
 	$damping 0
 	$rotdamping 0
 	$rootbone "j_gun "
-
 }
 
 $keyvalues
