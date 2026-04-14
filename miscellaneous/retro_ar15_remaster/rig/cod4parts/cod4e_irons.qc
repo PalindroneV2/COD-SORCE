@@ -20,11 +20,11 @@ $cdmaterials "models\weapons\arc9\cde\kali_ar15\"
 
 $texturegroup "skinfamilies"
 {
-	{	"m4m16_camo"	"m4m16"	}
-	{	"m4m16_camo"	"camo"	}
+	{	"m4m16"	"m4m16_camo"	}
+	{	"m4m16"	"m4m16_camo"	}
 	{	"camo"	"camo"	}
-	{	"pap_bo1"		"m4m16"	}
-	{	"pap_bo1"		"camo"	}
+	{	"pap_bo1"		"m4m16_camo"	}
+	{	"pap_bo1"		"m4m16_camo"	}
 	{	"pap_bo1"		"camo"	}
 }
 
