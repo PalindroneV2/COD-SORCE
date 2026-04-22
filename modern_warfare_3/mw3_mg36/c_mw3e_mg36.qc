@@ -45,8 +45,8 @@ $texturegroup "skinfamilies"
 {
 	{	"mg36"		"mg36_1"	}
 	{	"camo_mg"		"camo_mg"		}
-	{	"pap_bo1"	"mg36_1"	}
-	{	"pap_bo1"	"camo_mg"		}
+	{	"pap_bo2"	"mg36_1"	}
+	{	"pap_bo2"	"camo_mg"		}
 }
 
 $attachment "1" "tag_flash" 0 0 0 rotate 0 0 0
