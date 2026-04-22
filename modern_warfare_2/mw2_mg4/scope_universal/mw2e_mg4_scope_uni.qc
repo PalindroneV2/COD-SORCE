@@ -7,6 +7,8 @@ $scale 0.375
 $bodygroup "body"
 {
 	studio "scope1.smd"
+	studio "scope3.smd"
+	studio "scope_mg36.smd"
 }
 $bodygroup "cable"
 {

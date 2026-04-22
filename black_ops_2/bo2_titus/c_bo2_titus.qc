@@ -12,7 +12,12 @@ $bodygroup "body"
 }
 $bodygroup "rail"
 {
-	studio "bits"
+	studio "bits.smd"
+	blank
+}
+$bodygroup "reticle"
+{
+	studio "reticle.smd"
 	blank
 }
 
@@ -38,7 +43,7 @@ $attachment "camera" "tag_camera" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
-$bbox -13.241 -9.698 -14.365 30.462 8.064 0
+$bbox 0 0 0 0 0 0
 
 $sequence "idle" {
 	"anims\idle.smd"

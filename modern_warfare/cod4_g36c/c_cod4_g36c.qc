@@ -16,6 +16,11 @@ $bodygroup "4"
 	blank
 	studio "m203.smd"
 }
+$bodygroup "0"
+{
+	studio "carry.smd"
+	blank
+}
 
 
 $surfaceprop "weapon"
