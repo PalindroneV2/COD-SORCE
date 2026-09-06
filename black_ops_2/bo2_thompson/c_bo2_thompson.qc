@@ -1,6 +1,9 @@
 // Created by Crowbar 0.68
 
 $modelname "weapons/arc9/c_bo2_thompson.mdl"
+$include "codrig.qci"
+$origin 0 0 0 -90
+$scale 0.375
 
 $bodygroup "0"
 {
