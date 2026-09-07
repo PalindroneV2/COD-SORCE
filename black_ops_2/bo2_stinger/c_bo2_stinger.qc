@@ -49,6 +49,20 @@ $sequence "idle_ads" {
 	fps 30
 }
 
+$sequence "ads_up" {
+	"anims\ads_up.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "ads_down" {
+	"anims\ads_down.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
 $sequence "fire" {
 	"anims\fire.smd"
 	{ event 5001 0 "1" }
