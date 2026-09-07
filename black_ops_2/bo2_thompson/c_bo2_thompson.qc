@@ -14,8 +14,8 @@ $bodygroup "1"
 {
 	studio "rear.smd"
 	studio "rear_w.smd"
-	studio "RCWrail.smd"
-	studio "RCWrail.smd"
+	studio "RCWrail_iron.smd"
+	studio "RCWrail_rail.smd"
 	blank
 }
 $bodygroup "2"
@@ -42,9 +42,9 @@ $cdmaterials "models\weapons\arc9\bo2\bo2_thompson\"
 $texturegroup "skinfamilies"
 {
 	{   "thompson"      "thompson_1"   	}
-	{   "gold"          "gold"		}
+	{   "gold"          "thompson_1"		}
 	{   "mob"           "thompson_1"	}
-	{   "cosmic"    	"gold"		}
+	{   "pap_crystal"    	"pap_diesel"		}
 }
 
 $attachment "1" "tag_flash" 0 -1 0 rotate 0 0 0
