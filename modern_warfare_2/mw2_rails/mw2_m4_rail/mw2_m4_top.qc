@@ -29,13 +29,13 @@ $surfaceprop "item"
 
 $contents "solid"
 
-$illumposition 0 -0.258 1.082
+$illumposition 0 0 0
 
 $cdmaterials "models\weapons\arc9\cde\mw3_ars\"
 
 $cbox 0 0 0 0 0 0
 
-$bbox -4.273 -1.351 -0.302 4.784 1.351 2.478
+$bbox 0 0 0 0 0 0
 
 
 $sequence "idle" {
@@ -51,7 +51,7 @@ $collisionmodel "mw2_m4_top.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
+	$rootbone "j_gun"
 
 }
 
