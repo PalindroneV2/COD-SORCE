@@ -65,7 +65,7 @@ $bodygroup "g36irons"
 	studio "hk_rail.smd"
 	studio "rail_mw3.smd"
 	studio "rail_g36.smd"
-	studio "hk_rail_k.smd"
+	studio "hk_rail_k2.smd"
 	studio "rail_mw3_k.smd"
 	studio "rail_g36_k.smd"
 }

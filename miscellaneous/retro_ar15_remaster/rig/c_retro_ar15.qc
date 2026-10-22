@@ -426,6 +426,7 @@ $sequence "sprint_loop_gl" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
+	loop
 	fps 30 // 30
 }
 
@@ -491,6 +492,7 @@ $sequence "sprint_loop_glsetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
+	loop
 	fps 30 // 30
 }
 
@@ -583,6 +585,7 @@ $sequence "sprint_loop_mk" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
+	loop
 	fps 30 // 30
 }
 
@@ -673,6 +676,7 @@ $sequence "sprint_loop_mksetup" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
+	loop
 	fps 30 // 30
 }
 
@@ -765,6 +769,7 @@ $sequence "sprint_loop_ft" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
+	loop
 	fps 30 // 30
 }
 
@@ -830,6 +835,7 @@ $sequence "sprint_loop_flamer" {
 	activity "ACT_VM_SPRINT" 1
 	fadein 0.2
 	fadeout 0.2
+	loop
 	fps 30 // 30
 }
 
